@@ -69,9 +69,10 @@ def json_file_to_dict(file_path):
         return None
 
 class BaseModel(ABC):
+    default_model_folder_path = ""
     def __init__(self, model_name: str):
         self.model_name = model_name
-        self.model = None
+        self.model_path = None
     
     @abstractmethod
     def train(self, train_data: Any, **kwargs) -> None:
@@ -81,15 +82,53 @@ class BaseModel(ABC):
     def predict(self, input_data: Any, **kwargs) -> Any:
         pass
     
-    def saveModel(self, model_path: str) -> None:
+    '''
+        模型数据 存储 路径可由 saveModel(path) 指定
+        若无指定，尝试使用 self.model_path 路径，若仍无定义，则会使用默认路径
+        默认路径 = BaseModel.default_model_folder_path + model_name
+    '''
+    def getModelFilePath() -> str:
+        if self.model_path == None:
+            return default_model_folder_path + "\\" + model_name + ".json"
+        else:
+            return self.model_path
+
+    def hasModel(self, model_path: str = "") -> None:
+        # 查找是否存在某模型
+        if (model_path == ""):
+            model_path = getModelFilePath()
+        if not os.path.exists(model_path):
+            printLog(f"尝试查找模型文件:{model_path} 不存在")
+            return False
+        else:
+            printLog(f"尝试查找模型文件:{model_path} 存在")
+            return True
+
+    def delModel(self, model_path: str = "") -> None:
+        # 删除保存好的模型文件
+        if (model_path == ""):
+            model_path = getModelFilePath()
+        
+        if os.path.isfile(model_path):
+            try:
+                os.remove(model_path)
+                printLog(f"删除模型文件: {model_path}成功")
+            except Exception as e:
+                printLog(f"删除模型文件: {model_path}时出错: {e}")
+
+    def saveModel(self, model_path: str = "") -> None:
         try:
+            if (model_path == ""):
+                model_path = getModelFilePath()
             dict_to_json_file(self.__dict__, model_path)
             printLog(f"模型已保存到: {model_path}")
         except Exception as e:
             printLog(f"模型保存失败: {e}")
     
-    def loadModel(self, model_path: str) -> None:
+    def loadModel(self, model_path: str = "") -> None:
         try:
+            if (model_path == ""):
+                model_path = getModelFilePath()
             model_dict = json_file_to_dict(model_path)
             if model_dict:
                 for key, value in model_dict.items():

@@ -91,11 +91,11 @@
             
             if (sender === 'user') {
                 messageDiv.className = 'user-msg';
-                messageDiv.textContent = '👤 ' + message;
+                messageDiv.textContent = message;
             } else {
                 messageDiv.className = 'ai-msg';
                 // 保留换行符
-                messageDiv.innerHTML = '🤖 ' + message.replace(/\n/g, '<br>');
+                messageDiv.innerHTML = message.replace(/\n/g, '<br>');
             }
             
             chatBox.appendChild(messageDiv);
