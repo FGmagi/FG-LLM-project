@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>果农助手 - Kissan-Dost</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh; display: flex; justify-content: center; align-items: center;
+            padding: 20px;
+        }
+        .chat-container {
+            width: 100%; max-width: 400px; height: 90vh; background: white;
+            border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            display: flex; flex-direction: column; overflow: hidden;
+        }
+        .chat-header {
+            background: linear-gradient(135deg, #075e54, #128c7e);
+            color: white; padding: 20px; text-align: center; position: relative;
+        }
+        .chat-header h1 { font-size: 1.5em; margin-bottom: 5px; }
+        .chat-header p { opacity: 0.9; font-size: 0.9em; }
+        .status-indicator {
+            position: absolute; top: 20px; right: 20px; width: 12px; height: 12px;
+            background: #4ade80; border-radius: 50%; animation: pulse 2s infinite;
+        }
+        .status-indicator.offline { background: #ef4444; }
+        .status-indicator.connecting { background: #f59e0b; }
+        @keyframes pulse {
+            0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; }
+        }
+        .connection-status {
+            padding: 8px; text-align: center; font-size: 0.8em; font-weight: bold;
+        }
+        .connected { background: #dcfce7; color: #166534; }
+        .disconnected { background: #fecaca; color: #dc2626; }
+        .connecting { background: #fef3c7; color: #d97706; }
+        
+        /* AI状态指示器 */
+        .ai-status {
+            padding: 6px 12px; margin: 5px 15px; border-radius: 15px;
+            font-size: 0.75em; font-weight: bold; text-align: center;
+        }
+        .ai-status.healthy { background: #d1fae5; color: #065f46; border: 1px solid #a7f3d0; }
+        .ai-status.unhealthy { background: #fecaca; color: #dc2626; border: 1px solid #fca5a5; }
+        .ai-status.unconfigured { background: #fef3c7; color: #d97706; border: 1px solid #fcd34d; }
+        
+        .chat-messages {
+            flex: 1; padding: 15px; overflow-y: auto; background: #e5ddd5;
+        }
+        .message {
+            margin: 10px 0; padding: 12px 16px; border-radius: 18px;
+            max-width: 85%; word-wrap: break-word; position: relative;
+            animation: fadeIn 0.3s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .user-message {
+            background: #dcf8c6; margin-left: auto; border-bottom-right-radius: 5px;
+        }
+        .bot-message {
+            background: white; margin-right: auto; border-bottom-left-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .system-message {
+            background: #ffeaa7; margin: 5px auto; max-width: 90%;
+            text-align: center; font-size: 0.9em;
+        }
+        .message-time {
+            font-size: 0.7em; opacity: 0.7; margin-top: 5px; text-align: right;
+        }
+        .chat-input-container {
+            padding: 15px; background: white; border-top: 1px solid #e0e0e0;
+            display: flex; gap: 10px;
+        }
+        .chat-input {
+            flex: 1; padding: 12px 16px; border: 2px solid #e0e0e0;
+            border-radius: 25px; outline: none; font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        .chat-input:focus { border-color: #128c7e; }
+        .chat-input:disabled { background-color: #f5f5f5; color: #999; }
+        .send-button {
+            background: #128c7e; color: white; border: none; width: 50px;
+            height: 50px; border-radius: 50%; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: background 0.3s; font-size: 16px;
+        }
+        .send-button:hover { background: #075e54; }
+        .send-button:disabled { background: #cccccc; cursor: not-allowed; }
+        .typing-indicator {
+            display: none; padding: 10px 16px; background: white;
+            border-radius: 18px; margin: 10px 0; max-width: 100px;
+            font-style: italic; color: #666; font-size: 0.9em;
+        }
+        
+        /* 状态面板样式 */
+        .status-panel {
+            background: #f8f9fa; padding: 10px 15px; border-bottom: 1px solid #e0e0e0;
+            font-size: 0.8em;
+        }
+        .status-item {
+            display: flex; justify-content: space-between; margin: 3px 0;
+        }
+        .status-label { font-weight: bold; color: #555; }
+        .status-value { color: #333; }
+        .status-value.healthy { color: #16a34a; }
+        .status-value.warning { color: #d97706; }
+        .status-value.error { color: #dc2626; }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="status-indicator connecting" id="statusIndicator"></div>
+            <h1>🍊 果农助手</h1>
+            <p>智能农业咨询系统</p>
+        </div>
+        
+        <div class="connection-status connecting" id="connectionStatus">
+            🔄 正在连接后端服务...
+        </div>
+        
+        <div class="ai-status unconfigured" id="aiStatus">
+            🔄 检测AI服务状态...
+        </div>
+        
+        <div class="status-panel" id="statusPanel" style="display: none;">
+            <div class="status-item">
+                <span class="status-label">🤖 AI模式:</span>
+                <span class="status-value" id="aiMode">检测中...</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">🌐 网络:</span>
+                <span class="status-value" id="networkStatus">检测中...</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">🔑 认证:</span>
+                <span class="status-value" id="authStatus">检测中...</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">⚡ 响应:</span>
+                <span class="status-value" id="responseTime">检测中...</span>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                🌱 欢迎使用果农助手！我可以为您提供柑橘种植的智能建议。
+                <div class="message-time">系统消息</div>
+            </div>
+            <div class="message bot-message">
+                💡 您可以问我：
+                <br>• "需要浇水吗？"
+                <br>• "如何施肥？"  
+                <br>• "温度怎么样？"
+                <br>• "病虫害防治"
+                <div class="message-time">系统消息</div>
+            </div>
+        </div>
+        
+        <div class="typing-indicator" id="typingIndicator">
+            正在思考...
+        </div>
+        
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" id="messageInput" 
+                   placeholder="连接中..." disabled>
+            <button class="send-button" onclick="sendMessage()" id="sendButton" disabled>➤</button>
+        </div>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'http://localhost:8000';
+        let isConnected = false;
+        let aiStatusInterval;
+        
+        // DOM 元素
+        const statusIndicator = document.getElementById('statusIndicator');
+        const connectionStatus = document.getElementById('connectionStatus');
+        const aiStatus = document.getElementById('aiStatus');
+        const statusPanel = document.getElementById('statusPanel');
+        const chatMessages = document.getElementById('chatMessages');
+        const messageInput = document.getElementById('messageInput');
+        const sendButton = document.getElementById('sendButton');
+        const typingIndicator = document.getElementById('typingIndicator');
+        
+        // 状态面板元素
+        const aiMode = document.getElementById('aiMode');
+        const networkStatus = document.getElementById('networkStatus');
+        const authStatus = document.getElementById('authStatus');
+        const responseTime = document.getElementById('responseTime');
+        
+        // 检查后端连接状态
+        async function checkBackendConnection() {
+            try {
+                const response = await fetch(`${BACKEND_URL}/health`);
+                const data = await response.json();
+                
+                if (data.status === 'healthy') {
+                    setConnectionStatus('connected', '✅ 后端服务已连接');
+                    return true;
+                } else {
+                    throw new Error('后端服务状态异常');
+                }
+            } catch (error) {
+                setConnectionStatus('disconnected', '❌ 后端服务未连接');
+                return false;
+            }
+        }
+        
+        // 检查DeepSeek API状态
+        async function checkDeepSeekStatus() {
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/v1/deepseek-status`);
+                const status = await response.json();
+                
+                updateAiStatusDisplay(status);
+                return status;
+            } catch (error) {
+                console.error('检查DeepSeek状态失败:', error);
+                setAiStatus('unconfigured', '❌ 无法检测AI服务状态');
+                return null;
+            }
+        }
+        
+        // 更新AI状态显示
+        function updateAiStatusDisplay(status) {
+            if (!status) return;
+            
+            const health = status.health_check;
+            const stats = status.api_statistics;
+            
+            // 更新状态面板
+            statusPanel.style.display = 'block';
+            
+            // AI模式
+            if (health.api_configured) {
+                aiMode.textContent = health.service_available ? '智能AI模式' : 'AI服务异常';
+                aiMode.className = health.service_available ? 'status-value healthy' : 'status-value error';
+            } else {
+                aiMode.textContent = '模拟模式';
+                aiMode.className = 'status-value warning';
+            }
+            
+            // 网络状态
+            networkStatus.textContent = health.network_connected ? '正常' : '异常';
+            networkStatus.className = health.network_connected ? 'status-value healthy' : 'status-value error';
+            
+            // 认证状态
+            authStatus.textContent = health.authentication_valid ? '有效' : '无效';
+            authStatus.className = health.authentication_valid ? 'status-value healthy' : 'status-value error';
+            
+            // 响应时间
+            if (health.response_time) {
+                responseTime.textContent = `${health.response_time}秒`;
+                responseTime.className = health.response_time < 2 ? 'status-value healthy' : 
+                                       health.response_time < 5 ? 'status-value warning' : 'status-value error';
+            } else {
+                responseTime.textContent = '未知';
+                responseTime.className = 'status-value warning';
+            }
+            
+            // 更新AI状态指示器
+            if (health.service_available) {
+                setAiStatus('healthy', `✅ DeepSeek API正常 (${stats.success_rate * 100}% 成功率)`);
+            } else if (health.api_configured) {
+                setAiStatus('unhealthy', `❌ DeepSeek API连接失败 (使用模拟模式)`);
+            } else {
+                setAiStatus('unconfigured', '⚠️ DeepSeek API未配置 (使用模拟模式)');
+            }
+        }
+        
+        // 设置连接状态
+        function setConnectionStatus(status, message) {
+            const wasConnected = isConnected;
+            
+            statusIndicator.className = 'status-indicator ' + status;
+            connectionStatus.className = 'connection-status ' + status;
+            connectionStatus.textContent = message;
+            
+            isConnected = status === 'connected';
+            
+            messageInput.disabled = !isConnected;
+            messageInput.placeholder = isConnected ? '输入您的问题...' : '后端服务未连接';
+            sendButton.disabled = !isConnected;
+            
+            if (!wasConnected && isConnected) {
+                addSystemMessage('✅ 连接成功！现在可以开始提问了。');
+                // 开始定期检查AI状态
+                aiStatusInterval = setInterval(checkDeepSeekStatus, 10000);
+            }
+        }
+        
+        // 设置AI状态
+        function setAiStatus(status, message) {
+            aiStatus.className = 'ai-status ' + status;
+            aiStatus.textContent = message;
+        }
+        
+        // 添加系统消息
+        function addSystemMessage(text) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message system-message';
+            messageDiv.textContent = text;
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // 发送消息
+        async function sendMessage() {
+            if (!isConnected) {
+                addSystemMessage('❌ 后端服务未连接，请稍后重试');
+                return;
+            }
+            
+            const message = messageInput.value.trim();
+            if (!message) return;
+            
+            messageInput.disabled = true;
+            sendButton.disabled = true;
+            messageInput.value = '';
+            
+            addMessage(message, 'user');
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/v1/chat`, {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({
+                        user_id: 'user_' + Date.now(),
+                        message: message,
+                        location: 'field_3',
+                        language: 'zh-CN'
+                    })
+                });
+                
+                const data = await response.json();
+                hideTypingIndicator();
+                
+                if (data.status === 'success') {
+                    addMessage(data.response, 'bot');
+                    
+                    // 更新AI状态显示
+                    if (data.using_real_api) {
+                        setAiStatus('healthy', '✅ 正在使用DeepSeek AI');
+                    } else {
+                        setAiStatus('unconfigured', '⚠️ 正在使用智能模拟模式');
+                    }
+                } else {
+                    addMessage(`❌ 请求失败: ${data.message}`, 'bot');
+                }
+            } catch (error) {
+                hideTypingIndicator();
+                addMessage('❌ 网络请求失败，请检查后端服务状态', 'bot');
+            } finally {
+                if (isConnected) {
+                    messageInput.disabled = false;
+                    sendButton.disabled = false;
+                    messageInput.focus();
+                }
+            }
+        }
+        
+        // 添加消息到聊天窗口
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            
+            const time = new Date().toLocaleTimeString('zh-CN', { 
+                hour: '2-digit', minute: '2-digit' 
+            });
+            
+            messageDiv.innerHTML = `
+                <div class="message-content">${text}</div>
+                <div class="message-time">${time}</div>
+            `;
+            
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // 显示输入指示器
+        function showTypingIndicator() {
+            typingIndicator.style.display = 'block';
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+        
+        // 隐藏输入指示器
+        function hideTypingIndicator() {
+            typingIndicator.style.display = 'none';
+        }
+        
+        // 初始化
+        async function initialize() {
+            await checkBackendConnection();
+            
+            if (isConnected) {
+                // 立即检查AI状态
+                await checkDeepSeekStatus();
+                // 定期检查后端连接
+                setInterval(checkBackendConnection, 5000);
+            }
+            
+            messageInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && isConnected) sendMessage();
+            });
+            
+            if (isConnected) messageInput.focus();
+        }
+        
+        // 清理定时器
+        window.addEventListener('beforeunload', function() {
+            if (aiStatusInterval) {
+                clearInterval(aiStatusInterval);
+            }
+        });
+        
+        document.addEventListener('DOMContentLoaded', initialize);
+    </script>
+</body>
+</html>

@@ -1,0 +1,1128 @@
+2025-11-10 22:48:45 - INFO - 结果评估器初始化完成
+2025-11-10 22:48:45 - INFO - 农业AI系统初始化完成
+2025-11-10 22:48:45 - INFO - 配置物联网传感器...
+2025-11-10 22:48:45 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 22:48:45 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 22:48:45 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 22:48:45 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 22:48:45 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 22:48:45 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:05:30 - INFO - 结果评估器初始化完成
+2025-11-10 23:05:30 - INFO - 农业AI系统初始化完成
+2025-11-10 23:05:30 - INFO - 配置物联网传感器...
+2025-11-10 23:05:30 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:05:30 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:05:30 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:05:30 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:05:30 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:05:30 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:06:13 - INFO - 结果评估器初始化完成
+2025-11-10 23:06:13 - INFO - 农业AI系统初始化完成
+2025-11-10 23:06:13 - INFO - 配置物联网传感器...
+2025-11-10 23:06:13 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:06:13 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:06:13 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:06:13 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:06:13 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:06:13 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:10:22 - INFO - 结果评估器初始化完成
+2025-11-10 23:10:22 - INFO - 农业AI系统初始化完成
+2025-11-10 23:10:22 - INFO - 配置物联网传感器...
+2025-11-10 23:10:22 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:10:22 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:10:22 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:10:22 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:10:22 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:10:22 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:22:11 - INFO - 结果评估器初始化完成
+2025-11-10 23:22:11 - INFO - 农业AI系统初始化完成
+2025-11-10 23:22:11 - INFO - 配置物联网传感器...
+2025-11-10 23:22:11 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:22:11 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:22:11 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:22:11 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:22:11 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:22:11 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:24:15 - INFO - 结果评估器初始化完成
+2025-11-10 23:24:15 - INFO - 农业AI系统初始化完成
+2025-11-10 23:24:15 - INFO - 配置物联网传感器...
+2025-11-10 23:24:15 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:24:15 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:24:15 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:24:15 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:24:15 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:24:15 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:25:24 - INFO - 结果评估器初始化完成
+2025-11-10 23:25:24 - INFO - 农业AI系统初始化完成
+2025-11-10 23:25:24 - INFO - 配置物联网传感器...
+2025-11-10 23:25:24 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:25:24 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:25:24 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:25:24 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:25:24 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:25:24 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:25:59 - INFO - 结果评估器初始化完成
+2025-11-10 23:25:59 - INFO - 农业AI系统初始化完成
+2025-11-10 23:25:59 - INFO - 配置物联网传感器...
+2025-11-10 23:25:59 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:25:59 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:25:59 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:25:59 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:25:59 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:25:59 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:34:37 - INFO - 结果评估器初始化完成
+2025-11-10 23:34:37 - INFO - 农业AI系统初始化完成
+2025-11-10 23:34:37 - INFO - 配置物联网传感器...
+2025-11-10 23:34:37 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:34:37 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:34:37 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:34:37 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:34:37 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:34:37 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:41:33 - INFO - 结果评估器初始化完成
+2025-11-10 23:41:33 - INFO - 农业AI系统初始化完成
+2025-11-10 23:41:33 - INFO - 配置物联网传感器...
+2025-11-10 23:41:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:41:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:41:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:41:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:41:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:41:33 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:47:19 - INFO - 结果评估器初始化完成
+2025-11-10 23:47:19 - INFO - 农业AI系统初始化完成
+2025-11-10 23:51:33 - INFO - 结果评估器初始化完成
+2025-11-10 23:51:33 - INFO - 农业AI系统初始化完成
+2025-11-10 23:51:33 - INFO - 配置物联网传感器...
+2025-11-10 23:51:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:51:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:51:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:51:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:51:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:51:33 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:54:19 - INFO - 结果评估器初始化完成
+2025-11-10 23:54:19 - INFO - 农业AI系统初始化完成
+2025-11-10 23:54:19 - INFO - 配置物联网传感器...
+2025-11-10 23:54:19 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:54:19 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:54:19 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:54:19 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:54:19 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:54:19 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:58:13 - INFO - 结果评估器初始化完成
+2025-11-10 23:58:13 - INFO - 农业AI系统初始化完成
+2025-11-10 23:58:13 - INFO - 配置物联网传感器...
+2025-11-10 23:58:13 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-10 23:58:13 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-10 23:58:13 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-10 23:58:13 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-10 23:58:13 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-10 23:58:13 - INFO - 传感器配置完成: 5个传感器
+2025-11-10 23:58:42 - WARNING - 模型未训练，使用模拟推理
+2025-11-10 23:58:42 - INFO - 运行模拟推理...
+2025-11-10 23:59:25 - WARNING - 模型未训练，使用模拟推理
+2025-11-10 23:59:25 - INFO - 运行模拟推理...
+2025-11-10 23:59:42 - WARNING - 模型未训练，使用模拟推理
+2025-11-10 23:59:42 - INFO - 运行模拟推理...
+2025-11-10 23:59:50 - WARNING - 模型未训练，使用模拟推理
+2025-11-10 23:59:50 - INFO - 运行模拟推理...
+2025-11-10 23:59:53 - WARNING - 模型未训练，使用模拟推理
+2025-11-10 23:59:53 - INFO - 运行模拟推理...
+2025-11-11 00:01:52 - INFO - 结果评估器初始化完成
+2025-11-11 00:01:52 - INFO - 农业AI系统初始化完成
+2025-11-11 00:01:52 - INFO - 配置物联网传感器...
+2025-11-11 00:01:52 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:01:52 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:01:52 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:01:52 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:01:52 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:01:52 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:02:05 - WARNING - 模型未训练，使用模拟推理
+2025-11-11 00:02:05 - INFO - 运行模拟推理...
+2025-11-11 00:06:47 - WARNING - 模型未训练，使用模拟推理
+2025-11-11 00:06:47 - INFO - 运行模拟推理...
+2025-11-11 00:06:49 - WARNING - 模型未训练，使用模拟推理
+2025-11-11 00:06:49 - INFO - 运行模拟推理...
+2025-11-11 00:07:20 - INFO - 结果评估器初始化完成
+2025-11-11 00:07:20 - INFO - 农业AI系统初始化完成
+2025-11-11 00:07:20 - INFO - 配置物联网传感器...
+2025-11-11 00:07:20 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:07:20 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:07:20 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:07:20 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:07:20 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:07:20 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:07:47 - WARNING - 模型未训练，使用模拟推理
+2025-11-11 00:07:47 - INFO - 运行模拟推理...
+2025-11-11 00:14:19 - INFO - 结果评估器初始化完成
+2025-11-11 00:14:19 - INFO - 农业AI系统初始化完成
+2025-11-11 00:14:19 - INFO - 配置物联网传感器...
+2025-11-11 00:14:19 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:14:19 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:14:19 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:14:19 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:14:19 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:14:19 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:14:48 - WARNING - 模型未训练，使用模拟推理
+2025-11-11 00:14:48 - INFO - 运行模拟推理...
+2025-11-11 00:16:35 - INFO - 结果评估器初始化完成
+2025-11-11 00:16:35 - INFO - 农业AI系统初始化完成
+2025-11-11 00:16:35 - INFO - 配置物联网传感器...
+2025-11-11 00:16:35 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:16:35 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:16:35 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:16:35 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:16:35 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:16:35 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:19:46 - INFO - 结果评估器初始化完成
+2025-11-11 00:19:46 - INFO - 农业AI系统初始化完成
+2025-11-11 00:19:46 - INFO - 配置物联网传感器...
+2025-11-11 00:19:46 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:19:46 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:19:46 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:19:46 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:19:46 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:19:46 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:22:37 - INFO - 结果评估器初始化完成
+2025-11-11 00:22:37 - INFO - 农业AI系统初始化完成
+2025-11-11 00:22:37 - INFO - 配置物联网传感器...
+2025-11-11 00:22:37 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:22:37 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:22:37 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:22:37 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:22:37 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:22:37 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:22:48 - WARNING - 模型未训练，使用模拟推理
+2025-11-11 00:22:48 - INFO - 运行模拟推理...
+2025-11-11 00:29:02 - INFO - 结果评估器初始化完成
+2025-11-11 00:29:02 - INFO - 农业AI系统初始化完成
+2025-11-11 00:29:02 - INFO - 配置物联网传感器...
+2025-11-11 00:29:02 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:29:02 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:29:02 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:29:02 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:29:02 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:29:02 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:29:37 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 00:29:48 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 00:29:59 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 00:31:19 - INFO - 结果评估器初始化完成
+2025-11-11 00:31:19 - INFO - 农业AI系统初始化完成
+2025-11-11 00:31:19 - INFO - 配置物联网传感器...
+2025-11-11 00:31:19 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:31:19 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:31:19 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:31:19 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:31:19 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:31:19 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:34:22 - INFO - 结果评估器初始化完成
+2025-11-11 00:34:22 - INFO - 农业AI系统初始化完成
+2025-11-11 00:34:22 - INFO - 配置物联网传感器...
+2025-11-11 00:34:22 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:34:22 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:34:22 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:34:22 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:34:22 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:34:22 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:35:42 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 00:36:37 - INFO - 结果评估器初始化完成
+2025-11-11 00:36:37 - INFO - 农业AI系统初始化完成
+2025-11-11 00:36:37 - INFO - 配置物联网传感器...
+2025-11-11 00:36:37 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:36:37 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:36:37 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:36:37 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:36:37 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:36:37 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:41:48 - INFO - 结果评估器初始化完成
+2025-11-11 00:41:48 - INFO - 农业AI系统初始化完成
+2025-11-11 00:41:55 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:41:55 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:41:55 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:41:55 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:41:55 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:42:19 - INFO - 结果评估器初始化完成
+2025-11-11 00:42:19 - INFO - 农业AI系统初始化完成
+2025-11-11 00:42:26 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:42:26 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:42:26 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:42:26 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:42:26 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:45:54 - INFO - 结果评估器初始化完成
+2025-11-11 00:45:54 - INFO - 农业AI系统初始化完成
+2025-11-11 00:46:01 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:46:01 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:46:01 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:46:01 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:46:01 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:49:07 - INFO - 结果评估器初始化完成
+2025-11-11 00:49:07 - INFO - 农业AI系统初始化完成
+2025-11-11 00:49:07 - INFO - 配置物联网传感器...
+2025-11-11 00:49:07 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:49:07 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:49:07 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:49:07 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:49:07 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:49:07 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:51:28 - INFO - 结果评估器初始化完成
+2025-11-11 00:51:28 - INFO - 农业AI系统初始化完成
+2025-11-11 00:51:36 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:51:36 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:51:36 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:51:36 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:51:36 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:52:33 - INFO - 结果评估器初始化完成
+2025-11-11 00:52:33 - INFO - 农业AI系统初始化完成
+2025-11-11 00:52:33 - INFO - 配置物联网传感器...
+2025-11-11 00:52:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:52:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:52:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:52:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:52:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:52:33 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:55:58 - INFO - 结果评估器初始化完成
+2025-11-11 00:55:58 - INFO - 农业AI系统初始化完成
+2025-11-11 00:55:59 - INFO - 配置物联网传感器...
+2025-11-11 00:55:59 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:55:59 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:55:59 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:55:59 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:55:59 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:55:59 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:57:33 - INFO - 结果评估器初始化完成
+2025-11-11 00:57:33 - INFO - 农业AI系统初始化完成
+2025-11-11 00:57:33 - INFO - 配置物联网传感器...
+2025-11-11 00:57:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:57:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:57:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:57:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:57:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 00:57:33 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 00:58:46 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 00:58:46 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 00:58:46 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 00:58:46 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 00:58:46 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:00:11 - INFO - 结果评估器初始化完成
+2025-11-11 01:00:11 - INFO - 农业AI系统初始化完成
+2025-11-11 01:00:11 - INFO - 配置物联网传感器...
+2025-11-11 01:00:11 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:00:11 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:00:11 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:00:11 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:00:11 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:00:11 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:00:50 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:03:49 - INFO - 结果评估器初始化完成
+2025-11-11 01:03:49 - INFO - 农业AI系统初始化完成
+2025-11-11 01:03:49 - INFO - 配置物联网传感器...
+2025-11-11 01:03:49 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:03:49 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:03:49 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:03:49 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:03:49 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:03:49 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:04:18 - INFO - 结果评估器初始化完成
+2025-11-11 01:04:18 - INFO - 农业AI系统初始化完成
+2025-11-11 01:05:28 - INFO - 结果评估器初始化完成
+2025-11-11 01:05:28 - INFO - 农业AI系统初始化完成
+2025-11-11 01:05:28 - INFO - 配置物联网传感器...
+2025-11-11 01:05:28 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:05:28 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:05:28 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:05:28 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:05:28 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:05:28 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:06:02 - INFO - 结果评估器初始化完成
+2025-11-11 01:06:02 - INFO - 农业AI系统初始化完成
+2025-11-11 01:06:02 - INFO - 配置物联网传感器...
+2025-11-11 01:06:02 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:06:02 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:06:02 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:06:02 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:06:02 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:06:02 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:06:42 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:07:11 - INFO - 结果评估器初始化完成
+2025-11-11 01:07:11 - INFO - 农业AI系统初始化完成
+2025-11-11 01:07:11 - INFO - 配置物联网传感器...
+2025-11-11 01:07:11 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:07:11 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:07:11 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:07:11 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:07:11 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:07:11 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:07:31 - INFO - 结果评估器初始化完成
+2025-11-11 01:07:31 - INFO - 农业AI系统初始化完成
+2025-11-11 01:07:38 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:07:38 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:07:38 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:07:38 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:07:38 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:08:25 - INFO - 结果评估器初始化完成
+2025-11-11 01:08:25 - INFO - 农业AI系统初始化完成
+2025-11-11 01:08:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:08:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:08:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:08:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:08:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:10:27 - INFO - 结果评估器初始化完成
+2025-11-11 01:10:27 - INFO - 农业AI系统初始化完成
+2025-11-11 01:10:34 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:10:34 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:10:34 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:10:34 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:10:34 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:11:23 - INFO - 结果评估器初始化完成
+2025-11-11 01:11:23 - INFO - 农业AI系统初始化完成
+2025-11-11 01:11:23 - INFO - 配置物联网传感器...
+2025-11-11 01:11:23 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:11:23 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:11:23 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:11:23 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:11:23 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:11:23 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:13:16 - INFO - 结果评估器初始化完成
+2025-11-11 01:13:16 - INFO - 农业AI系统初始化完成
+2025-11-11 01:13:16 - INFO - 配置物联网传感器...
+2025-11-11 01:13:16 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:13:16 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:13:16 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:13:16 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:13:16 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:13:16 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:14:13 - INFO - 结果评估器初始化完成
+2025-11-11 01:14:13 - INFO - 农业AI系统初始化完成
+2025-11-11 01:14:20 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:14:20 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:14:20 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:14:20 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:14:20 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:18:23 - INFO - 结果评估器初始化完成
+2025-11-11 01:18:23 - INFO - 农业AI系统初始化完成
+2025-11-11 01:18:23 - INFO - 配置物联网传感器...
+2025-11-11 01:18:23 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:18:23 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:18:23 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:18:23 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:18:23 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:18:23 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:18:34 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:19:01 - INFO - 结果评估器初始化完成
+2025-11-11 01:19:01 - INFO - 农业AI系统初始化完成
+2025-11-11 01:19:01 - INFO - 配置物联网传感器...
+2025-11-11 01:19:01 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:19:01 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:19:01 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:19:01 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:19:01 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:19:01 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:19:10 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:19:10 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:19:10 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:19:10 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:19:10 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:19:57 - INFO - 结果评估器初始化完成
+2025-11-11 01:19:57 - INFO - 农业AI系统初始化完成
+2025-11-11 01:19:57 - INFO - 配置物联网传感器...
+2025-11-11 01:19:57 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:19:57 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:19:57 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:19:57 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:19:57 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:19:57 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:20:06 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:20:07 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:20:07 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:20:07 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:20:07 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:20:07 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:20:16 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:20:26 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:20:56 - INFO - 结果评估器初始化完成
+2025-11-11 01:20:56 - INFO - 农业AI系统初始化完成
+2025-11-11 01:20:56 - INFO - 配置物联网传感器...
+2025-11-11 01:20:56 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:20:56 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:20:56 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:20:56 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:20:56 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:20:56 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:21:01 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:21:06 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:21:06 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:21:06 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:21:06 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:21:06 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:26:50 - INFO - 结果评估器初始化完成
+2025-11-11 01:26:50 - INFO - 农业AI系统初始化完成
+2025-11-11 01:26:50 - INFO - 配置物联网传感器...
+2025-11-11 01:26:50 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:26:50 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:26:50 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:26:50 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:26:50 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:26:50 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:26:55 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:26:59 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:26:59 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:26:59 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:26:59 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:26:59 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:27:33 - INFO - 结果评估器初始化完成
+2025-11-11 01:27:33 - INFO - 农业AI系统初始化完成
+2025-11-11 01:27:33 - INFO - 配置物联网传感器...
+2025-11-11 01:27:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:27:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:27:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:27:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:27:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:27:33 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:27:42 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:27:43 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:27:43 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:27:43 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:27:43 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:27:43 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:27:51 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:29:07 - INFO - 结果评估器初始化完成
+2025-11-11 01:29:07 - INFO - 农业AI系统初始化完成
+2025-11-11 01:29:15 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:29:15 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:29:15 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:29:15 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:29:15 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:33:34 - INFO - 结果评估器初始化完成
+2025-11-11 01:33:34 - INFO - 农业AI系统初始化完成
+2025-11-11 01:39:01 - INFO - 结果评估器初始化完成
+2025-11-11 01:39:01 - INFO - 农业AI系统初始化完成
+2025-11-11 01:39:33 - INFO - 结果评估器初始化完成
+2025-11-11 01:39:33 - INFO - 农业AI系统初始化完成
+2025-11-11 01:40:29 - INFO - 结果评估器初始化完成
+2025-11-11 01:40:29 - INFO - 农业AI系统初始化完成
+2025-11-11 01:41:28 - INFO - 结果评估器初始化完成
+2025-11-11 01:41:28 - INFO - 农业AI系统初始化完成
+2025-11-11 01:42:01 - INFO - 结果评估器初始化完成
+2025-11-11 01:42:01 - INFO - 农业AI系统初始化完成
+2025-11-11 01:42:01 - INFO - 配置物联网传感器...
+2025-11-11 01:42:01 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:42:01 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:42:01 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:42:01 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:42:01 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:42:01 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:42:06 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:42:06 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:42:06 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:42:06 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:42:06 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:42:06 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:42:17 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:42:36 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:42:42 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:43:12 - INFO - 结果评估器初始化完成
+2025-11-11 01:43:12 - INFO - 农业AI系统初始化完成
+2025-11-11 01:43:12 - INFO - 配置物联网传感器...
+2025-11-11 01:43:12 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:43:12 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:43:12 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:43:12 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:43:12 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:43:12 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:43:16 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:43:16 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:43:16 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:43:16 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:43:16 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:43:29 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:45:29 - INFO - 结果评估器初始化完成
+2025-11-11 01:45:29 - INFO - 农业AI系统初始化完成
+2025-11-11 01:45:29 - INFO - 配置物联网传感器...
+2025-11-11 01:45:29 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:45:29 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:45:29 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:45:29 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:45:29 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:45:29 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:45:32 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:45:32 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:45:32 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:45:32 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:45:32 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:45:55 - INFO - 结果评估器初始化完成
+2025-11-11 01:45:55 - INFO - 农业AI系统初始化完成
+2025-11-11 01:45:55 - INFO - 配置物联网传感器...
+2025-11-11 01:45:55 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:45:55 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:45:55 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:45:55 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:45:55 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:45:55 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:45:59 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:45:59 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:45:59 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:45:59 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:45:59 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:46:15 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:46:28 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:50:01 - INFO - 结果评估器初始化完成
+2025-11-11 01:50:01 - INFO - 农业AI系统初始化完成
+2025-11-11 01:50:01 - INFO - 配置物联网传感器...
+2025-11-11 01:50:01 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:50:01 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:50:01 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:50:01 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:50:01 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:50:01 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:50:09 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:50:09 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:50:09 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:50:09 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:50:09 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:50:33 - INFO - 结果评估器初始化完成
+2025-11-11 01:50:33 - INFO - 农业AI系统初始化完成
+2025-11-11 01:50:33 - INFO - 配置物联网传感器...
+2025-11-11 01:50:33 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:50:33 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:50:33 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:50:33 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:50:33 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:50:33 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:50:41 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:50:41 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:50:41 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:50:41 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:50:41 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:50:57 - INFO - 结果评估器初始化完成
+2025-11-11 01:50:57 - INFO - 农业AI系统初始化完成
+2025-11-11 01:50:57 - INFO - 配置物联网传感器...
+2025-11-11 01:50:57 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:50:57 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:50:57 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:50:57 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:50:57 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:50:57 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:51:02 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:51:02 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:51:02 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:51:02 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:51:02 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:52:06 - INFO - 结果评估器初始化完成
+2025-11-11 01:52:06 - INFO - 农业AI系统初始化完成
+2025-11-11 01:52:06 - INFO - 配置物联网传感器...
+2025-11-11 01:52:06 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:52:06 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:52:06 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:52:06 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:52:06 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:52:06 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:52:11 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:52:11 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:52:11 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:52:11 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:52:11 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:52:24 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:56:52 - INFO - 结果评估器初始化完成
+2025-11-11 01:56:52 - INFO - 农业AI系统初始化完成
+2025-11-11 01:56:52 - INFO - 配置物联网传感器...
+2025-11-11 01:56:52 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:56:52 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:56:52 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:56:52 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:56:52 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:56:52 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:56:56 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:56:56 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:56:56 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:56:56 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:56:56 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:57:02 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 01:57:32 - INFO - 结果评估器初始化完成
+2025-11-11 01:57:32 - INFO - 农业AI系统初始化完成
+2025-11-11 01:57:32 - INFO - 配置物联网传感器...
+2025-11-11 01:57:32 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:57:32 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:57:32 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:57:32 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:57:32 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:57:32 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 01:57:37 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 01:57:37 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 01:57:37 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 01:57:37 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 01:57:37 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 01:57:43 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 02:00:04 - INFO - 结果评估器初始化完成
+2025-11-11 02:00:04 - INFO - 农业AI系统初始化完成
+2025-11-11 02:00:11 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:00:11 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:00:11 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:00:11 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:00:11 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:00:50 - INFO - 结果评估器初始化完成
+2025-11-11 02:00:50 - INFO - 农业AI系统初始化完成
+2025-11-11 02:00:57 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:00:57 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:00:57 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:00:57 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:00:57 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:01:25 - INFO - 结果评估器初始化完成
+2025-11-11 02:01:25 - INFO - 农业AI系统初始化完成
+2025-11-11 02:01:25 - INFO - 配置物联网传感器...
+2025-11-11 02:01:25 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:01:25 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:01:25 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:01:25 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:01:25 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:01:25 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:01:30 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:01:30 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:01:30 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:01:30 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:01:30 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:01:53 - INFO - 结果评估器初始化完成
+2025-11-11 02:01:53 - INFO - 农业AI系统初始化完成
+2025-11-11 02:01:53 - INFO - 配置物联网传感器...
+2025-11-11 02:01:53 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:01:53 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:01:53 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:01:53 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:01:53 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:01:53 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:02:46 - INFO - 结果评估器初始化完成
+2025-11-11 02:02:46 - INFO - 农业AI系统初始化完成
+2025-11-11 02:02:46 - INFO - 配置物联网传感器...
+2025-11-11 02:02:46 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:02:46 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:02:46 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:02:46 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:02:46 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:02:46 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:02:53 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 02:04:09 - INFO - 结果评估器初始化完成
+2025-11-11 02:04:09 - INFO - 农业AI系统初始化完成
+2025-11-11 02:04:09 - INFO - 配置物联网传感器...
+2025-11-11 02:04:09 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:04:09 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:04:09 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:04:09 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:04:09 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:04:09 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:04:35 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 02:04:48 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 02:05:18 - INFO - 结果评估器初始化完成
+2025-11-11 02:05:18 - INFO - 农业AI系统初始化完成
+2025-11-11 02:05:25 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:05:25 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:05:25 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:05:25 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:05:25 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:08:35 - INFO - 结果评估器初始化完成
+2025-11-11 02:08:35 - INFO - 农业AI系统初始化完成
+2025-11-11 02:08:35 - INFO - 配置物联网传感器...
+2025-11-11 02:08:35 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:08:35 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:08:35 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:08:35 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:08:35 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:08:35 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:09:14 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:09:14 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:09:14 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:09:14 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:09:14 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:09:19 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 02:09:55 - INFO - 结果评估器初始化完成
+2025-11-11 02:09:55 - INFO - 农业AI系统初始化完成
+2025-11-11 02:11:00 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:11:00 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:11:00 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:11:00 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:11:00 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:11:24 - INFO - 结果评估器初始化完成
+2025-11-11 02:11:24 - INFO - 农业AI系统初始化完成
+2025-11-11 02:11:24 - INFO - 配置物联网传感器...
+2025-11-11 02:11:24 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:11:24 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:11:24 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:11:24 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:11:24 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:11:24 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:11:29 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:11:29 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:11:29 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:11:29 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:11:29 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:11:35 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 02:15:48 - INFO - 结果评估器初始化完成
+2025-11-11 02:15:48 - INFO - 农业AI系统初始化完成
+2025-11-11 02:15:48 - INFO - 配置物联网传感器...
+2025-11-11 02:15:48 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:15:48 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:15:48 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:15:48 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:15:48 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:15:48 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 02:15:53 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 02:15:53 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 02:15:53 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 02:15:53 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 02:15:53 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 02:17:06 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 09:49:56 - INFO - 结果评估器初始化完成
+2025-11-11 09:49:56 - INFO - 农业AI系统初始化完成
+2025-11-11 09:49:56 - INFO - 配置物联网传感器...
+2025-11-11 09:49:56 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 09:49:56 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 09:49:56 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 09:49:56 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 09:49:56 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 09:49:56 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 09:50:34 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 09:53:07 - INFO - 结果评估器初始化完成
+2025-11-11 09:53:07 - INFO - 农业AI系统初始化完成
+2025-11-11 09:53:07 - INFO - 配置物联网传感器...
+2025-11-11 09:53:07 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 09:53:07 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 09:53:07 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 09:53:07 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 09:53:07 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 09:53:07 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 09:53:11 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 21:36:35 - INFO - 结果评估器初始化完成
+2025-11-11 21:36:35 - INFO - 农业AI系统初始化完成
+2025-11-11 21:36:36 - INFO - 配置物联网传感器...
+2025-11-11 21:36:36 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 21:36:36 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 21:36:36 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 21:36:36 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 21:36:36 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 21:36:36 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 21:36:40 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 21:36:40 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 21:36:40 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 21:36:40 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 21:36:40 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 22:03:38 - INFO - 结果评估器初始化完成
+2025-11-11 22:03:38 - INFO - 农业AI系统初始化完成
+2025-11-11 22:03:38 - INFO - 配置物联网传感器...
+2025-11-11 22:03:38 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 22:03:38 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 22:03:38 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 22:03:38 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 22:03:38 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 22:03:38 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 22:04:45 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 22:06:19 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 22:27:49 - INFO - 结果评估器初始化完成
+2025-11-11 22:27:49 - INFO - 农业AI系统初始化完成
+2025-11-11 22:27:49 - INFO - 配置物联网传感器...
+2025-11-11 22:27:49 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-11 22:27:49 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-11 22:27:49 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-11 22:27:49 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-11 22:27:49 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-11 22:27:49 - INFO - 传感器配置完成: 5个传感器
+2025-11-11 22:28:00 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 22:28:13 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-11 22:29:46 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-12 10:02:42 - INFO - 结果评估器初始化完成
+2025-11-12 10:02:42 - INFO - 真实数据收集器初始化完成
+2025-11-12 10:02:42 - INFO - 农业AI系统初始化完成
+2025-11-12 10:02:42 - INFO - 配置物联网传感器...
+2025-11-12 10:02:42 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 10:02:42 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 10:02:42 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 10:02:42 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 10:02:42 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 10:02:42 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 10:03:13 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001466E7EF8C0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:03:15 - ERROR - 获取传感器数据失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/sensor/data?device_ids=temp_001%2Cmoisture_001%2Chumidity_001%2Cph_001%2Cnpk_001 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001466E82DBD0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:03:15 - WARNING - 未获取到传感器数据
+2025-11-12 10:03:15 - WARNING - 真实数据获取失败，使用模拟数据
+2025-11-12 10:03:15 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-12 10:03:18 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001466E787ED0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:03:23 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001466E726B10>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:03:28 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001466E726C40>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:03:33 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001466E8216D0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:03:58 - INFO - 解析建大仁科数据: 5个参数
+2025-11-12 10:16:18 - INFO - 结果评估器初始化完成
+2025-11-12 10:16:18 - INFO - 真实数据收集器初始化完成
+2025-11-12 10:16:18 - INFO - 农业AI系统初始化完成
+2025-11-12 10:16:18 - INFO - 配置物联网传感器...
+2025-11-12 10:16:18 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 10:16:18 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 10:16:18 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 10:16:18 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 10:16:18 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 10:16:18 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 10:17:05 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000274D6C00830>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:18:05 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000274D6C05450>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:19:05 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000274D6C065D0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:20:05 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000274D6B069E0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:21:05 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000274D6B05CD0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 10:21:59 - INFO - 结果评估器初始化完成
+2025-11-12 10:21:59 - INFO - 农业AI系统初始化完成
+2025-11-12 10:21:59 - INFO - 配置物联网传感器...
+2025-11-12 10:21:59 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 10:21:59 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 10:21:59 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 10:21:59 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 10:21:59 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 10:21:59 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 10:23:19 - INFO - 解析建大仁科数据: 5个参数
+2025-11-12 11:07:49 - INFO - 结果评估器初始化完成
+2025-11-12 11:07:49 - INFO - 农业AI系统初始化完成
+2025-11-12 11:07:49 - INFO - 配置物联网传感器...
+2025-11-12 11:07:49 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:07:49 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:07:49 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:07:49 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:07:49 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:07:49 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 11:07:59 - ERROR - 预测出错: 'NoneType' object has no attribute 'predict'
+2025-11-12 11:24:34 - INFO - 结果评估器初始化完成
+2025-11-12 11:24:34 - INFO - 真实数据收集器初始化完成
+2025-11-12 11:24:34 - INFO - 农业AI系统初始化完成
+2025-11-12 11:24:34 - INFO - 开始自动训练AI模型...
+2025-11-12 11:24:34 - INFO - 训练传感器数据分析模型...
+2025-11-12 11:24:34 - INFO - 生成传感器训练数据...
+2025-11-12 11:24:34 - INFO - 开始训练传感器数据模型...
+2025-11-12 11:24:34 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 11:24:34 - INFO - 训练语言翻译模型...
+2025-11-12 11:24:34 - INFO - 加载语言训练数据...
+2025-11-12 11:24:34 - INFO - 开始训练农业语言翻译模型...
+2025-11-12 11:24:34 - INFO - 农业语言翻译模型训练完成
+2025-11-12 11:24:34 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 11:24:34 - INFO - 配置物联网传感器...
+2025-11-12 11:24:34 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:24:34 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:24:34 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:24:34 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:24:34 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:24:34 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 11:24:34 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E27770>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:24:47 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E54690>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:24:52 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E55BD0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:24:57 - ERROR - 获取传感器数据失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/sensor/data?device_ids=temp_001%2Cmoisture_001%2Chumidity_001%2Cph_001%2Cnpk_001 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46D562C0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:24:57 - WARNING - 未获取到传感器数据
+2025-11-12 11:24:57 - WARNING - 真实数据获取失败，使用模拟数据
+2025-11-12 11:24:57 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46D57360>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:02 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E685F0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:07 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E90160>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:12 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E90F30>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:14 - ERROR - 获取传感器数据失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/sensor/data?device_ids=temp_001%2Cmoisture_001%2Chumidity_001%2Cph_001%2Cnpk_001 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E919D0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:14 - WARNING - 未获取到传感器数据
+2025-11-12 11:25:14 - WARNING - 真实数据获取失败，使用模拟数据
+2025-11-12 11:25:17 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E92140>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:22 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E928B0>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:27 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E93020>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:25:32 - WARNING - 连接测试失败: HTTPConnectionPool(host='your-jdrk-server.com', port=80): Max retries exceeded with url: /api/health (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024A46E93790>: Failed to resolve 'your-jdrk-server.com' ([Errno 11001] getaddrinfo failed)"))
+2025-11-12 11:39:32 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:39:32 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:39:32 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:39:32 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:39:32 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:40:01 - INFO - 结果评估器初始化完成
+2025-11-12 11:40:01 - INFO - 农业AI系统初始化完成
+2025-11-12 11:40:01 - INFO - 开始自动训练AI模型...
+2025-11-12 11:40:01 - INFO - 训练传感器数据分析模型...
+2025-11-12 11:40:01 - INFO - 生成传感器训练数据...
+2025-11-12 11:40:01 - INFO - 开始训练传感器数据模型...
+2025-11-12 11:40:01 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 11:40:01 - INFO - 训练语言翻译模型...
+2025-11-12 11:40:01 - INFO - 加载语言训练数据...
+2025-11-12 11:40:01 - INFO - 开始训练农业语言翻译模型...
+2025-11-12 11:40:01 - INFO - 农业语言翻译模型训练完成
+2025-11-12 11:40:01 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 11:40:01 - INFO - 配置物联网传感器...
+2025-11-12 11:40:01 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:40:01 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:40:01 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:40:01 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:40:01 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:40:01 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 11:42:16 - INFO - 结果评估器初始化完成
+2025-11-12 11:42:16 - INFO - 农业AI系统初始化完成
+2025-11-12 11:42:16 - INFO - 开始自动训练AI模型...
+2025-11-12 11:42:16 - INFO - 训练传感器数据分析模型...
+2025-11-12 11:42:16 - INFO - 生成传感器训练数据...
+2025-11-12 11:42:16 - INFO - 开始训练传感器数据模型...
+2025-11-12 11:42:16 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 11:42:16 - INFO - 训练语言翻译模型...
+2025-11-12 11:42:16 - INFO - 加载语言训练数据...
+2025-11-12 11:42:16 - INFO - 开始训练农业语言翻译模型...
+2025-11-12 11:42:16 - INFO - 农业语言翻译模型训练完成
+2025-11-12 11:42:16 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 11:42:16 - INFO - 配置物联网传感器...
+2025-11-12 11:42:16 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:42:16 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:42:16 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:42:16 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:42:16 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:42:16 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 11:47:52 - INFO - 结果评估器初始化完成
+2025-11-12 11:47:52 - INFO - 农业AI系统初始化完成
+2025-11-12 11:47:52 - INFO - 开始自动训练AI模型...
+2025-11-12 11:47:52 - INFO - 训练传感器数据分析模型...
+2025-11-12 11:47:52 - INFO - 生成传感器训练数据...
+2025-11-12 11:47:52 - INFO - 开始训练传感器数据模型...
+2025-11-12 11:47:52 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 11:47:52 - INFO - 训练语言翻译模型...
+2025-11-12 11:47:52 - INFO - 加载语言训练数据...
+2025-11-12 11:47:52 - INFO - 开始训练农业语言翻译模型...
+2025-11-12 11:47:52 - INFO - 农业语言翻译模型训练完成
+2025-11-12 11:47:52 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 11:47:52 - INFO - 配置物联网传感器...
+2025-11-12 11:47:52 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:47:52 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:47:52 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:47:52 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:47:52 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:47:52 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 11:59:20 - INFO - ✅ 柑橘知识库加载成功
+2025-11-12 11:59:20 - INFO - 结果评估器初始化完成
+2025-11-12 11:59:20 - INFO - 农业AI系统初始化完成
+2025-11-12 11:59:20 - INFO - 开始自动训练AI模型...
+2025-11-12 11:59:20 - INFO - 训练传感器数据分析模型...
+2025-11-12 11:59:20 - INFO - 生成传感器训练数据...
+2025-11-12 11:59:20 - INFO - 开始训练传感器数据模型...
+2025-11-12 11:59:20 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 11:59:20 - INFO - 训练语言翻译模型...
+2025-11-12 11:59:20 - INFO - 加载语言训练数据...
+2025-11-12 11:59:20 - INFO - 开始训练农业语言翻译模型...
+2025-11-12 11:59:20 - INFO - 农业语言翻译模型训练完成
+2025-11-12 11:59:20 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 11:59:20 - INFO - 配置物联网传感器...
+2025-11-12 11:59:20 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 11:59:20 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 11:59:20 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 11:59:20 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 11:59:20 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 11:59:20 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 12:50:34 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 12:50:34 - INFO - LLM提供商设置为: deepseek
+2025-11-12 12:50:35 - INFO - ✅ 柑橘知识库加载成功
+2025-11-12 12:50:35 - INFO - 结果评估器初始化完成
+2025-11-12 12:50:35 - INFO - 农业AI系统初始化完成
+2025-11-12 12:50:35 - INFO - 开始自动训练AI模型...
+2025-11-12 12:50:35 - INFO - 训练传感器数据分析模型...
+2025-11-12 12:50:35 - INFO - 生成传感器训练数据...
+2025-11-12 12:50:35 - INFO - 开始训练传感器数据模型...
+2025-11-12 12:50:35 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 12:50:35 - INFO - 训练语言翻译模型...
+2025-11-12 12:50:35 - INFO - 加载语言训练数据...
+2025-11-12 12:50:35 - INFO - 语言模型训练完成（使用DeepSeek API）
+2025-11-12 12:50:35 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 12:50:35 - INFO - 配置物联网传感器...
+2025-11-12 12:50:35 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 12:50:35 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 12:50:35 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 12:50:35 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 12:50:35 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 12:50:35 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 12:50:50 - ERROR - DeepSeek API返回错误: HTTP 402: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+2025-11-12 12:51:30 - ERROR - DeepSeek API返回错误: HTTP 402: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+2025-11-12 12:51:41 - ERROR - DeepSeek API返回错误: HTTP 402: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+2025-11-12 13:00:49 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 13:00:49 - INFO - LLM提供商设置为: deepseek
+2025-11-12 13:00:49 - INFO - ✅ 柑橘知识库加载成功
+2025-11-12 13:00:49 - INFO - 结果评估器初始化完成
+2025-11-12 13:00:49 - INFO - 农业AI系统初始化完成
+2025-11-12 13:00:49 - INFO - 开始自动训练AI模型...
+2025-11-12 13:00:49 - INFO - 训练传感器数据分析模型...
+2025-11-12 13:00:49 - INFO - 生成传感器训练数据...
+2025-11-12 13:00:49 - INFO - 开始训练传感器数据模型...
+2025-11-12 13:00:49 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 13:00:49 - INFO - 训练语言翻译模型...
+2025-11-12 13:00:49 - INFO - 加载语言训练数据...
+2025-11-12 13:00:49 - INFO - 语言模型训练完成（使用DeepSeek API）
+2025-11-12 13:00:49 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 13:00:49 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 13:00:49 - INFO - LLM提供商设置为: deepseek
+2025-11-12 13:00:49 - INFO - 配置物联网传感器...
+2025-11-12 13:00:49 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 13:00:49 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 13:00:49 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 13:00:49 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 13:00:49 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 13:00:49 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 13:01:11 - ERROR - DeepSeek API返回错误: HTTP 402: {"error":{"message":"Insufficient Balance","type":"unknown_error","param":null,"code":"invalid_request_error"}}
+2025-11-12 13:35:42 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 13:35:42 - INFO - LLM提供商设置为: deepseek
+2025-11-12 13:35:42 - INFO - ✅ 柑橘知识库加载成功
+2025-11-12 13:35:42 - INFO - 结果评估器初始化完成
+2025-11-12 13:35:42 - INFO - 农业AI系统初始化完成
+2025-11-12 13:35:42 - INFO - 开始自动训练AI模型...
+2025-11-12 13:35:42 - INFO - 训练传感器数据分析模型...
+2025-11-12 13:35:42 - INFO - 生成传感器训练数据...
+2025-11-12 13:35:42 - INFO - 开始训练传感器数据模型...
+2025-11-12 13:35:42 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 13:35:42 - INFO - 训练语言翻译模型...
+2025-11-12 13:35:42 - INFO - 加载语言训练数据...
+2025-11-12 13:35:42 - INFO - 语言模型训练完成（使用DeepSeek API）
+2025-11-12 13:35:42 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 13:35:42 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 13:35:42 - INFO - LLM提供商设置为: deepseek
+2025-11-12 13:35:42 - INFO - 配置物联网传感器...
+2025-11-12 13:35:42 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 13:35:42 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 13:35:42 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 13:35:42 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 13:35:42 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 13:35:42 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 13:58:45 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:00:05 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:01:12 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:01:12 - INFO - LLM提供商设置为: deepseek
+2025-11-12 14:01:12 - INFO - ✅ 柑橘知识库加载成功
+2025-11-12 14:01:12 - INFO - 结果评估器初始化完成
+2025-11-12 14:01:12 - INFO - 农业AI系统初始化完成
+2025-11-12 14:01:12 - INFO - 开始自动训练AI模型...
+2025-11-12 14:01:12 - INFO - 训练传感器数据分析模型...
+2025-11-12 14:01:12 - INFO - 生成传感器训练数据...
+2025-11-12 14:01:12 - INFO - 开始训练传感器数据模型...
+2025-11-12 14:01:12 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 14:01:12 - INFO - 训练语言翻译模型...
+2025-11-12 14:01:12 - INFO - 加载语言训练数据...
+2025-11-12 14:01:12 - INFO - 语言模型训练完成（使用DeepSeek API）
+2025-11-12 14:01:12 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 14:01:12 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:01:12 - INFO - LLM提供商设置为: deepseek
+2025-11-12 14:01:12 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:01:12 - INFO - 配置物联网传感器...
+2025-11-12 14:01:12 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 14:01:12 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 14:01:12 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 14:01:12 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 14:01:12 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 14:01:12 - INFO - 传感器配置完成: 5个传感器
+2025-11-12 14:01:43 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:03:36 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:04:13 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:05:05 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:07:46 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:13:08 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:13:27 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:13:27 - INFO - LLM提供商设置为: deepseek
+2025-11-12 14:13:27 - INFO - ✅ 柑橘知识库加载成功
+2025-11-12 14:13:27 - INFO - 结果评估器初始化完成
+2025-11-12 14:13:27 - INFO - 农业AI系统初始化完成
+2025-11-12 14:13:27 - INFO - 开始自动训练AI模型...
+2025-11-12 14:13:27 - INFO - 训练传感器数据分析模型...
+2025-11-12 14:13:27 - INFO - 生成传感器训练数据...
+2025-11-12 14:13:27 - INFO - 开始训练传感器数据模型...
+2025-11-12 14:13:27 - INFO - 传感器模型训练完成，学习到 7 条决策规则
+2025-11-12 14:13:27 - INFO - 训练语言翻译模型...
+2025-11-12 14:13:27 - INFO - 加载语言训练数据...
+2025-11-12 14:13:27 - INFO - 语言模型训练完成（使用DeepSeek API）
+2025-11-12 14:13:27 - INFO - ✅ AI模型训练完成，系统就绪
+2025-11-12 14:13:27 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:13:27 - INFO - LLM提供商设置为: deepseek
+2025-11-12 14:13:27 - INFO - ✅ DeepSeek API密钥已设置
+2025-11-12 14:13:27 - INFO - 配置物联网传感器...
+2025-11-12 14:13:27 - INFO - 添加传感器: moisture_001 (soil_moisture)
+2025-11-12 14:13:27 - INFO - 添加传感器: temp_001 (temperature)
+2025-11-12 14:13:27 - INFO - 添加传感器: humidity_001 (humidity)
+2025-11-12 14:13:27 - INFO - 添加传感器: ph_001 (ph_sensor)
+2025-11-12 14:13:27 - INFO - 添加传感器: npk_001 (npk_sensor)
+2025-11-12 14:13:27 - INFO - 传感器配置完成: 5个传感器

@@ -1,0 +1,5 @@
+前端界面: http://localhost:3000
+
+API文档: http://localhost:8000/docs
+
+api key：sk-aec678085cfb4d8b9fbd9424ab3a738e

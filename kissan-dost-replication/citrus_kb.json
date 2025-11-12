@@ -1,0 +1,25 @@
+{
+  "citrus": [
+    {
+      "id": "citrus_001",
+      "title": "柑橘灌溉指南",
+      "content": "柑橘树在开花期需要保持土壤湿度在30%-40%，果实膨大期需要40%-50%的湿度。",
+      "keywords": ["灌溉", "浇水", "湿度", "水分"],
+      "category": "irrigation"
+    },
+    {
+      "id": "citrus_002", 
+      "title": "柑橘施肥建议",
+      "content": "春季追施氮肥促进新梢生长，夏季增施磷钾肥促进果实发育。NPK比例建议为2:1:1。",
+      "keywords": ["施肥", "营养", "NPK", "肥料"],
+      "category": "fertilization"
+    },
+    {
+      "id": "citrus_003",
+      "title": "柑橘病虫害防治",
+      "content": "注意防治红蜘蛛、蚜虫和炭疽病，保持果园通风透光，及时清理落叶。",
+      "keywords": ["病虫害", "防治", "农药", "预防"],
+      "category": "pest_control"
+    }
+  ]
+}
