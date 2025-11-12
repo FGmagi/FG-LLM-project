@@ -221,22 +221,3 @@ def getUserId(ip:str,port:str,username:str,password:str) -> Optional[str]:
     except KeyError as e:
         printLog(f"登录时 响应数据格式错误，缺少字段: {e}")
         return None
-
-class Chat:
-    def send_json_to_backend(json_data, backend_url="http://localhost:8000") -> bool:
-        try:
-            response = requests.post(
-                f"{backend_url}/api/v1/ingest",
-                json=json_data,
-                headers={"Content-Type": "application/json"},
-                timeout=5
-            )
-            if response.status_code == 200:
-                printLog(f"数据发送成功")
-                return True
-            else:
-                printLog(f"数据发送失败: {response.status_code}", "ERROR")
-                return False
-        except Exception as e:
-            printLog(f"发送数据时出错: {e}", "ERROR")
-            return False
