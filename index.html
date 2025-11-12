@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>果农助手 - 智能农业咨询系统</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>果农助手</h1>
+            <p>智能农业咨询系统</p>
+            <div class="status-indicator disconnected" id="statusIndicator">
+                ● 后端服务未连接
+            </div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-box" id="chatBox">
+                <!-- 欢迎消息将通过AI回复显示 -->
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="请输入您的问题...">
+                <button onclick="sendMessage()">发送</button>
+            </div>
+            
+            <div class="quick-actions">
+                <button class="quick-action-btn" onclick="quickAction('浇水灌溉')">💧 浇水灌溉</button>
+                <button class="quick-action-btn" onclick="quickAction('如何施肥？')">🌿 如何施肥？</button>
+                <button class="quick-action-btn" onclick="quickAction('温度怎么样？')">🌡️ 温度管理</button>
+                <button class="quick-action-btn" onclick="quickAction('病虫害防治')">🐛 病虫害防治</button>
+                <button class="quick-action-btn" onclick="quickAction('土壤管理')">🧪 土壤管理</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 初始化状态和欢迎消息
+        document.addEventListener('DOMContentLoaded', function() {
+            // 模拟连接成功
+            setTimeout(() => {
+                const statusIndicator = document.getElementById('statusIndicator');
+                
+                statusIndicator.textContent = '● 已连接';
+                statusIndicator.className = 'status-indicator connected';
+                setTimeout(() => {
+                    sendWelcomeMessage();
+                }, 500);
+                
+            }, 1000);
+        });
+        
+        function sendWelcomeMessage() {
+            const welcomeMessage = "❌ 欢迎使用果农助手！我可以为您提供柑橘种植的智能建议。\n\n您可以使用：\n\"浇水灌溉\"\n\"如何施肥？\"\n\"温度怎么样？\"\n\"病虫害防治\"\n系统消息";
+            addMessageToChat('ai', welcomeMessage);
+        }
+        
+        function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            addMessageToChat('user', message);
+            input.value = '';
+            
+            // 发送到后端
+            fetch('/chat', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({message: message})
+            })
+            .then(response => response.json())
+            .then(data => {
+                addMessageToChat('ai', data.response);
+            })
+            .catch(error => {
+                addMessageToChat('ai', '❌ 抱歉，服务暂时不可用，请稍后重试。');
+            });
+        }
+        
+        function quickAction(action) {
+            document.getElementById('userInput').value = action;
+            sendMessage();
+        }
+        
+        function addMessageToChat(sender, message) {
+            const chatBox = document.getElementById('chatBox');
+            const messageDiv = document.createElement('div');
+            
+            if (sender === 'user') {
+                messageDiv.className = 'user-msg';
+                messageDiv.textContent = '👤 ' + message;
+            } else {
+                messageDiv.className = 'ai-msg';
+                // 保留换行符
+                messageDiv.innerHTML = '🤖 ' + message.replace(/\n/g, '<br>');
+            }
+            
+            chatBox.appendChild(messageDiv);
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+        
+        // 回车发送消息
+        document.getElementById('userInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+    </script>
+</body>
+</html>
