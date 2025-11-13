@@ -138,32 +138,3 @@ class BaseModel(ABC):
                 printLog(f"模型文件为空或损坏: {model_path}")
         except Exception as e:
             printLog(f"模型加载失败: {e}")
-
-""" 传感器与农业情况数据类型 """
-@dataclass
-class SensorReading:
-    sensor_id: str
-    location: str
-    timestamp: str
-    temperature: float
-    humidity: float
-    soil_moisture: float
-    soil_ph: float
-    npk_nitrogen: float
-    npk_phosphorus: float
-    npk_potassium: float
-    
-    def to_dict(self):
-        return asdict(self)
-
-@dataclass
-class AgricultureAdvice:
-    advice_id: str
-    sensor_reading: SensorReading
-    recommendation: str
-    confidence: float
-    urgency: str
-    actions: list
-    
-    def to_dict(self):
-        return asdict(self)
