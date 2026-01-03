@@ -86,14 +86,47 @@
 2025-11-12 21:14:14 - INFO - 服务器已停止
 2025-11-12 21:14:15 - INFO - 文件完整性检查 通过
 2025-11-12 21:14:15 - INFO - 启动农业AI助手前端 成功
-2025-11-12 21:43:49 - INFO - 文件完整性检查 通过
-2025-11-12 21:43:49 - INFO - 启动农业AI助手前端 成功
-2025-11-12 21:48:12 - INFO - 文件完整性检查 通过
-2025-11-12 21:48:12 - INFO - 启动农业AI助手前端 成功
-2025-11-12 21:58:52 - INFO - 文件完整性检查 通过
-2025-11-12 21:58:52 - INFO - 启动农业AI助手前端 成功
-2025-11-12 21:59:00 - INFO - 服务器已停止
-2025-11-13 12:52:20 - INFO - 文件完整性检查 通过
-2025-11-13 12:52:20 - INFO - 启动农业AI助手前端 成功
-2025-11-13 16:40:19 - INFO - 文件完整性检查 通过
-2025-11-13 16:40:19 - INFO - 启动农业AI助手前端 成功
+2025-11-13 16:42:40 - INFO - 文件完整性检查 通过
+2025-11-13 16:42:40 - INFO - 启动农业AI助手前端 成功
+2026-01-03 16:39:39 - INFO - 文件完整性检查 通过
+2026-01-03 16:39:39 - INFO - 启动农业AI助手前端 成功
+2026-01-03 16:50:31 - INFO - 文件完整性检查 通过
+2026-01-03 16:50:31 - INFO - 启动农业AI助手前端 成功
+2026-01-03 16:51:28 - INFO - 收到登录请求: 1@192.168.1.100:9001
+2026-01-03 16:51:28 - INFO - 正在登录服务器
+2026-01-03 16:51:38 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D01D29DBE0>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 16:51:38 - INFO - 登录失败
+2026-01-03 16:53:50 - INFO - 收到登录请求: master@192.168.1.100:9001
+2026-01-03 16:53:50 - INFO - 正在登录服务器
+2026-01-03 16:54:00 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D01D227250>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 16:54:00 - INFO - 登录失败
+2026-01-03 17:01:24 - INFO - 收到登录请求: admin@192.168.1.100:9001
+2026-01-03 17:01:24 - INFO - 正在登录服务器
+2026-01-03 17:01:34 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D01D226D50>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:01:34 - INFO - 登录失败
+2026-01-03 17:01:41 - INFO - 收到登录请求: admin@192.168.1.100:9001
+2026-01-03 17:01:41 - INFO - 正在登录服务器
+2026-01-03 17:01:51 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001D01D202190>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:01:51 - INFO - 登录失败
+2026-01-03 17:02:15 - INFO - 文件完整性检查 通过
+2026-01-03 17:02:15 - INFO - 启动农业AI助手前端 成功
+2026-01-03 17:25:20 - INFO - 收到登录请求: yanshi1@192.168.1.100:9001
+2026-01-03 17:25:20 - INFO - 正在登录服务器
+2026-01-03 17:25:30 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001922FB75D30>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:25:30 - INFO - 登录失败
+2026-01-03 17:25:50 - INFO - 收到登录请求: yanshi1@192.168.1.100:9001
+2026-01-03 17:25:50 - INFO - 正在登录服务器
+2026-01-03 17:26:01 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001922FAE3250>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:26:01 - INFO - 登录失败
+2026-01-03 17:28:26 - INFO - 收到登录请求: 演示账号3@192.168.1.100:9001
+2026-01-03 17:28:26 - INFO - 正在登录服务器
+2026-01-03 17:28:36 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001922FAE2210>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:28:36 - INFO - 登录失败
+2026-01-03 17:37:39 - INFO - 收到登录请求: admin@192.168.1.100:9001
+2026-01-03 17:37:39 - INFO - 正在登录服务器
+2026-01-03 17:37:49 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001922FADE520>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:37:49 - INFO - 登录失败
+2026-01-03 17:37:54 - INFO - 收到登录请求: admin@192.168.1.100:9001
+2026-01-03 17:37:54 - INFO - 正在登录服务器
+2026-01-03 17:38:04 - INFO - 登录时 网络请求错误: HTTPConnectionPool(host='192.168.1.100', port=9001): Max retries exceeded with url: /app/Login (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001922FADEFD0>, 'Connection to 192.168.1.100 timed out. (connect timeout=10)'))
+2026-01-03 17:38:04 - INFO - 登录失败

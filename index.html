@@ -7,12 +7,57 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- 登录界面 -->
+    <div class="login-container" id="loginContainer">
+        <div class="login-box">
+            <div class="login-header">
+                <h1>果农助手</h1>
+                <p>智能农业咨询系统</p>
+            </div>
+            
+            <div class="login-form">
+                <h2>系统登录</h2>
+                <div class="form-group">
+                    <label for="serverIp">服务器地址</label>
+                    <input type="text" id="serverIp" placeholder="例如：192.168.1.100" value="192.168.1.100">
+                </div>
+                
+                <div class="form-group">
+                    <label for="serverPort">端口号</label>
+                    <input type="text" id="serverPort" placeholder="例如：9001" value="9001">
+                </div>
+                
+                <div class="form-group">
+                    <label for="username">用户名</label>
+                    <input type="text" id="username" placeholder="请输入用户名">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" id="password" placeholder="请输入密码">
+                </div>
+                
+                <div class="form-group">
+                    <button onclick="login()" class="login-btn">登录系统</button>
+                </div>
+                
+                <div class="login-hint">
+                    <p>💡 提示：请使用传感器服务器的账号密码登录</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 主聊天界面（初始隐藏） -->
+    <div class="container" id="mainContainer" style="display: none;">
         <div class="header">
             <h1>果农助手</h1>
             <p>智能农业咨询系统</p>
             <div class="status-indicator disconnected" id="statusIndicator">
                 ● 后端服务未连接
+            </div>
+            <div class="user-info" id="userInfo">
+                <!-- 用户信息将在这里显示 -->
             </div>
         </div>
         
@@ -32,28 +77,179 @@
                 <button class="quick-action-btn" onclick="quickAction('温度怎么样？')">🌡️ 温度管理</button>
                 <button class="quick-action-btn" onclick="quickAction('病虫害防治')">🐛 病虫害防治</button>
                 <button class="quick-action-btn" onclick="quickAction('土壤管理')">🧪 土壤管理</button>
+                <button class="quick-action-btn" onclick="logout()">🚪 退出登录</button>
             </div>
         </div>
     </div>
     
     <script>
-        // 初始化状态和欢迎消息
+        // 全局变量存储登录信息
+        let currentUser = null;
+        let downloaderConnected = false;
+        
+        // 初始化页面
         document.addEventListener('DOMContentLoaded', function() {
-            // 模拟连接成功
-            setTimeout(() => {
-                const statusIndicator = document.getElementById('statusIndicator');
-                
-                statusIndicator.textContent = '● 已连接';
-                statusIndicator.className = 'status-indicator connected';
-                setTimeout(() => {
-                    sendWelcomeMessage();
-                }, 500);
-                
-            }, 1000);
+            // 检查是否有缓存的登录信息
+            const savedLogin = localStorage.getItem('agricultureAssistantLogin');
+            if (savedLogin) {
+                try {
+                    const loginData = JSON.parse(savedLogin);
+                    document.getElementById('serverIp').value = loginData.serverIp || '192.168.1.100';
+                    document.getElementById('serverPort').value = loginData.serverPort || '9001';
+                    document.getElementById('username').value = loginData.username || '';
+                } catch (e) {
+                    console.error('解析缓存登录信息失败:', e);
+                }
+            }
+            
+            // 为密码框添加回车键登录功能
+            document.getElementById('password').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    login();
+                }
+            });
         });
         
+        // 登录函数
+        function login() {
+            const serverIp = document.getElementById('serverIp').value.trim();
+            const serverPort = document.getElementById('serverPort').value.trim();
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            
+            // 验证输入
+            if (!serverIp || !serverPort || !username || !password) {
+                showError('请填写完整的登录信息');
+                return;
+            }
+            
+            // 显示加载状态
+            const loginBtn = document.querySelector('.login-btn');
+            const originalText = loginBtn.textContent;
+            loginBtn.textContent = '登录中...';
+            loginBtn.disabled = true;
+            
+            // 保存登录信息到缓存
+            const loginData = {
+                serverIp,
+                serverPort,
+                username
+            };
+            localStorage.setItem('agricultureAssistantLogin', JSON.stringify(loginData));
+            
+            // 发送登录请求
+            fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    serverIp,
+                    serverPort,
+                    username,
+                    password
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // 登录成功
+                    currentUser = {
+                        username: data.username,
+                        userId: data.userId,
+                        serverIp,
+                        serverPort
+                    };
+                    
+                    // 切换到主界面
+                    document.getElementById('loginContainer').style.display = 'none';
+                    document.getElementById('mainContainer').style.display = 'block';
+                    
+                    // 更新用户信息显示
+                    updateUserInfo();
+                    
+                    // 连接成功状态
+                    const statusIndicator = document.getElementById('statusIndicator');
+                    statusIndicator.textContent = '● 传感器服务器已连接';
+                    statusIndicator.className = 'status-indicator connected';
+                    
+                    // 发送欢迎消息
+                    setTimeout(() => {
+                        sendWelcomeMessage();
+                    }, 500);
+                } else {
+                    // 登录失败
+                    showError(data.message || '登录失败');
+                }
+            })
+            .catch(error => {
+                showError('网络错误，请检查服务器连接');
+                console.error('登录错误:', error);
+            })
+            .finally(() => {
+                // 恢复按钮状态
+                loginBtn.textContent = originalText;
+                loginBtn.disabled = false;
+            });
+        }
+        
+        // 更新用户信息显示
+        function updateUserInfo() {
+            if (currentUser) {
+                const userInfoDiv = document.getElementById('userInfo');
+                userInfoDiv.innerHTML = `
+                    <div class="user-details">
+                        <span class="user-name">👤 ${currentUser.username}</span>
+                        <span class="server-info">📍 ${currentUser.serverIp}:${currentUser.serverPort}</span>
+                    </div>
+                `;
+            }
+        }
+        
+        // 显示错误消息
+        function showError(message) {
+            // 创建或更新错误提示元素
+            let errorDiv = document.querySelector('.error-message');
+            if (!errorDiv) {
+                errorDiv = document.createElement('div');
+                errorDiv.className = 'error-message';
+                document.querySelector('.login-form').appendChild(errorDiv);
+            }
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            
+            // 3秒后自动隐藏
+            setTimeout(() => {
+                errorDiv.style.display = 'none';
+            }, 3000);
+        }
+        
+        // 退出登录
+        function logout() {
+            if (confirm('确定要退出登录吗？')) {
+                // 清除登录信息
+                currentUser = null;
+                localStorage.removeItem('agricultureAssistantLogin');
+                
+                // 清除聊天内容
+                document.getElementById('chatBox').innerHTML = '';
+                
+                // 切换回登录界面
+                document.getElementById('mainContainer').style.display = 'none';
+                document.getElementById('loginContainer').style.display = 'block';
+                
+                // 重置状态指示器
+                const statusIndicator = document.getElementById('statusIndicator');
+                statusIndicator.textContent = '● 后端服务未连接';
+                statusIndicator.className = 'status-indicator disconnected';
+                
+                // 清除密码框
+                document.getElementById('password').value = '';
+            }
+        }
+        
         function sendWelcomeMessage() {
-            const welcomeMessage = "欢迎使用果农助手！我可以为您提供柑橘种植的智能建议。\n\n您可以使用：\n\"浇水灌溉\"\n\"如何施肥？\"\n\"温度怎么样？\"\n\"病虫害防治\"\n系统消息";
+            const welcomeMessage = "✅ 欢迎使用果农助手！传感器服务器连接成功。\n\n我可以为您提供柑橘种植的智能建议。\n\n您可以使用：\n\"浇水灌溉\"\n\"如何施肥？\"\n\"温度怎么样？\"\n\"病虫害防治\"\n系统消息";
             addMessageToChat('ai', welcomeMessage);
         }
         
@@ -91,11 +287,11 @@
             
             if (sender === 'user') {
                 messageDiv.className = 'user-msg';
-                messageDiv.textContent = message;
+                messageDiv.textContent = '👤 ' + message;
             } else {
                 messageDiv.className = 'ai-msg';
                 // 保留换行符
-                messageDiv.innerHTML = message.replace(/\n/g, '<br>');
+                messageDiv.innerHTML = '🤖 ' + message.replace(/\n/g, '<br>');
             }
             
             chatBox.appendChild(messageDiv);

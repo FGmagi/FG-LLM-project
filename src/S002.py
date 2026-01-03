@@ -5,11 +5,16 @@ import json
 from datetime import datetime
 import os
 from S001 import *
+from downloader import Downloader
 
 # ===========================================
 # 前端功能模式流程
 # 用户输入消息 → 前端发送 POST 请求 → do_POST 被调用 → 处理消息 → 返回AI回复 → 前端显示回复
 # ===========================================
+
+# 全局变量存储下载器实例
+g_downloader = None
+
 def checkFilesWholeness() -> bool:
     required_files = ['index.html', 'style.css']
     b = True
@@ -48,8 +53,21 @@ def startWeb(port=3000):
         printLog(f"服务器已停止")
 
 def chat(input_text):
+    """聊天处理函数，现在可以访问全局的downloader"""
+    global g_downloader
+    
+    if not g_downloader:
+        return "❌ 请先登录传感器服务器才能使用完整功能。\n\n您当前处于演示模式，只能使用基本问答功能。"
+    
     if not DEMO:
-        return releaseIO(input_text)
+        # 如果有登录的downloader，可以获取传感器数据
+        try:
+            # 这里可以调用downloader获取传感器数据
+            # 例如：sensor_data = g_downloader.getHistoricalSensorData(...)
+            return releaseIO(input_text)
+        except Exception as e:
+            printLog(f"调用传感器数据时出错: {e}")
+            return f"❌ 获取传感器数据时出错: {str(e)}"
     else:
         return demoIO(input_text)
 
@@ -65,6 +83,61 @@ def getWelcomeMessage():
     """
     return msg
 
+def handleLogin(request_data):
+    """处理登录请求"""
+    global g_downloader
+    
+    try:
+        server_ip = request_data.get('serverIp', '')
+        server_port = request_data.get('serverPort', '')
+        username = request_data.get('username', '')
+        password = request_data.get('password', '')
+        
+        printLog(f"收到登录请求: {username}@{server_ip}:{server_port}")
+        
+        # 验证输入
+        if not all([server_ip, server_port, username, password]):
+            return {
+                'success': False,
+                'message': '请填写完整的登录信息'
+            }
+        
+        # 创建downloader实例并尝试登录
+        try:
+            downloader = Downloader(server_ip=server_ip, server_port=server_port)
+            downloader.logIn(username=username, password=password)
+            
+            if downloader.isLogIn():
+                # 登录成功，保存全局实例
+                g_downloader = downloader
+                printLog(f"用户 {username} 登录成功")
+                
+                return {
+                    'success': True,
+                    'message': '登录成功',
+                    'username': username,
+                    'userId': downloader.userid
+                }
+            else:
+                return {
+                    'success': False,
+                    'message': '登录失败，请检查用户名和密码'
+                }
+                
+        except Exception as e:
+            printLog(f"登录过程出错: {e}")
+            return {
+                'success': False,
+                'message': f'连接服务器失败: {str(e)}'
+            }
+            
+    except Exception as e:
+        printLog(f"处理登录请求时出错: {e}")
+        return {
+            'success': False,
+            'message': f'服务器内部错误: {str(e)}'
+        }
+
 class SimpleChatHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         if self.path == '/':
@@ -76,6 +149,9 @@ class SimpleChatHandler(http.server.SimpleHTTPRequestHandler):
         elif self.path == '/welcome':
             # 提供欢迎消息
             self.serveWelcomeMessage()
+        elif self.path == '/status':
+            # 提供服务器状态
+            self.serveStatus()
         elif self.path == '/chat':
             # 处理聊天请求（GET方式返回错误）
             self.send_error(405, "Method Not Allowed")
@@ -125,27 +201,69 @@ class SimpleChatHandler(http.server.SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(json.dumps(response_data, ensure_ascii=False).encode('utf-8'))
     
+    def serveStatus(self):
+        """提供服务器状态"""
+        global g_downloader
+        
+        status = {
+            "sensor_connected": g_downloader is not None and g_downloader.isLogIn(),
+            "demo_mode": DEMO,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        if g_downloader and g_downloader.isLogIn():
+            status["username"] = g_downloader.username
+            status["userid"] = g_downloader.userid
+        
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json; charset=utf-8')
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.end_headers()
+        self.wfile.write(json.dumps(status, ensure_ascii=False).encode('utf-8'))
+    
     def do_POST(self):
         if self.path == '/chat':
-            content_length = int(self.headers['Content-Length'])
-            post_data = self.rfile.read(content_length)
-            request_data = json.loads(post_data.decode('utf-8'))
-            
-            user_message = request_data.get('message', '')
-            response = chat(user_message)
-            
-            self.send_response(200)
-            self.send_header('Content-type', 'application/json; charset=utf-8')
-            self.send_header('Access-Control-Allow-Origin', '*')
-            self.end_headers()
-            
-            response_data = {
-                "response": response,
-                "timestamp": datetime.now().isoformat()
-            }
-            self.wfile.write(json.dumps(response_data, ensure_ascii=False).encode('utf-8'))
+            self.handleChatRequest()
+        elif self.path == '/login':
+            self.handleLoginRequest()
         else:
             self.send_error(404)
+    
+    def handleChatRequest(self):
+        """处理聊天请求"""
+        content_length = int(self.headers['Content-Length'])
+        post_data = self.rfile.read(content_length)
+        request_data = json.loads(post_data.decode('utf-8'))
+        
+        user_message = request_data.get('message', '')
+        response = chat(user_message)
+        
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json; charset=utf-8')
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.end_headers()
+        
+        response_data = {
+            "response": response,
+            "timestamp": datetime.now().isoformat()
+        }
+        self.wfile.write(json.dumps(response_data, ensure_ascii=False).encode('utf-8'))
+    
+    def handleLoginRequest(self):
+        """处理登录请求"""
+        content_length = int(self.headers['Content-Length'])
+        post_data = self.rfile.read(content_length)
+        request_data = json.loads(post_data.decode('utf-8'))
+        
+        # 调用登录处理函数
+        login_result = handleLogin(request_data)
+        
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json; charset=utf-8')
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.end_headers()
+        
+        self.wfile.write(json.dumps(login_result, ensure_ascii=False).encode('utf-8'))
 
 def demoIO(input_text):
     """通过字符串识别，提供固定反馈字符串"""

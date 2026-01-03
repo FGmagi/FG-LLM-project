@@ -1,4 +1,157 @@
-/* style.css - 修改版 */
+/* 原有样式保持不变，添加以下新样式 */
+
+/* 登录容器 */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(121, 113, 213);
+    padding: 20px;
+}
+
+.login-box {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-header {
+    background: linear-gradient(135deg, rgb(7, 96, 86) 0%, rgb(18, 139, 125) 100%);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.login-header h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login-header p {
+    font-size: 16px;
+    opacity: 0.95;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    padding: 30px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 22px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #0ec76e;
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background: rgb(18, 139, 91);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: rgb(14, 116, 76);
+    transform: translateY(-2px);
+}
+
+.login-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.login-hint {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #e0e0e0;
+}
+
+.login-hint p {
+    margin: 0;
+}
+
+.error-message {
+    background: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ffcdd2;
+    display: none;
+}
+
+/* 用户信息样式 */
+.user-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.user-name {
+    color: white;
+    font-weight: bold;
+}
+
+.server-info {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+/* 原有的所有样式保持不变 */
 * {
     margin: 0;
     padding: 0;
@@ -332,9 +485,21 @@ body {
         gap: 8px;
         margin-top: 8px;
     }
-}
-
-.quick-actions-wrapper {
-    width: 100%;
-    position: relative;
+    
+    /* 登录界面响应式调整 */
+    .login-container {
+        padding: 10px;
+    }
+    
+    .login-box {
+        max-width: 100%;
+    }
+    
+    .login-form {
+        padding: 20px;
+    }
+    
+    .login-form h2 {
+        font-size: 20px;
+    }
 }
