@@ -4,7 +4,7 @@
     <title>果农助手 - 智能农业咨询系统</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
     <div class="container">
@@ -23,7 +23,7 @@
             
             <div class="input-container">
                 <input type="text" id="userInput" placeholder="请输入您的问题...">
-                <button onclick="sendMessage()">发送</button>
+                <button id="sendBtn">发送</button>
             </div>
             
             <div class="quick-actions">
@@ -37,54 +37,23 @@
     </div>
     
     <script>
-        // 初始化状态和欢迎消息
-        document.addEventListener('DOMContentLoaded', function() {
-            // 模拟连接成功
-            setTimeout(() => {
+        async function updateStatus() {
+            try {
+                const r = await fetch('/status');
+                const j = await r.json();
                 const statusIndicator = document.getElementById('statusIndicator');
-                
-                statusIndicator.textContent = '● 已连接';
-                statusIndicator.className = 'status-indicator connected';
-                setTimeout(() => {
-                    sendWelcomeMessage();
-                }, 500);
-                
-            }, 1000);
-        });
-        
-        function sendWelcomeMessage() {
-            const welcomeMessage = "❌ 欢迎使用果农助手！我可以为您提供柑橘种植的智能建议。\n\n您可以使用：\n\"浇水灌溉\"\n\"如何施肥？\"\n\"温度怎么样？\"\n\"病虫害防治\"\n系统消息";
-            addMessageToChat('ai', welcomeMessage);
+                if (j.data_file_exists) {
+                    statusIndicator.textContent = '● 已连接（数据文件存在）';
+                    statusIndicator.className = 'status-indicator connected';
+                } else {
+                    statusIndicator.textContent = '● 已连接（但数据文件缺失）';
+                    statusIndicator.className = 'status-indicator disconnected';
+                }
+            } catch (e) {
+                // ignore
+            }
         }
-        
-        function sendMessage() {
-            const input = document.getElementById('userInput');
-            const message = input.value.trim();
-            if (!message) return;
-            
-            addMessageToChat('user', message);
-            input.value = '';
-            
-            // 发送到后端
-            fetch('/chat', {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({message: message})
-            })
-            .then(response => response.json())
-            .then(data => {
-                addMessageToChat('ai', data.response);
-            })
-            .catch(error => {
-                addMessageToChat('ai', '❌ 抱歉，服务暂时不可用，请稍后重试。');
-            });
-        }
-        
-        function quickAction(action) {
-            document.getElementById('userInput').value = action;
-            sendMessage();
-        }
-        
+
         function addMessageToChat(sender, message) {
             const chatBox = document.getElementById('chatBox');
             const messageDiv = document.createElement('div');
@@ -94,7 +63,6 @@
                 messageDiv.textContent = '👤 ' + message;
             } else {
                 messageDiv.className = 'ai-msg';
-                // 保留换行符
                 messageDiv.innerHTML = '🤖 ' + message.replace(/\n/g, '<br>');
             }
             
@@ -102,11 +70,39 @@
             chatBox.scrollTop = chatBox.scrollHeight;
         }
         
-        // 回车发送消息
-        document.getElementById('userInput').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                sendMessage();
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+            if (!message) return;
+            addMessageToChat('user', message);
+            input.value = '';
+            try {
+                const resp = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message: message})
+                });
+                const j = await resp.json();
+                addMessageToChat('ai', j.response);
+            } catch (e) {
+                addMessageToChat('ai', '❌ 抱歉，服务暂时不可用，请稍后重试。');
             }
+        }
+        
+        function quickAction(action) {
+            document.getElementById('userInput').value = action;
+            sendMessage();
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            updateStatus();
+            setTimeout(() => {
+                addMessageToChat('ai', '欢迎使用果农助手！请输入问题，例如："要不要浇水？" 或使用下方快捷按钮。');
+            }, 300);
+            document.getElementById('sendBtn').addEventListener('click', sendMessage);
+            document.getElementById('userInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') sendMessage();
+            });
         });
     </script>
 </body>
