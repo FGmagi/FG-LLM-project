@@ -11,50 +11,57 @@ import os
 import re
 import json
 import requests
-from typing import Tuple
+from typing import Tuple, Optional
 from .config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL, SYSTEM_PROMPT_TEMPLATE, MOCK_THRESHOLDS
 
-# 超时设置
+# 超时设置（秒）
 REQUEST_TIMEOUT = 20
 
 def _extract_numbers_from_summary(summary_str: str) -> dict:
     """
-    从 summary_str 中提取平均气温、累计降雨、当前土壤水分等数字（若存在）。
-    summary_str 是 data_loader 返回的简短统计文本。
+    从 data_loader 返回的英文 summary 中提取关键数值（如果存在）。
+    例如 summary 可能包含：
+      "Mean air temp: 17.6 C over 24 records | Total rainfall: 0.0 mm | Latest soil VWC: 27.99 %"
+    返回字典：{'mean_temp': float, 'total_rain': float, 'last_vwc': float}
     """
     res = {}
     if not summary_str:
         return res
-    # 简单正则匹配数字
-    m = re.search(r"平均气温: *([0-9.+-]+)", summary_str)
+
+    m = re.search(r"Mean\s+air\s+temp[:\s]*([0-9.+-]+)\s*C", summary_str, flags=re.IGNORECASE)
     if m:
         try:
             res['mean_temp'] = float(m.group(1))
         except:
             pass
-    m = re.search(r"累计降雨: *([0-9.+-]+)", summary_str)
+
+    m = re.search(r"Total\s+rainfall[:\s]*([0-9.+-]+)\s*mm", summary_str, flags=re.IGNORECASE)
     if m:
         try:
             res['total_rain'] = float(m.group(1))
         except:
             pass
-    m = re.search(r"当前土壤水分\(最近观测\): *([0-9.+-]+)", summary_str)
+
+    m = re.search(r"Latest\s+soil\s+VWC[:\s]*([0-9.+-]+)\s*%?", summary_str, flags=re.IGNORECASE)
     if m:
         try:
             res['last_vwc'] = float(m.group(1))
         except:
             pass
+
     return res
 
-def get_ai_response(user_message: str, data_context: str, summary_str: str) -> str:
-    """
-    将用户消息与 data_context 放入 system prompt，然后调用远端 LLM（DeepSeek）。
-    如果 DEEPSEEK_API_KEY 未配置，则使用本地 mock 策略返回启发式建议（便于测试）。
-    返回字符串（LLM 回复文本）
-    """
-    system_prompt = SYSTEM_PROMPT_TEMPLATE.format(data_context=data_context)
 
-    # 如果没有配置 API KEY，使用本地 mock 策略
+def get_ai_response(user_message: str, data_context: str, summary_str: str, system_prompt_template: Optional[str] = None) -> str:
+    """
+    将 user_message 与 data_context（紧凑 CSV + summary）组合到 system prompt，并调用远端 LLM（DeepSeek）。
+    如果未配置 DEEPSEEK_API_KEY，则使用本地 _mock_response 返回启发式建议。
+    返回 LLM 的回复文本（字符串）。
+    """
+    template = system_prompt_template if system_prompt_template is not None else SYSTEM_PROMPT_TEMPLATE
+    system_prompt = template.format(data_context=data_context)
+
+    # 若无 API KEY，使用本地 mock 策略
     if not DEEPSEEK_API_KEY:
         return _mock_response(user_message, summary_str)
 
@@ -81,22 +88,26 @@ def get_ai_response(user_message: str, data_context: str, summary_str: str) -> s
         resp.raise_for_status()
         j = resp.json()
         # 兼容不同厂商 response 结构
-        if 'choices' in j and len(j['choices'])>0:
+        if 'choices' in j and len(j['choices']) > 0:
             c = j['choices'][0]
-            if 'message' in c and 'content' in c['message']:
-                return c['message']['content']
-            if 'text' in c:
-                return c['text']
-        # 兜底
+            if isinstance(c, dict):
+                # OpenAI-like: c['message']['content']
+                if 'message' in c and isinstance(c['message'], dict) and 'content' in c['message']:
+                    return c['message']['content']
+                # 另一种可能：choices[].text
+                if 'text' in c:
+                    return c['text']
+        # 兜底：返回完整 JSON 字符串便于调试
         return json.dumps(j, ensure_ascii=False, indent=2)
     except Exception as e:
         # 在 API 调用异常时返回错误信息（并给出 mock 作为备选）
         return f"LLM API 调用失败: {e}\n\n（已使用本地启发式建议代替）\n\n" + _mock_response(user_message, summary_str)
 
+
 def _mock_response(user_message: str, summary_str: str) -> str:
     """
     简单启发式回答器：从 summary_str 中提取关键数值并给出安全、易懂的建议。
-    目的是离线调试前端/后端连接逻辑以及验证 prompt 效果。
+    便于离线调试前端/后端连接逻辑以及验证 prompt 效果。
     """
     nums = _extract_numbers_from_summary(summary_str)
     mean_temp = nums.get('mean_temp')
