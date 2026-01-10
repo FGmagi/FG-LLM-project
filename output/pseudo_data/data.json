@@ -6,7 +6,7 @@
     "humidity": 66.0,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 28.0
+    "soil_vwc": 27.99
   },
   {
     "timestamp": "2025-05-01 01:00:00",
@@ -15,7 +15,7 @@
     "humidity": 70.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 28.0
+    "soil_vwc": 27.98
   },
   {
     "timestamp": "2025-05-01 02:00:00",
@@ -24,7 +24,7 @@
     "humidity": 72.6,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 28.0
+    "soil_vwc": 27.98
   },
   {
     "timestamp": "2025-05-01 03:00:00",
@@ -33,7 +33,7 @@
     "humidity": 76.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 28.0
+    "soil_vwc": 27.97
   },
   {
     "timestamp": "2025-05-01 04:00:00",
@@ -42,7 +42,7 @@
     "humidity": 81.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 28.0
+    "soil_vwc": 27.96
   },
   {
     "timestamp": "2025-05-01 05:00:00",
@@ -51,7 +51,7 @@
     "humidity": 81.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 28.0
+    "soil_vwc": 27.95
   },
   {
     "timestamp": "2025-05-01 06:00:00",
@@ -60,7 +60,7 @@
     "humidity": 81.2,
     "rainfall": 0.0,
     "solar_rad": 3.0,
-    "soil_vwc": 27.9
+    "soil_vwc": 27.94
   },
   {
     "timestamp": "2025-05-01 07:00:00",
@@ -69,7 +69,7 @@
     "humidity": 82.6,
     "rainfall": 0.0,
     "solar_rad": 43.0,
-    "soil_vwc": 27.9
+    "soil_vwc": 27.94
   },
   {
     "timestamp": "2025-05-01 08:00:00",
@@ -78,7 +78,7 @@
     "humidity": 80.4,
     "rainfall": 0.0,
     "solar_rad": 103.0,
-    "soil_vwc": 27.9
+    "soil_vwc": 27.86
   },
   {
     "timestamp": "2025-05-01 09:00:00",
@@ -87,7 +87,7 @@
     "humidity": 78.1,
     "rainfall": 0.0,
     "solar_rad": 185.0,
-    "soil_vwc": 27.8
+    "soil_vwc": 27.76
   },
   {
     "timestamp": "2025-05-01 10:00:00",
@@ -96,7 +96,7 @@
     "humidity": 76.4,
     "rainfall": 0.0,
     "solar_rad": 276.0,
-    "soil_vwc": 27.6
+    "soil_vwc": 27.65
   },
   {
     "timestamp": "2025-05-01 11:00:00",
@@ -105,7 +105,7 @@
     "humidity": 74.5,
     "rainfall": 0.0,
     "solar_rad": 358.0,
-    "soil_vwc": 27.5
+    "soil_vwc": 27.51
   },
   {
     "timestamp": "2025-05-01 12:00:00",
@@ -114,7 +114,7 @@
     "humidity": 73.3,
     "rainfall": 0.0,
     "solar_rad": 431.0,
-    "soil_vwc": 27.4
+    "soil_vwc": 27.36
   },
   {
     "timestamp": "2025-05-01 13:00:00",
@@ -123,7 +123,7 @@
     "humidity": 72.3,
     "rainfall": 0.0,
     "solar_rad": 482.0,
-    "soil_vwc": 27.2
+    "soil_vwc": 27.19
   },
   {
     "timestamp": "2025-05-01 14:00:00",
@@ -132,7 +132,7 @@
     "humidity": 69.8,
     "rainfall": 0.0,
     "solar_rad": 518.0,
-    "soil_vwc": 27.0
+    "soil_vwc": 27.01
   },
   {
     "timestamp": "2025-05-01 15:00:00",
@@ -141,7 +141,7 @@
     "humidity": 69.8,
     "rainfall": 0.0,
     "solar_rad": 523.0,
-    "soil_vwc": 26.8
+    "soil_vwc": 26.82
   },
   {
     "timestamp": "2025-05-01 16:00:00",
@@ -150,7 +150,7 @@
     "humidity": 69.9,
     "rainfall": 0.0,
     "solar_rad": 499.0,
-    "soil_vwc": 26.6
+    "soil_vwc": 26.64
   },
   {
     "timestamp": "2025-05-01 17:00:00",
@@ -159,7 +159,7 @@
     "humidity": 69.9,
     "rainfall": 0.0,
     "solar_rad": 451.0,
-    "soil_vwc": 26.5
+    "soil_vwc": 26.48
   },
   {
     "timestamp": "2025-05-01 18:00:00",
@@ -168,7 +168,7 @@
     "humidity": 73.1,
     "rainfall": 0.0,
     "solar_rad": 376.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.33
   },
   {
     "timestamp": "2025-05-01 19:00:00",
@@ -177,7 +177,7 @@
     "humidity": 74.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.32
   },
   {
     "timestamp": "2025-05-01 20:00:00",
@@ -186,7 +186,7 @@
     "humidity": 75.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.31
   },
   {
     "timestamp": "2025-05-01 21:00:00",
@@ -213,7 +213,7 @@
     "humidity": 78.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.29
   },
   {
     "timestamp": "2025-05-02 00:00:00",
@@ -222,7 +222,7 @@
     "humidity": 80.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.28
   },
   {
     "timestamp": "2025-05-02 01:00:00",
@@ -231,7 +231,7 @@
     "humidity": 81.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.27
   },
   {
     "timestamp": "2025-05-02 02:00:00",
@@ -240,7 +240,7 @@
     "humidity": 83.6,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.26
   },
   {
     "timestamp": "2025-05-02 03:00:00",
@@ -249,7 +249,7 @@
     "humidity": 84.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 26.26
   },
   {
     "timestamp": "2025-05-02 04:00:00",
@@ -258,7 +258,7 @@
     "humidity": 85.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.2
+    "soil_vwc": 26.25
   },
   {
     "timestamp": "2025-05-02 05:00:00",
@@ -267,7 +267,7 @@
     "humidity": 84.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 26.2
+    "soil_vwc": 26.24
   },
   {
     "timestamp": "2025-05-02 06:00:00",
@@ -276,7 +276,7 @@
     "humidity": 83.4,
     "rainfall": 0.0,
     "solar_rad": 10.0,
-    "soil_vwc": 26.2
+    "soil_vwc": 26.23
   },
   {
     "timestamp": "2025-05-02 07:00:00",
@@ -285,7 +285,7 @@
     "humidity": 82.7,
     "rainfall": 0.0,
     "solar_rad": 53.0,
-    "soil_vwc": 26.2
+    "soil_vwc": 26.23
   },
   {
     "timestamp": "2025-05-02 08:00:00",
@@ -294,7 +294,7 @@
     "humidity": 81.2,
     "rainfall": 0.0,
     "solar_rad": 119.0,
-    "soil_vwc": 26.2
+    "soil_vwc": 26.15
   },
   {
     "timestamp": "2025-05-02 09:00:00",
@@ -303,7 +303,7 @@
     "humidity": 81.0,
     "rainfall": 0.0,
     "solar_rad": 200.0,
-    "soil_vwc": 26.0
+    "soil_vwc": 26.05
   },
   {
     "timestamp": "2025-05-02 10:00:00",
@@ -312,7 +312,7 @@
     "humidity": 78.4,
     "rainfall": 0.0,
     "solar_rad": 285.0,
-    "soil_vwc": 25.9
+    "soil_vwc": 25.94
   },
   {
     "timestamp": "2025-05-02 11:00:00",
@@ -321,7 +321,7 @@
     "humidity": 76.2,
     "rainfall": 0.0,
     "solar_rad": 374.0,
-    "soil_vwc": 25.8
+    "soil_vwc": 25.81
   },
   {
     "timestamp": "2025-05-02 12:00:00",
@@ -330,7 +330,7 @@
     "humidity": 72.4,
     "rainfall": 0.0,
     "solar_rad": 445.0,
-    "soil_vwc": 25.7
+    "soil_vwc": 25.66
   },
   {
     "timestamp": "2025-05-02 13:00:00",
@@ -348,7 +348,7 @@
     "humidity": 70.8,
     "rainfall": 0.0,
     "solar_rad": 534.0,
-    "soil_vwc": 25.3
+    "soil_vwc": 25.33
   },
   {
     "timestamp": "2025-05-02 15:00:00",
@@ -357,7 +357,7 @@
     "humidity": 70.1,
     "rainfall": 0.0,
     "solar_rad": 545.0,
-    "soil_vwc": 25.2
+    "soil_vwc": 25.16
   },
   {
     "timestamp": "2025-05-02 16:00:00",
@@ -366,7 +366,7 @@
     "humidity": 69.5,
     "rainfall": 0.0,
     "solar_rad": 531.0,
-    "soil_vwc": 25.0
+    "soil_vwc": 24.99
   },
   {
     "timestamp": "2025-05-02 17:00:00",
@@ -375,7 +375,7 @@
     "humidity": 70.0,
     "rainfall": 0.0,
     "solar_rad": 487.0,
-    "soil_vwc": 24.8
+    "soil_vwc": 24.83
   },
   {
     "timestamp": "2025-05-02 18:00:00",
@@ -384,7 +384,7 @@
     "humidity": 71.5,
     "rainfall": 0.0,
     "solar_rad": 412.0,
-    "soil_vwc": 24.7
+    "soil_vwc": 24.69
   },
   {
     "timestamp": "2025-05-02 19:00:00",
@@ -393,7 +393,7 @@
     "humidity": 72.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.7
+    "soil_vwc": 24.68
   },
   {
     "timestamp": "2025-05-02 20:00:00",
@@ -402,7 +402,7 @@
     "humidity": 75.2,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.7
+    "soil_vwc": 24.67
   },
   {
     "timestamp": "2025-05-02 21:00:00",
@@ -411,7 +411,7 @@
     "humidity": 76.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.7
+    "soil_vwc": 24.67
   },
   {
     "timestamp": "2025-05-02 22:00:00",
@@ -420,2391 +420,1959 @@
     "humidity": 77.6,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.7
+    "soil_vwc": 24.66
   },
   {
     "timestamp": "2025-05-02 23:00:00",
     "scene_tag": "normal_spring",
     "air_temp": 19.5,
     "humidity": 80.7,
-    "rainfall": 3.9,
+    "rainfall": 3.91,
     "solar_rad": 0.0,
-    "soil_vwc": 25.3
+    "soil_vwc": 24.99
   },
   {
     "timestamp": "2025-05-03 00:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.4,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 20.3,
     "humidity": 85.0,
-    "rainfall": 3.1,
+    "rainfall": 2.82,
     "solar_rad": 0.0,
-    "soil_vwc": 25.9
+    "soil_vwc": 25.23
   },
   {
     "timestamp": "2025-05-03 01:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 17.8,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 21.3,
     "humidity": 86.9,
-    "rainfall": 2.5,
+    "rainfall": 2.07,
     "solar_rad": 0.0,
-    "soil_vwc": 26.3
+    "soil_vwc": 25.41
   },
   {
     "timestamp": "2025-05-03 02:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 17.0,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 21.8,
     "humidity": 90.7,
-    "rainfall": 2.0,
+    "rainfall": 1.5,
     "solar_rad": 0.0,
-    "soil_vwc": 26.7
+    "soil_vwc": 25.54
   },
   {
     "timestamp": "2025-05-03 03:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 16.4,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 22.3,
     "humidity": 92.2,
-    "rainfall": 1.7,
+    "rainfall": 1.13,
     "solar_rad": 0.0,
-    "soil_vwc": 27.0
+    "soil_vwc": 25.64
   },
   {
     "timestamp": "2025-05-03 04:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 16.1,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 23.0,
     "humidity": 93.6,
-    "rainfall": 1.7,
+    "rainfall": 0.92,
     "solar_rad": 0.0,
-    "soil_vwc": 27.3
+    "soil_vwc": 25.72
   },
   {
     "timestamp": "2025-05-03 05:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 15.8,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 23.6,
     "humidity": 93.1,
-    "rainfall": 1.3,
+    "rainfall": 0.68,
     "solar_rad": 0.0,
-    "soil_vwc": 27.5
+    "soil_vwc": 25.78
   },
   {
     "timestamp": "2025-05-03 06:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 15.6,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 24.2,
     "humidity": 91.8,
-    "rainfall": 2.1,
+    "rainfall": 0.78,
     "solar_rad": 4.0,
-    "soil_vwc": 27.9
+    "soil_vwc": 25.84
   },
   {
     "timestamp": "2025-05-03 07:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 15.5,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 24.9,
     "humidity": 94.6,
-    "rainfall": 2.2,
+    "rainfall": 0.72,
     "solar_rad": 28.0,
-    "soil_vwc": 28.3
+    "soil_vwc": 25.9
   },
   {
     "timestamp": "2025-05-03 08:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 15.6,
-    "humidity": 90.3,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 25.8,
+    "humidity": 81.5,
     "rainfall": 0.0,
     "solar_rad": 62.0,
-    "soil_vwc": 28.3
+    "soil_vwc": 25.89
   },
   {
     "timestamp": "2025-05-03 09:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 15.8,
-    "humidity": 92.0,
-    "rainfall": 0.3,
-    "solar_rad": 105.0,
-    "soil_vwc": 28.3
+    "scene_tag": "summer_heatwave",
+    "air_temp": 26.7,
+    "humidity": 72.9,
+    "rainfall": 0.0,
+    "solar_rad": 125.0,
+    "soil_vwc": 25.77
   },
   {
     "timestamp": "2025-05-03 10:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 16.3,
-    "humidity": 93.5,
-    "rainfall": 1.0,
-    "solar_rad": 135.0,
-    "soil_vwc": 28.4
+    "scene_tag": "summer_heatwave",
+    "air_temp": 28.2,
+    "humidity": 62.9,
+    "rainfall": 0.0,
+    "solar_rad": 211.0,
+    "soil_vwc": 25.62
   },
   {
     "timestamp": "2025-05-03 11:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 16.7,
-    "humidity": 93.0,
-    "rainfall": 1.8,
-    "solar_rad": 168.0,
-    "soil_vwc": 28.6
+    "scene_tag": "summer_heatwave",
+    "air_temp": 29.7,
+    "humidity": 56.0,
+    "rainfall": 0.0,
+    "solar_rad": 298.0,
+    "soil_vwc": 25.44
   },
   {
     "timestamp": "2025-05-03 12:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 17.3,
-    "humidity": 91.6,
-    "rainfall": 1.8,
-    "solar_rad": 180.0,
-    "soil_vwc": 28.8
+    "scene_tag": "summer_heatwave",
+    "air_temp": 31.1,
+    "humidity": 49.4,
+    "rainfall": 0.0,
+    "solar_rad": 380.0,
+    "soil_vwc": 25.22
   },
   {
     "timestamp": "2025-05-03 13:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 17.6,
-    "humidity": 92.3,
-    "rainfall": 1.4,
-    "solar_rad": 188.0,
-    "soil_vwc": 29.0
+    "scene_tag": "summer_heatwave",
+    "air_temp": 32.1,
+    "humidity": 43.4,
+    "rainfall": 0.0,
+    "solar_rad": 444.0,
+    "soil_vwc": 24.99
   },
   {
     "timestamp": "2025-05-03 14:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.0,
-    "humidity": 91.0,
-    "rainfall": 1.5,
-    "solar_rad": 191.0,
-    "soil_vwc": 29.2
+    "scene_tag": "summer_heatwave",
+    "air_temp": 32.9,
+    "humidity": 38.7,
+    "rainfall": 0.0,
+    "solar_rad": 486.0,
+    "soil_vwc": 24.74
   },
   {
     "timestamp": "2025-05-03 15:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.0,
-    "humidity": 92.9,
-    "rainfall": 1.9,
-    "solar_rad": 184.0,
-    "soil_vwc": 29.4
+    "scene_tag": "summer_heatwave",
+    "air_temp": 33.8,
+    "humidity": 35.9,
+    "rainfall": 0.0,
+    "solar_rad": 515.0,
+    "soil_vwc": 24.47
   },
   {
     "timestamp": "2025-05-03 16:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.4,
-    "humidity": 93.4,
-    "rainfall": 1.6,
-    "solar_rad": 173.0,
-    "soil_vwc": 29.6
+    "scene_tag": "summer_heatwave",
+    "air_temp": 34.2,
+    "humidity": 33.9,
+    "rainfall": 0.0,
+    "solar_rad": 509.0,
+    "soil_vwc": 24.21
   },
   {
     "timestamp": "2025-05-03 17:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.5,
-    "humidity": 94.2,
-    "rainfall": 1.8,
-    "solar_rad": 162.0,
-    "soil_vwc": 29.8
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.1,
+    "humidity": 33.5,
+    "rainfall": 0.0,
+    "solar_rad": 477.0,
+    "soil_vwc": 23.96
   },
   {
     "timestamp": "2025-05-03 18:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.5,
-    "humidity": 94.7,
-    "rainfall": 1.6,
-    "solar_rad": 138.0,
-    "soil_vwc": 30.0
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.3,
+    "humidity": 31.5,
+    "rainfall": 0.0,
+    "solar_rad": 420.0,
+    "soil_vwc": 23.74
   },
   {
     "timestamp": "2025-05-03 19:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.3,
-    "humidity": 96.8,
-    "rainfall": 1.9,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.7,
+    "humidity": 32.9,
+    "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 30.3
+    "soil_vwc": 23.72
   },
   {
     "timestamp": "2025-05-03 20:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.4,
-    "humidity": 95.9,
-    "rainfall": 1.4,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.6,
+    "humidity": 34.8,
+    "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 30.6
+    "soil_vwc": 23.71
   },
   {
     "timestamp": "2025-05-03 21:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 18.0,
-    "humidity": 96.3,
-    "rainfall": 1.9,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.2,
+    "humidity": 35.8,
+    "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 30.9
+    "soil_vwc": 23.7
   },
   {
     "timestamp": "2025-05-03 22:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 17.5,
-    "humidity": 94.8,
-    "rainfall": 1.8,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.2,
+    "humidity": 37.9,
+    "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.2
+    "soil_vwc": 23.69
   },
   {
     "timestamp": "2025-05-03 23:00:00",
-    "scene_tag": "normal_spring",
-    "air_temp": 17.0,
-    "humidity": 94.6,
-    "rainfall": 1.9,
+    "scene_tag": "summer_heatwave",
+    "air_temp": 35.4,
+    "humidity": 40.8,
+    "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.6
+    "soil_vwc": 23.67
   },
   {
     "timestamp": "2025-05-04 00:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 19.0,
-    "humidity": 83.3,
+    "air_temp": 34.8,
+    "humidity": 41.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.6
+    "soil_vwc": 23.66
   },
   {
     "timestamp": "2025-05-04 01:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 20.5,
-    "humidity": 75.3,
+    "air_temp": 34.5,
+    "humidity": 44.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.6
+    "soil_vwc": 23.65
   },
   {
     "timestamp": "2025-05-04 02:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 21.5,
-    "humidity": 68.7,
+    "air_temp": 34.1,
+    "humidity": 44.2,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.5
+    "soil_vwc": 23.64
   },
   {
     "timestamp": "2025-05-04 03:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 22.3,
-    "humidity": 64.9,
+    "air_temp": 33.8,
+    "humidity": 45.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.5
+    "soil_vwc": 23.63
   },
   {
     "timestamp": "2025-05-04 04:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 23.4,
-    "humidity": 61.4,
+    "air_temp": 33.7,
+    "humidity": 46.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.5
+    "soil_vwc": 23.61
   },
   {
     "timestamp": "2025-05-04 05:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 24.5,
-    "humidity": 58.5,
+    "air_temp": 33.6,
+    "humidity": 45.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 31.5
+    "soil_vwc": 23.6
   },
   {
     "timestamp": "2025-05-04 06:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 25.6,
-    "humidity": 54.4,
+    "air_temp": 33.7,
+    "humidity": 43.6,
     "rainfall": 0.0,
-    "solar_rad": 24.0,
-    "soil_vwc": 31.5
+    "solar_rad": 19.0,
+    "soil_vwc": 23.59
   },
   {
     "timestamp": "2025-05-04 07:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 26.8,
-    "humidity": 49.4,
+    "air_temp": 33.4,
+    "humidity": 40.9,
     "rainfall": 0.0,
-    "solar_rad": 72.0,
-    "soil_vwc": 31.5
+    "solar_rad": 73.0,
+    "soil_vwc": 23.57
   },
   {
     "timestamp": "2025-05-04 08:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 27.9,
-    "humidity": 46.7,
+    "air_temp": 34.0,
+    "humidity": 39.5,
     "rainfall": 0.0,
-    "solar_rad": 153.0,
-    "soil_vwc": 31.3
+    "solar_rad": 154.0,
+    "soil_vwc": 23.44
   },
   {
     "timestamp": "2025-05-04 09:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 28.9,
-    "humidity": 42.0,
+    "air_temp": 34.2,
+    "humidity": 38.0,
     "rainfall": 0.0,
-    "solar_rad": 230.0,
-    "soil_vwc": 31.1
+    "solar_rad": 240.0,
+    "soil_vwc": 23.28
   },
   {
     "timestamp": "2025-05-04 10:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 30.2,
-    "humidity": 38.6,
+    "air_temp": 34.6,
+    "humidity": 36.2,
     "rainfall": 0.0,
-    "solar_rad": 320.0,
-    "soil_vwc": 30.8
+    "solar_rad": 336.0,
+    "soil_vwc": 23.1
   },
   {
     "timestamp": "2025-05-04 11:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 31.1,
-    "humidity": 35.3,
+    "air_temp": 35.1,
+    "humidity": 33.2,
     "rainfall": 0.0,
-    "solar_rad": 414.0,
-    "soil_vwc": 30.5
+    "solar_rad": 418.0,
+    "soil_vwc": 22.89
   },
   {
     "timestamp": "2025-05-04 12:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 32.1,
-    "humidity": 34.0,
+    "air_temp": 35.5,
+    "humidity": 32.5,
     "rainfall": 0.0,
-    "solar_rad": 486.0,
-    "soil_vwc": 30.1
+    "solar_rad": 502.0,
+    "soil_vwc": 22.65
   },
   {
     "timestamp": "2025-05-04 13:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 33.5,
-    "humidity": 33.7,
+    "air_temp": 35.9,
+    "humidity": 29.7,
     "rainfall": 0.0,
-    "solar_rad": 543.0,
-    "soil_vwc": 29.7
+    "solar_rad": 549.0,
+    "soil_vwc": 22.41
   },
   {
     "timestamp": "2025-05-04 14:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 34.5,
-    "humidity": 30.8,
+    "air_temp": 36.4,
+    "humidity": 28.5,
     "rainfall": 0.0,
-    "solar_rad": 570.0,
-    "soil_vwc": 29.3
+    "solar_rad": 583.0,
+    "soil_vwc": 22.16
   },
   {
     "timestamp": "2025-05-04 15:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 35.4,
-    "humidity": 29.3,
+    "air_temp": 36.6,
+    "humidity": 27.5,
     "rainfall": 0.0,
-    "solar_rad": 577.0,
-    "soil_vwc": 28.9
+    "solar_rad": 597.0,
+    "soil_vwc": 21.91
   },
   {
     "timestamp": "2025-05-04 16:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.1,
-    "humidity": 28.9,
+    "air_temp": 36.7,
+    "humidity": 28.6,
     "rainfall": 0.0,
-    "solar_rad": 558.0,
-    "soil_vwc": 28.6
+    "solar_rad": 574.0,
+    "soil_vwc": 21.67
   },
   {
     "timestamp": "2025-05-04 17:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.9,
-    "humidity": 28.2,
+    "air_temp": 37.2,
+    "humidity": 30.9,
     "rainfall": 0.0,
-    "solar_rad": 517.0,
-    "soil_vwc": 28.2
+    "solar_rad": 526.0,
+    "soil_vwc": 21.45
   },
   {
     "timestamp": "2025-05-04 18:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 37.1,
-    "humidity": 26.3,
+    "air_temp": 37.4,
+    "humidity": 30.6,
     "rainfall": 0.0,
-    "solar_rad": 441.0,
-    "soil_vwc": 27.8
+    "solar_rad": 450.0,
+    "soil_vwc": 21.25
   },
   {
     "timestamp": "2025-05-04 19:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 26.6,
+    "air_temp": 37.4,
+    "humidity": 31.8,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.8
+    "soil_vwc": 21.24
   },
   {
     "timestamp": "2025-05-04 20:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 28.1,
+    "air_temp": 37.2,
+    "humidity": 33.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.8
+    "soil_vwc": 21.23
   },
   {
     "timestamp": "2025-05-04 21:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.5,
-    "humidity": 29.8,
+    "air_temp": 37.2,
+    "humidity": 35.0,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.8
+    "soil_vwc": 21.22
   },
   {
     "timestamp": "2025-05-04 22:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 32.9,
+    "air_temp": 36.6,
+    "humidity": 34.8,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.8
+    "soil_vwc": 21.21
   },
   {
     "timestamp": "2025-05-04 23:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 33.0,
+    "air_temp": 35.8,
+    "humidity": 36.2,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.8
+    "soil_vwc": 21.2
   },
   {
     "timestamp": "2025-05-05 00:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 36.3,
+    "air_temp": 35.3,
+    "humidity": 38.2,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.7
+    "soil_vwc": 21.19
   },
   {
     "timestamp": "2025-05-05 01:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 35.0,
-    "humidity": 39.1,
+    "air_temp": 34.7,
+    "humidity": 39.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.7
+    "soil_vwc": 21.18
   },
   {
     "timestamp": "2025-05-05 02:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 34.7,
-    "humidity": 42.3,
+    "air_temp": 34.8,
+    "humidity": 42.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.7
+    "soil_vwc": 21.17
   },
   {
     "timestamp": "2025-05-05 03:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 34.4,
-    "humidity": 42.7,
+    "air_temp": 34.0,
+    "humidity": 41.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.7
+    "soil_vwc": 21.16
   },
   {
     "timestamp": "2025-05-05 04:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 33.6,
+    "air_temp": 33.7,
     "humidity": 43.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.7
+    "soil_vwc": 21.15
   },
   {
     "timestamp": "2025-05-05 05:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 33.7,
-    "humidity": 43.7,
+    "air_temp": 33.5,
+    "humidity": 44.0,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 27.6
+    "soil_vwc": 21.14
   },
   {
     "timestamp": "2025-05-05 06:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 33.7,
-    "humidity": 43.2,
+    "air_temp": 33.6,
+    "humidity": 45.1,
     "rainfall": 0.0,
-    "solar_rad": 20.0,
-    "soil_vwc": 27.6
+    "solar_rad": 28.0,
+    "soil_vwc": 21.13
   },
   {
     "timestamp": "2025-05-05 07:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 34.1,
-    "humidity": 41.3,
+    "air_temp": 33.7,
+    "humidity": 43.4,
     "rainfall": 0.0,
-    "solar_rad": 80.0,
-    "soil_vwc": 27.6
+    "solar_rad": 85.0,
+    "soil_vwc": 21.12
   },
   {
     "timestamp": "2025-05-05 08:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 34.5,
-    "humidity": 37.6,
+    "air_temp": 33.5,
+    "humidity": 41.9,
     "rainfall": 0.0,
-    "solar_rad": 157.0,
-    "soil_vwc": 27.4
+    "solar_rad": 156.0,
+    "soil_vwc": 21.02
   },
   {
     "timestamp": "2025-05-05 09:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 36.7,
+    "air_temp": 34.0,
+    "humidity": 40.6,
     "rainfall": 0.0,
-    "solar_rad": 240.0,
-    "soil_vwc": 27.2
+    "solar_rad": 236.0,
+    "soil_vwc": 20.89
   },
   {
     "timestamp": "2025-05-05 10:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 35.7,
-    "humidity": 34.6,
+    "air_temp": 34.4,
+    "humidity": 38.7,
     "rainfall": 0.0,
-    "solar_rad": 339.0,
-    "soil_vwc": 27.0
+    "solar_rad": 320.0,
+    "soil_vwc": 20.75
   },
   {
     "timestamp": "2025-05-05 11:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 36.6,
-    "humidity": 33.6,
+    "air_temp": 35.1,
+    "humidity": 35.8,
     "rainfall": 0.0,
-    "solar_rad": 427.0,
-    "soil_vwc": 26.6
+    "solar_rad": 417.0,
+    "soil_vwc": 20.58
   },
   {
     "timestamp": "2025-05-05 12:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 37.4,
-    "humidity": 33.0,
+    "air_temp": 35.7,
+    "humidity": 31.8,
     "rainfall": 0.0,
-    "solar_rad": 499.0,
-    "soil_vwc": 26.3
+    "solar_rad": 498.0,
+    "soil_vwc": 20.4
   },
   {
     "timestamp": "2025-05-05 13:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 37.9,
-    "humidity": 31.9,
+    "air_temp": 36.6,
+    "humidity": 31.0,
     "rainfall": 0.0,
-    "solar_rad": 558.0,
-    "soil_vwc": 26.0
+    "solar_rad": 551.0,
+    "soil_vwc": 20.2
   },
   {
     "timestamp": "2025-05-05 14:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 38.1,
-    "humidity": 31.0,
+    "air_temp": 36.9,
+    "humidity": 29.5,
     "rainfall": 0.0,
-    "solar_rad": 580.0,
-    "soil_vwc": 25.6
+    "solar_rad": 594.0,
+    "soil_vwc": 20.0
   },
   {
     "timestamp": "2025-05-05 15:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 38.6,
-    "humidity": 29.2,
+    "air_temp": 37.7,
+    "humidity": 29.8,
     "rainfall": 0.0,
-    "solar_rad": 583.0,
-    "soil_vwc": 25.3
+    "solar_rad": 602.0,
+    "soil_vwc": 19.8
   },
   {
     "timestamp": "2025-05-05 16:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 39.1,
-    "humidity": 28.5,
+    "air_temp": 38.2,
+    "humidity": 30.8,
     "rainfall": 0.0,
-    "solar_rad": 561.0,
-    "soil_vwc": 24.9
+    "solar_rad": 578.0,
+    "soil_vwc": 19.6
   },
   {
     "timestamp": "2025-05-05 17:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 39.2,
-    "humidity": 27.1,
+    "air_temp": 38.3,
+    "humidity": 31.6,
     "rainfall": 0.0,
-    "solar_rad": 514.0,
-    "soil_vwc": 24.6
+    "solar_rad": 532.0,
+    "soil_vwc": 19.42
   },
   {
     "timestamp": "2025-05-05 18:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 39.6,
-    "humidity": 27.0,
+    "air_temp": 37.9,
+    "humidity": 32.8,
     "rainfall": 0.0,
-    "solar_rad": 445.0,
-    "soil_vwc": 24.4
+    "solar_rad": 449.0,
+    "soil_vwc": 19.26
   },
   {
     "timestamp": "2025-05-05 19:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 39.3,
-    "humidity": 28.9,
+    "air_temp": 37.9,
+    "humidity": 33.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.3
+    "soil_vwc": 19.25
   },
   {
     "timestamp": "2025-05-05 20:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 38.9,
-    "humidity": 30.1,
+    "air_temp": 37.9,
+    "humidity": 34.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.3
+    "soil_vwc": 19.25
   },
   {
     "timestamp": "2025-05-05 21:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 38.3,
-    "humidity": 31.7,
+    "air_temp": 37.4,
+    "humidity": 34.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.3
+    "soil_vwc": 19.24
   },
   {
     "timestamp": "2025-05-05 22:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 37.5,
-    "humidity": 34.1,
+    "air_temp": 37.3,
+    "humidity": 36.2,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.3
+    "soil_vwc": 19.23
   },
   {
     "timestamp": "2025-05-05 23:00:00",
     "scene_tag": "summer_heatwave",
-    "air_temp": 37.3,
-    "humidity": 36.3,
+    "air_temp": 36.7,
+    "humidity": 39.1,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.3
+    "soil_vwc": 19.22
   },
   {
     "timestamp": "2025-05-06 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.7,
-    "humidity": 37.3,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 24.3
-  },
-  {
-    "timestamp": "2025-05-06 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.1,
-    "humidity": 38.3,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 24.2
-  },
-  {
-    "timestamp": "2025-05-06 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.6,
-    "humidity": 43.0,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 24.2
-  },
-  {
-    "timestamp": "2025-05-06 03:00:00",
-    "scene_tag": "summer_heatwave",
+    "scene_tag": "rainy_season",
     "air_temp": 34.9,
-    "humidity": 43.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 24.2
-  },
-  {
-    "timestamp": "2025-05-06 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.7,
     "humidity": 45.6,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 24.2
+    "soil_vwc": 19.21
   },
   {
-    "timestamp": "2025-05-06 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.4,
-    "humidity": 45.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 24.2
-  },
-  {
-    "timestamp": "2025-05-06 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.1,
-    "humidity": 45.3,
-    "rainfall": 0.0,
-    "solar_rad": 15.0,
-    "soil_vwc": 24.2
-  },
-  {
-    "timestamp": "2025-05-06 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.9,
-    "humidity": 45.1,
-    "rainfall": 0.0,
-    "solar_rad": 60.0,
-    "soil_vwc": 24.2
-  },
-  {
-    "timestamp": "2025-05-06 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.3,
-    "humidity": 41.9,
-    "rainfall": 0.0,
-    "solar_rad": 136.0,
-    "soil_vwc": 24.0
-  },
-  {
-    "timestamp": "2025-05-06 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.6,
-    "humidity": 39.6,
-    "rainfall": 0.0,
-    "solar_rad": 220.0,
-    "soil_vwc": 23.9
-  },
-  {
-    "timestamp": "2025-05-06 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.2,
-    "humidity": 36.8,
-    "rainfall": 0.0,
-    "solar_rad": 310.0,
-    "soil_vwc": 23.7
-  },
-  {
-    "timestamp": "2025-05-06 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 35.7,
-    "rainfall": 0.0,
-    "solar_rad": 396.0,
-    "soil_vwc": 23.5
-  },
-  {
-    "timestamp": "2025-05-06 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 33.8,
-    "rainfall": 0.0,
-    "solar_rad": 471.0,
-    "soil_vwc": 23.2
-  },
-  {
-    "timestamp": "2025-05-06 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.5,
-    "humidity": 30.1,
-    "rainfall": 0.0,
-    "solar_rad": 520.0,
-    "soil_vwc": 23.0
-  },
-  {
-    "timestamp": "2025-05-06 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.9,
-    "humidity": 30.3,
-    "rainfall": 0.0,
-    "solar_rad": 544.0,
-    "soil_vwc": 22.7
-  },
-  {
-    "timestamp": "2025-05-06 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.7,
-    "humidity": 29.9,
-    "rainfall": 0.0,
-    "solar_rad": 553.0,
-    "soil_vwc": 22.5
-  },
-  {
-    "timestamp": "2025-05-06 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.7,
-    "humidity": 27.2,
-    "rainfall": 0.0,
-    "solar_rad": 533.0,
-    "soil_vwc": 22.2
-  },
-  {
-    "timestamp": "2025-05-06 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.7,
-    "humidity": 26.8,
-    "rainfall": 0.0,
-    "solar_rad": 485.0,
-    "soil_vwc": 22.0
-  },
-  {
-    "timestamp": "2025-05-06 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 38.0,
-    "humidity": 26.3,
-    "rainfall": 0.0,
-    "solar_rad": 406.0,
-    "soil_vwc": 21.8
-  },
-  {
-    "timestamp": "2025-05-06 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.9,
-    "humidity": 27.1,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.8
-  },
-  {
-    "timestamp": "2025-05-06 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.8,
-    "humidity": 28.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.8
-  },
-  {
-    "timestamp": "2025-05-06 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.6,
-    "humidity": 29.1,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.8
-  },
-  {
-    "timestamp": "2025-05-06 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.1,
-    "humidity": 32.5,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-06 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 32.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.5,
-    "humidity": 34.6,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.9,
-    "humidity": 38.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 40.3,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.8,
-    "humidity": 39.5,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.1,
-    "humidity": 40.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 41.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 41.6,
-    "rainfall": 0.0,
-    "solar_rad": 8.0,
-    "soil_vwc": 21.7
-  },
-  {
-    "timestamp": "2025-05-07 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.0,
-    "humidity": 40.0,
-    "rainfall": 0.0,
-    "solar_rad": 42.0,
-    "soil_vwc": 21.6
-  },
-  {
-    "timestamp": "2025-05-07 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.0,
-    "humidity": 38.5,
-    "rainfall": 0.0,
-    "solar_rad": 110.0,
-    "soil_vwc": 21.6
-  },
-  {
-    "timestamp": "2025-05-07 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.4,
-    "humidity": 37.0,
-    "rainfall": 0.0,
-    "solar_rad": 187.0,
-    "soil_vwc": 21.4
-  },
-  {
-    "timestamp": "2025-05-07 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 34.2,
-    "rainfall": 0.0,
-    "solar_rad": 267.0,
-    "soil_vwc": 21.3
-  },
-  {
-    "timestamp": "2025-05-07 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.6,
-    "humidity": 33.2,
-    "rainfall": 0.0,
-    "solar_rad": 343.0,
-    "soil_vwc": 21.1
-  },
-  {
-    "timestamp": "2025-05-07 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.3,
-    "humidity": 32.1,
-    "rainfall": 0.0,
-    "solar_rad": 409.0,
-    "soil_vwc": 20.9
-  },
-  {
-    "timestamp": "2025-05-07 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 31.5,
-    "rainfall": 0.0,
-    "solar_rad": 466.0,
-    "soil_vwc": 20.8
-  },
-  {
-    "timestamp": "2025-05-07 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.6,
-    "humidity": 27.8,
-    "rainfall": 0.0,
-    "solar_rad": 490.0,
-    "soil_vwc": 20.6
-  },
-  {
-    "timestamp": "2025-05-07 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.5,
-    "humidity": 25.1,
-    "rainfall": 0.0,
-    "solar_rad": 488.0,
-    "soil_vwc": 20.4
-  },
-  {
-    "timestamp": "2025-05-07 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 38.2,
-    "humidity": 23.4,
-    "rainfall": 0.0,
-    "solar_rad": 477.0,
-    "soil_vwc": 20.2
-  },
-  {
-    "timestamp": "2025-05-07 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 38.0,
-    "humidity": 22.6,
-    "rainfall": 0.0,
-    "solar_rad": 422.0,
-    "soil_vwc": 20.0
-  },
-  {
-    "timestamp": "2025-05-07 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 38.2,
-    "humidity": 24.0,
-    "rainfall": 0.0,
-    "solar_rad": 346.0,
-    "soil_vwc": 19.9
-  },
-  {
-    "timestamp": "2025-05-07 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.8,
-    "humidity": 24.0,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.9
-  },
-  {
-    "timestamp": "2025-05-07 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.4,
-    "humidity": 26.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-07 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.6,
-    "humidity": 28.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-07 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 31.1,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-07 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 33.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 34.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.0,
-    "humidity": 37.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.5,
-    "humidity": 39.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.3,
-    "humidity": 39.8,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 04:00:00",
-    "scene_tag": "summer_heatwave",
+    "timestamp": "2025-05-06 01:00:00",
+    "scene_tag": "rainy_season",
     "air_temp": 33.2,
-    "humidity": 41.5,
+    "humidity": 50.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 19.8
+    "soil_vwc": 19.21
   },
   {
-    "timestamp": "2025-05-08 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.1,
-    "humidity": 42.2,
+    "timestamp": "2025-05-06 02:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 31.7,
+    "humidity": 55.3,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.2,
-    "humidity": 41.3,
-    "rainfall": 0.0,
-    "solar_rad": 2.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.1,
-    "humidity": 42.0,
-    "rainfall": 0.0,
-    "solar_rad": 36.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.9,
-    "humidity": 40.3,
-    "rainfall": 0.0,
-    "solar_rad": 89.0,
-    "soil_vwc": 19.8
-  },
-  {
-    "timestamp": "2025-05-08 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.4,
-    "humidity": 35.5,
-    "rainfall": 0.0,
-    "solar_rad": 156.0,
-    "soil_vwc": 19.7
-  },
-  {
-    "timestamp": "2025-05-08 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.4,
-    "humidity": 36.4,
-    "rainfall": 0.0,
-    "solar_rad": 227.0,
-    "soil_vwc": 19.6
-  },
-  {
-    "timestamp": "2025-05-08 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.1,
-    "humidity": 33.3,
-    "rainfall": 0.0,
-    "solar_rad": 300.0,
-    "soil_vwc": 19.4
-  },
-  {
-    "timestamp": "2025-05-08 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.7,
-    "humidity": 31.0,
-    "rainfall": 0.0,
-    "solar_rad": 353.0,
-    "soil_vwc": 19.3
-  },
-  {
-    "timestamp": "2025-05-08 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 28.6,
-    "rainfall": 0.0,
-    "solar_rad": 399.0,
     "soil_vwc": 19.2
   },
   {
-    "timestamp": "2025-05-08 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.8,
-    "humidity": 29.1,
+    "timestamp": "2025-05-06 03:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 30.9,
+    "humidity": 58.5,
     "rainfall": 0.0,
-    "solar_rad": 433.0,
-    "soil_vwc": 19.0
+    "solar_rad": 0.0,
+    "soil_vwc": 19.19
+  },
+  {
+    "timestamp": "2025-05-06 04:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 29.9,
+    "humidity": 59.8,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 19.19
+  },
+  {
+    "timestamp": "2025-05-06 05:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 29.1,
+    "humidity": 60.5,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 19.18
+  },
+  {
+    "timestamp": "2025-05-06 06:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 28.5,
+    "humidity": 64.7,
+    "rainfall": 0.0,
+    "solar_rad": 19.0,
+    "soil_vwc": 19.17
+  },
+  {
+    "timestamp": "2025-05-06 07:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 27.7,
+    "humidity": 64.6,
+    "rainfall": 0.0,
+    "solar_rad": 64.0,
+    "soil_vwc": 19.17
+  },
+  {
+    "timestamp": "2025-05-06 08:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 27.4,
+    "humidity": 66.3,
+    "rainfall": 0.0,
+    "solar_rad": 131.0,
+    "soil_vwc": 19.1
+  },
+  {
+    "timestamp": "2025-05-06 09:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 27.1,
+    "humidity": 66.4,
+    "rainfall": 0.0,
+    "solar_rad": 216.0,
+    "soil_vwc": 19.03
+  },
+  {
+    "timestamp": "2025-05-06 10:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 26.6,
+    "humidity": 66.0,
+    "rainfall": 0.0,
+    "solar_rad": 303.0,
+    "soil_vwc": 18.94
+  },
+  {
+    "timestamp": "2025-05-06 11:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 26.2,
+    "humidity": 66.3,
+    "rainfall": 0.0,
+    "solar_rad": 384.0,
+    "soil_vwc": 18.85
+  },
+  {
+    "timestamp": "2025-05-06 12:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 26.3,
+    "humidity": 64.1,
+    "rainfall": 0.0,
+    "solar_rad": 464.0,
+    "soil_vwc": 18.75
+  },
+  {
+    "timestamp": "2025-05-06 13:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 26.2,
+    "humidity": 63.1,
+    "rainfall": 0.0,
+    "solar_rad": 521.0,
+    "soil_vwc": 18.64
+  },
+  {
+    "timestamp": "2025-05-06 14:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 26.3,
+    "humidity": 62.0,
+    "rainfall": 0.0,
+    "solar_rad": 555.0,
+    "soil_vwc": 18.53
+  },
+  {
+    "timestamp": "2025-05-06 15:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 25.8,
+    "humidity": 62.9,
+    "rainfall": 0.0,
+    "solar_rad": 563.0,
+    "soil_vwc": 18.42
+  },
+  {
+    "timestamp": "2025-05-06 16:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 25.8,
+    "humidity": 63.0,
+    "rainfall": 0.0,
+    "solar_rad": 541.0,
+    "soil_vwc": 18.31
+  },
+  {
+    "timestamp": "2025-05-06 17:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 25.8,
+    "humidity": 61.4,
+    "rainfall": 0.0,
+    "solar_rad": 487.0,
+    "soil_vwc": 18.22
+  },
+  {
+    "timestamp": "2025-05-06 18:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 25.4,
+    "humidity": 63.5,
+    "rainfall": 0.0,
+    "solar_rad": 410.0,
+    "soil_vwc": 18.13
+  },
+  {
+    "timestamp": "2025-05-06 19:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 24.7,
+    "humidity": 69.0,
+    "rainfall": 6.25,
+    "solar_rad": 0.0,
+    "soil_vwc": 18.63
+  },
+  {
+    "timestamp": "2025-05-06 20:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.9,
+    "humidity": 74.7,
+    "rainfall": 8.95,
+    "solar_rad": 0.0,
+    "soil_vwc": 19.31
+  },
+  {
+    "timestamp": "2025-05-06 21:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.4,
+    "humidity": 80.0,
+    "rainfall": 8.72,
+    "solar_rad": 0.0,
+    "soil_vwc": 19.98
+  },
+  {
+    "timestamp": "2025-05-06 22:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.8,
+    "humidity": 83.2,
+    "rainfall": 6.91,
+    "solar_rad": 0.0,
+    "soil_vwc": 20.52
+  },
+  {
+    "timestamp": "2025-05-06 23:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.3,
+    "humidity": 84.1,
+    "rainfall": 6.05,
+    "solar_rad": 0.0,
+    "soil_vwc": 21.0
+  },
+  {
+    "timestamp": "2025-05-07 00:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.6,
+    "humidity": 88.4,
+    "rainfall": 5.61,
+    "solar_rad": 0.0,
+    "soil_vwc": 21.46
+  },
+  {
+    "timestamp": "2025-05-07 01:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.1,
+    "humidity": 90.5,
+    "rainfall": 5.5,
+    "solar_rad": 0.0,
+    "soil_vwc": 21.91
+  },
+  {
+    "timestamp": "2025-05-07 02:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.7,
+    "humidity": 90.5,
+    "rainfall": 7.34,
+    "solar_rad": 0.0,
+    "soil_vwc": 22.48
+  },
+  {
+    "timestamp": "2025-05-07 03:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.3,
+    "humidity": 89.8,
+    "rainfall": 6.47,
+    "solar_rad": 0.0,
+    "soil_vwc": 22.99
+  },
+  {
+    "timestamp": "2025-05-07 04:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.3,
+    "humidity": 92.1,
+    "rainfall": 6.17,
+    "solar_rad": 0.0,
+    "soil_vwc": 23.48
+  },
+  {
+    "timestamp": "2025-05-07 05:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 19.8,
+    "humidity": 94.6,
+    "rainfall": 5.79,
+    "solar_rad": 0.0,
+    "soil_vwc": 23.95
+  },
+  {
+    "timestamp": "2025-05-07 06:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.1,
+    "humidity": 93.6,
+    "rainfall": 7.79,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.55
+  },
+  {
+    "timestamp": "2025-05-07 07:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.4,
+    "humidity": 95.4,
+    "rainfall": 5.98,
+    "solar_rad": 16.0,
+    "soil_vwc": 25.03
+  },
+  {
+    "timestamp": "2025-05-07 08:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.8,
+    "humidity": 90.0,
+    "rainfall": 0.0,
+    "solar_rad": 52.0,
+    "soil_vwc": 25.02
+  },
+  {
+    "timestamp": "2025-05-07 09:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.0,
+    "humidity": 82.7,
+    "rainfall": 0.0,
+    "solar_rad": 107.0,
+    "soil_vwc": 24.94
+  },
+  {
+    "timestamp": "2025-05-07 10:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.6,
+    "humidity": 79.2,
+    "rainfall": 0.0,
+    "solar_rad": 176.0,
+    "soil_vwc": 24.84
+  },
+  {
+    "timestamp": "2025-05-07 11:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.8,
+    "humidity": 75.8,
+    "rainfall": 0.0,
+    "solar_rad": 242.0,
+    "soil_vwc": 24.72
+  },
+  {
+    "timestamp": "2025-05-07 12:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.5,
+    "humidity": 70.7,
+    "rainfall": 0.0,
+    "solar_rad": 309.0,
+    "soil_vwc": 24.59
+  },
+  {
+    "timestamp": "2025-05-07 13:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.5,
+    "humidity": 66.8,
+    "rainfall": 0.0,
+    "solar_rad": 361.0,
+    "soil_vwc": 24.45
+  },
+  {
+    "timestamp": "2025-05-07 14:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.3,
+    "humidity": 63.8,
+    "rainfall": 0.0,
+    "solar_rad": 413.0,
+    "soil_vwc": 24.3
+  },
+  {
+    "timestamp": "2025-05-07 15:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.2,
+    "humidity": 61.6,
+    "rainfall": 0.0,
+    "solar_rad": 422.0,
+    "soil_vwc": 24.14
+  },
+  {
+    "timestamp": "2025-05-07 16:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.7,
+    "humidity": 61.4,
+    "rainfall": 0.0,
+    "solar_rad": 406.0,
+    "soil_vwc": 23.99
+  },
+  {
+    "timestamp": "2025-05-07 17:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.5,
+    "humidity": 68.6,
+    "rainfall": 1.52,
+    "solar_rad": 363.0,
+    "soil_vwc": 23.99
+  },
+  {
+    "timestamp": "2025-05-07 18:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.4,
+    "humidity": 73.9,
+    "rainfall": 1.77,
+    "solar_rad": 293.0,
+    "soil_vwc": 24.03
+  },
+  {
+    "timestamp": "2025-05-07 19:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.5,
+    "humidity": 78.0,
+    "rainfall": 2.66,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.26
+  },
+  {
+    "timestamp": "2025-05-07 20:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 23.4,
+    "humidity": 75.1,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.25
+  },
+  {
+    "timestamp": "2025-05-07 21:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.7,
+    "humidity": 71.2,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.24
+  },
+  {
+    "timestamp": "2025-05-07 22:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.7,
+    "humidity": 69.6,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.24
+  },
+  {
+    "timestamp": "2025-05-07 23:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.5,
+    "humidity": 69.0,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.23
+  },
+  {
+    "timestamp": "2025-05-08 00:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.0,
+    "humidity": 69.9,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.22
+  },
+  {
+    "timestamp": "2025-05-08 01:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.1,
+    "humidity": 70.1,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.21
+  },
+  {
+    "timestamp": "2025-05-08 02:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 22.1,
+    "humidity": 69.3,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.2
+  },
+  {
+    "timestamp": "2025-05-08 03:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.8,
+    "humidity": 70.9,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.19
+  },
+  {
+    "timestamp": "2025-05-08 04:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.4,
+    "humidity": 70.3,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.19
+  },
+  {
+    "timestamp": "2025-05-08 05:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.5,
+    "humidity": 67.0,
+    "rainfall": 0.0,
+    "solar_rad": 0.0,
+    "soil_vwc": 24.18
+  },
+  {
+    "timestamp": "2025-05-08 06:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 21.1,
+    "humidity": 73.2,
+    "rainfall": 21.94,
+    "solar_rad": 0.0,
+    "soil_vwc": 25.61
+  },
+  {
+    "timestamp": "2025-05-08 07:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.5,
+    "humidity": 76.8,
+    "rainfall": 17.94,
+    "solar_rad": 7.0,
+    "soil_vwc": 26.82
+  },
+  {
+    "timestamp": "2025-05-08 08:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.0,
+    "humidity": 79.3,
+    "rainfall": 15.5,
+    "solar_rad": 31.0,
+    "soil_vwc": 27.89
+  },
+  {
+    "timestamp": "2025-05-08 09:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 20.0,
+    "humidity": 83.8,
+    "rainfall": 11.23,
+    "solar_rad": 69.0,
+    "soil_vwc": 28.7
+  },
+  {
+    "timestamp": "2025-05-08 10:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 19.6,
+    "humidity": 85.4,
+    "rainfall": 9.21,
+    "solar_rad": 102.0,
+    "soil_vwc": 29.31
+  },
+  {
+    "timestamp": "2025-05-08 11:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 19.6,
+    "humidity": 88.1,
+    "rainfall": 11.17,
+    "solar_rad": 131.0,
+    "soil_vwc": 30.02
+  },
+  {
+    "timestamp": "2025-05-08 12:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 19.3,
+    "humidity": 89.6,
+    "rainfall": 10.49,
+    "solar_rad": 150.0,
+    "soil_vwc": 30.68
+  },
+  {
+    "timestamp": "2025-05-08 13:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 19.3,
+    "humidity": 91.2,
+    "rainfall": 11.93,
+    "solar_rad": 176.0,
+    "soil_vwc": 31.42
+  },
+  {
+    "timestamp": "2025-05-08 14:00:00",
+    "scene_tag": "rainy_season",
+    "air_temp": 19.7,
+    "humidity": 92.6,
+    "rainfall": 9.72,
+    "solar_rad": 174.0,
+    "soil_vwc": 32.02
   },
   {
     "timestamp": "2025-05-08 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.2,
-    "humidity": 26.1,
-    "rainfall": 0.0,
-    "solar_rad": 443.0,
-    "soil_vwc": 18.9
+    "scene_tag": "rainy_season",
+    "air_temp": 19.7,
+    "humidity": 92.1,
+    "rainfall": 7.93,
+    "solar_rad": 167.0,
+    "soil_vwc": 32.5
   },
   {
     "timestamp": "2025-05-08 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.3,
-    "humidity": 26.6,
-    "rainfall": 0.0,
-    "solar_rad": 418.0,
-    "soil_vwc": 18.8
+    "scene_tag": "rainy_season",
+    "air_temp": 19.7,
+    "humidity": 93.0,
+    "rainfall": 9.15,
+    "solar_rad": 149.0,
+    "soil_vwc": 33.06
   },
   {
     "timestamp": "2025-05-08 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.5,
-    "humidity": 27.1,
-    "rainfall": 0.0,
-    "solar_rad": 367.0,
-    "soil_vwc": 18.6
+    "scene_tag": "rainy_season",
+    "air_temp": 19.6,
+    "humidity": 92.5,
+    "rainfall": 9.13,
+    "solar_rad": 130.0,
+    "soil_vwc": 33.63
   },
   {
     "timestamp": "2025-05-08 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.6,
-    "humidity": 27.6,
-    "rainfall": 0.0,
-    "solar_rad": 301.0,
-    "soil_vwc": 18.5
+    "scene_tag": "rainy_season",
+    "air_temp": 19.4,
+    "humidity": 92.9,
+    "rainfall": 10.71,
+    "solar_rad": 104.0,
+    "soil_vwc": 34.31
   },
   {
     "timestamp": "2025-05-08 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.7,
-    "humidity": 27.7,
-    "rainfall": 0.0,
+    "scene_tag": "rainy_season",
+    "air_temp": 19.3,
+    "humidity": 93.2,
+    "rainfall": 7.99,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 34.92
   },
   {
     "timestamp": "2025-05-08 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.2,
-    "humidity": 29.0,
-    "rainfall": 0.0,
+    "scene_tag": "rainy_season",
+    "air_temp": 19.3,
+    "humidity": 93.1,
+    "rainfall": 8.18,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 35.54
   },
   {
     "timestamp": "2025-05-08 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.6,
-    "humidity": 30.2,
-    "rainfall": 0.0,
+    "scene_tag": "rainy_season",
+    "air_temp": 19.0,
+    "humidity": 92.1,
+    "rainfall": 6.17,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 36.03
   },
   {
     "timestamp": "2025-05-08 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.9,
-    "humidity": 32.2,
-    "rainfall": 0.0,
+    "scene_tag": "rainy_season",
+    "air_temp": 18.7,
+    "humidity": 93.0,
+    "rainfall": 8.15,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 36.65
   },
   {
     "timestamp": "2025-05-08 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.2,
-    "humidity": 36.3,
-    "rainfall": 0.0,
+    "scene_tag": "rainy_season",
+    "air_temp": 18.5,
+    "humidity": 93.0,
+    "rainfall": 7.65,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 37.24
   },
   {
     "timestamp": "2025-05-09 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.5,
-    "humidity": 38.1,
+    "scene_tag": "short_heavy",
+    "air_temp": 19.3,
+    "humidity": 86.4,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 37.23
   },
   {
     "timestamp": "2025-05-09 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.2,
-    "humidity": 41.9,
+    "scene_tag": "short_heavy",
+    "air_temp": 19.7,
+    "humidity": 82.3,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 37.21
   },
   {
     "timestamp": "2025-05-09 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.6,
-    "humidity": 45.7,
+    "scene_tag": "short_heavy",
+    "air_temp": 20.1,
+    "humidity": 79.2,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 37.2
   },
   {
     "timestamp": "2025-05-09 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.1,
-    "humidity": 46.2,
+    "scene_tag": "short_heavy",
+    "air_temp": 20.6,
+    "humidity": 75.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 18.5
+    "soil_vwc": 37.19
   },
   {
     "timestamp": "2025-05-09 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.8,
-    "humidity": 45.8,
+    "scene_tag": "short_heavy",
+    "air_temp": 20.9,
+    "humidity": 71.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 18.4
+    "soil_vwc": 37.18
   },
   {
     "timestamp": "2025-05-09 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.2,
-    "humidity": 45.4,
+    "scene_tag": "short_heavy",
+    "air_temp": 21.5,
+    "humidity": 66.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 18.4
+    "soil_vwc": 37.16
   },
   {
     "timestamp": "2025-05-09 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.1,
-    "humidity": 44.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 22.0,
+    "humidity": 66.2,
     "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 18.4
+    "solar_rad": 4.0,
+    "soil_vwc": 37.15
   },
   {
     "timestamp": "2025-05-09 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.3,
-    "humidity": 41.1,
+    "scene_tag": "short_heavy",
+    "air_temp": 22.6,
+    "humidity": 65.0,
     "rainfall": 0.0,
-    "solar_rad": 21.0,
-    "soil_vwc": 18.4
+    "solar_rad": 22.0,
+    "soil_vwc": 37.14
   },
   {
     "timestamp": "2025-05-09 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.5,
-    "humidity": 40.5,
+    "scene_tag": "short_heavy",
+    "air_temp": 23.4,
+    "humidity": 61.4,
     "rainfall": 0.0,
-    "solar_rad": 68.0,
-    "soil_vwc": 18.4
+    "solar_rad": 63.0,
+    "soil_vwc": 37.12
   },
   {
     "timestamp": "2025-05-09 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.9,
-    "humidity": 38.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 24.0,
+    "humidity": 59.0,
     "rainfall": 0.0,
-    "solar_rad": 131.0,
-    "soil_vwc": 18.4
+    "solar_rad": 121.0,
+    "soil_vwc": 36.97
   },
   {
     "timestamp": "2025-05-09 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.7,
-    "humidity": 36.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 24.6,
+    "humidity": 57.2,
     "rainfall": 0.0,
-    "solar_rad": 208.0,
-    "soil_vwc": 18.3
+    "solar_rad": 193.0,
+    "soil_vwc": 36.79
   },
   {
     "timestamp": "2025-05-09 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.4,
-    "humidity": 33.6,
+    "scene_tag": "short_heavy",
+    "air_temp": 25.4,
+    "humidity": 55.0,
     "rainfall": 0.0,
-    "solar_rad": 274.0,
-    "soil_vwc": 18.2
+    "solar_rad": 258.0,
+    "soil_vwc": 36.57
   },
   {
     "timestamp": "2025-05-09 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.0,
-    "humidity": 31.9,
+    "scene_tag": "short_heavy",
+    "air_temp": 26.0,
+    "humidity": 51.5,
     "rainfall": 0.0,
-    "solar_rad": 333.0,
-    "soil_vwc": 18.1
+    "solar_rad": 325.0,
+    "soil_vwc": 36.33
   },
   {
     "timestamp": "2025-05-09 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 28.8,
-    "rainfall": 0.0,
-    "solar_rad": 379.0,
-    "soil_vwc": 18.0
+    "scene_tag": "short_heavy",
+    "air_temp": 26.1,
+    "humidity": 60.3,
+    "rainfall": 43.7,
+    "solar_rad": 351.0,
+    "soil_vwc": 38.91
   },
   {
     "timestamp": "2025-05-09 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 25.2,
-    "rainfall": 0.0,
-    "solar_rad": 399.0,
-    "soil_vwc": 17.9
+    "scene_tag": "short_heavy",
+    "air_temp": 25.9,
+    "humidity": 66.8,
+    "rainfall": 36.56,
+    "solar_rad": 358.0,
+    "soil_vwc": 41.03
   },
   {
     "timestamp": "2025-05-09 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.4,
-    "humidity": 26.0,
-    "rainfall": 0.0,
-    "solar_rad": 406.0,
-    "soil_vwc": 17.8
+    "scene_tag": "short_heavy",
+    "air_temp": 25.8,
+    "humidity": 74.8,
+    "rainfall": 34.85,
+    "solar_rad": 350.0,
+    "soil_vwc": 43.05
   },
   {
     "timestamp": "2025-05-09 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 26.7,
-    "rainfall": 0.0,
-    "solar_rad": 379.0,
-    "soil_vwc": 17.6
+    "scene_tag": "short_heavy",
+    "air_temp": 25.8,
+    "humidity": 78.5,
+    "rainfall": 45.46,
+    "solar_rad": 314.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.0,
-    "humidity": 25.7,
-    "rainfall": 0.0,
-    "solar_rad": 325.0,
-    "soil_vwc": 17.5
+    "scene_tag": "short_heavy",
+    "air_temp": 25.8,
+    "humidity": 83.7,
+    "rainfall": 42.01,
+    "solar_rad": 262.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 37.0,
-    "humidity": 26.3,
-    "rainfall": 0.0,
-    "solar_rad": 264.0,
-    "soil_vwc": 17.4
+    "scene_tag": "short_heavy",
+    "air_temp": 25.9,
+    "humidity": 85.6,
+    "rainfall": 37.01,
+    "solar_rad": 208.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.8,
-    "humidity": 28.2,
-    "rainfall": 0.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 25.6,
+    "humidity": 86.7,
+    "rainfall": 37.81,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.6,
-    "humidity": 30.0,
-    "rainfall": 0.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 25.6,
+    "humidity": 86.7,
+    "rainfall": 39.69,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.1,
-    "humidity": 30.7,
-    "rainfall": 0.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 25.1,
+    "humidity": 87.7,
+    "rainfall": 37.11,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.7,
-    "humidity": 33.8,
-    "rainfall": 0.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 24.5,
+    "humidity": 87.8,
+    "rainfall": 44.62,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-09 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 35.6,
-    "rainfall": 0.0,
+    "scene_tag": "short_heavy",
+    "air_temp": 23.8,
+    "humidity": 87.4,
+    "rainfall": 49.78,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.9,
-    "humidity": 36.8,
-    "rainfall": 0.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 20.9,
+    "humidity": 87.9,
+    "rainfall": 35.63,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.3,
-    "humidity": 40.0,
-    "rainfall": 0.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 18.4,
+    "humidity": 88.3,
+    "rainfall": 25.5,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.0,
-    "humidity": 40.8,
-    "rainfall": 0.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 15.6,
+    "humidity": 90.1,
+    "rainfall": 19.62,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.5,
-    "humidity": 42.3,
-    "rainfall": 0.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 13.7,
+    "humidity": 93.3,
+    "rainfall": 14.15,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.5,
-    "humidity": 42.8,
-    "rainfall": 0.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 12.4,
+    "humidity": 96.0,
+    "rainfall": 10.91,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.1,
-    "humidity": 42.6,
-    "rainfall": 0.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 11.0,
+    "humidity": 98.5,
+    "rainfall": 8.22,
     "solar_rad": 0.0,
-    "soil_vwc": 17.4
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.1,
-    "humidity": 40.0,
-    "rainfall": 0.0,
-    "solar_rad": 6.0,
-    "soil_vwc": 17.4
+    "scene_tag": "sudden_cooling",
+    "air_temp": 10.0,
+    "humidity": 99.6,
+    "rainfall": 6.07,
+    "solar_rad": 5.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-10 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.9,
-    "humidity": 40.6,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.4,
+    "humidity": 99.2,
     "rainfall": 0.0,
-    "solar_rad": 10.0,
-    "soil_vwc": 17.4
+    "solar_rad": 4.0,
+    "soil_vwc": 44.99
   },
   {
     "timestamp": "2025-05-10 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.9,
-    "humidity": 40.4,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.3,
+    "humidity": 98.8,
     "rainfall": 0.0,
-    "solar_rad": 55.0,
-    "soil_vwc": 17.4
+    "solar_rad": 27.0,
+    "soil_vwc": 44.99
   },
   {
     "timestamp": "2025-05-10 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.9,
-    "humidity": 39.8,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.2,
+    "humidity": 100.0,
     "rainfall": 0.0,
-    "solar_rad": 116.0,
-    "soil_vwc": 17.3
+    "solar_rad": 66.0,
+    "soil_vwc": 44.98
   },
   {
     "timestamp": "2025-05-10 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.5,
-    "humidity": 36.8,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.1,
+    "humidity": 97.9,
     "rainfall": 0.0,
-    "solar_rad": 186.0,
-    "soil_vwc": 17.3
+    "solar_rad": 125.0,
+    "soil_vwc": 44.92
   },
   {
     "timestamp": "2025-05-10 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.2,
-    "humidity": 35.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 8.8,
+    "humidity": 99.3,
     "rainfall": 0.0,
-    "solar_rad": 251.0,
-    "soil_vwc": 17.2
+    "solar_rad": 183.0,
+    "soil_vwc": 44.84
   },
   {
     "timestamp": "2025-05-10 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.7,
-    "humidity": 32.4,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.1,
+    "humidity": 98.0,
     "rainfall": 0.0,
-    "solar_rad": 311.0,
-    "soil_vwc": 17.1
+    "solar_rad": 247.0,
+    "soil_vwc": 44.76
   },
   {
     "timestamp": "2025-05-10 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.2,
-    "humidity": 31.9,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.0,
+    "humidity": 98.9,
     "rainfall": 0.0,
-    "solar_rad": 357.0,
-    "soil_vwc": 17.0
+    "solar_rad": 300.0,
+    "soil_vwc": 44.67
   },
   {
     "timestamp": "2025-05-10 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.8,
-    "humidity": 30.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.0,
+    "humidity": 98.7,
     "rainfall": 0.0,
-    "solar_rad": 382.0,
-    "soil_vwc": 16.9
+    "solar_rad": 335.0,
+    "soil_vwc": 44.58
   },
   {
     "timestamp": "2025-05-10 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 30.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.1,
+    "humidity": 100.0,
     "rainfall": 0.0,
-    "solar_rad": 386.0,
-    "soil_vwc": 16.8
+    "solar_rad": 339.0,
+    "soil_vwc": 44.48
   },
   {
     "timestamp": "2025-05-10 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.8,
-    "humidity": 30.6,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.4,
+    "humidity": 98.8,
     "rainfall": 0.0,
-    "solar_rad": 365.0,
-    "soil_vwc": 16.8
+    "solar_rad": 315.0,
+    "soil_vwc": 44.39
   },
   {
     "timestamp": "2025-05-10 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 31.1,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.3,
+    "humidity": 100.0,
     "rainfall": 0.0,
-    "solar_rad": 316.0,
-    "soil_vwc": 16.7
+    "solar_rad": 268.0,
+    "soil_vwc": 44.3
   },
   {
     "timestamp": "2025-05-10 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 32.4,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 9.2,
+    "humidity": 100.0,
     "rainfall": 0.0,
-    "solar_rad": 261.0,
-    "soil_vwc": 16.6
+    "solar_rad": 216.0,
+    "soil_vwc": 44.23
   },
   {
     "timestamp": "2025-05-10 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.8,
-    "humidity": 33.2,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 8.7,
+    "humidity": 99.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.22
   },
   {
     "timestamp": "2025-05-10 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.4,
-    "humidity": 33.4,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 8.6,
+    "humidity": 100.0,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.21
   },
   {
     "timestamp": "2025-05-10 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 34.3,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 8.5,
+    "humidity": 98.7,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.21
   },
   {
     "timestamp": "2025-05-10 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.8,
-    "humidity": 37.4,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 8.2,
+    "humidity": 97.9,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.2
   },
   {
     "timestamp": "2025-05-10 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.3,
-    "humidity": 37.0,
+    "scene_tag": "sudden_cooling",
+    "air_temp": 8.1,
+    "humidity": 96.5,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.2
   },
   {
     "timestamp": "2025-05-11 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.4,
-    "humidity": 40.3,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 9.4,
+    "humidity": 90.6,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.19
   },
   {
     "timestamp": "2025-05-11 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.2,
-    "humidity": 41.1,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 10.9,
+    "humidity": 85.0,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.18
   },
   {
     "timestamp": "2025-05-11 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.4,
-    "humidity": 43.8,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 12.3,
+    "humidity": 81.3,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.18
   },
   {
     "timestamp": "2025-05-11 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.9,
-    "humidity": 45.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 13.5,
+    "humidity": 79.3,
     "rainfall": 0.0,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.17
   },
   {
     "timestamp": "2025-05-11 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.6,
-    "humidity": 47.3,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 14.3,
+    "humidity": 84.1,
+    "rainfall": 2.11,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.35
   },
   {
     "timestamp": "2025-05-11 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.7,
-    "humidity": 46.0,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 15.3,
+    "humidity": 87.5,
+    "rainfall": 8.3,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 44.98
   },
   {
     "timestamp": "2025-05-11 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.6,
-    "humidity": 47.4,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 16.4,
+    "humidity": 90.1,
+    "rainfall": 12.47,
     "solar_rad": 0.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.7,
-    "humidity": 46.3,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 16.9,
+    "humidity": 90.7,
+    "rainfall": 17.45,
     "solar_rad": 6.0,
-    "soil_vwc": 16.6
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.7,
-    "humidity": 43.9,
-    "rainfall": 0.0,
-    "solar_rad": 44.0,
-    "soil_vwc": 16.5
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 17.2,
+    "humidity": 93.2,
+    "rainfall": 15.92,
+    "solar_rad": 25.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.2,
-    "humidity": 42.1,
-    "rainfall": 0.0,
-    "solar_rad": 105.0,
-    "soil_vwc": 16.5
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 17.9,
+    "humidity": 92.7,
+    "rainfall": 18.84,
+    "solar_rad": 48.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.8,
-    "humidity": 38.1,
-    "rainfall": 0.0,
-    "solar_rad": 175.0,
-    "soil_vwc": 16.4
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 18.2,
+    "humidity": 94.7,
+    "rainfall": 15.03,
+    "solar_rad": 78.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.5,
-    "humidity": 34.7,
-    "rainfall": 0.0,
-    "solar_rad": 240.0,
-    "soil_vwc": 16.4
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 19.0,
+    "humidity": 95.0,
+    "rainfall": 16.57,
+    "solar_rad": 105.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.4,
-    "humidity": 30.9,
-    "rainfall": 0.0,
-    "solar_rad": 300.0,
-    "soil_vwc": 16.3
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 19.2,
+    "humidity": 94.7,
+    "rainfall": 20.67,
+    "solar_rad": 126.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.4,
-    "humidity": 30.4,
-    "rainfall": 0.0,
-    "solar_rad": 339.0,
-    "soil_vwc": 16.2
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 19.9,
+    "humidity": 94.9,
+    "rainfall": 18.62,
+    "solar_rad": 136.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 28.8,
-    "rainfall": 0.0,
-    "solar_rad": 364.0,
-    "soil_vwc": 16.2
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.1,
+    "humidity": 93.5,
+    "rainfall": 30.2,
+    "solar_rad": 140.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.4,
-    "humidity": 28.3,
-    "rainfall": 0.0,
-    "solar_rad": 365.0,
-    "soil_vwc": 16.1
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.3,
+    "humidity": 92.0,
+    "rainfall": 37.57,
+    "solar_rad": 133.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.7,
-    "humidity": 29.1,
-    "rainfall": 0.0,
-    "solar_rad": 337.0,
-    "soil_vwc": 16.0
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.9,
+    "humidity": 93.6,
+    "rainfall": 30.4,
+    "solar_rad": 125.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 27.2,
-    "rainfall": 0.0,
-    "solar_rad": 288.0,
-    "soil_vwc": 16.0
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.6,
+    "humidity": 92.9,
+    "rainfall": 25.48,
+    "solar_rad": 111.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 27.7,
-    "rainfall": 0.0,
-    "solar_rad": 242.0,
-    "soil_vwc": 15.9
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.6,
+    "humidity": 93.3,
+    "rainfall": 18.35,
+    "solar_rad": 89.0,
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.5,
-    "humidity": 29.8,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.6,
+    "humidity": 91.2,
+    "rainfall": 19.79,
     "solar_rad": 0.0,
-    "soil_vwc": 15.9
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 31.9,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.9,
+    "humidity": 93.7,
+    "rainfall": 16.38,
     "solar_rad": 0.0,
-    "soil_vwc": 15.9
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.6,
-    "humidity": 33.9,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 20.7,
+    "humidity": 94.3,
+    "rainfall": 13.8,
     "solar_rad": 0.0,
-    "soil_vwc": 15.9
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.8,
-    "humidity": 33.8,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 21.0,
+    "humidity": 94.8,
+    "rainfall": 14.18,
     "solar_rad": 0.0,
-    "soil_vwc": 15.9
+    "soil_vwc": 45.0
   },
   {
     "timestamp": "2025-05-11 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.4,
-    "humidity": 36.4,
-    "rainfall": 0.0,
+    "scene_tag": "typhoon_heavy",
+    "air_temp": 21.1,
+    "humidity": 94.2,
+    "rainfall": 22.24,
     "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.8,
-    "humidity": 37.5,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.7,
-    "humidity": 41.0,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.2,
-    "humidity": 41.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.8,
-    "humidity": 44.0,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.5,
-    "humidity": 45.0,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.1,
-    "humidity": 45.5,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.0,
-    "humidity": 42.6,
-    "rainfall": 0.0,
-    "solar_rad": 2.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.0,
-    "humidity": 41.2,
-    "rainfall": 0.0,
-    "solar_rad": 12.0,
-    "soil_vwc": 15.9
-  },
-  {
-    "timestamp": "2025-05-12 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.1,
-    "humidity": 38.5,
-    "rainfall": 0.0,
-    "solar_rad": 52.0,
-    "soil_vwc": 15.8
-  },
-  {
-    "timestamp": "2025-05-12 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 31.9,
-    "humidity": 36.2,
-    "rainfall": 0.0,
-    "solar_rad": 108.0,
-    "soil_vwc": 15.8
-  },
-  {
-    "timestamp": "2025-05-12 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.0,
-    "humidity": 33.4,
-    "rainfall": 0.0,
-    "solar_rad": 168.0,
-    "soil_vwc": 15.8
-  },
-  {
-    "timestamp": "2025-05-12 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.7,
-    "humidity": 31.9,
-    "rainfall": 0.0,
-    "solar_rad": 238.0,
-    "soil_vwc": 15.7
-  },
-  {
-    "timestamp": "2025-05-12 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.1,
-    "humidity": 31.1,
-    "rainfall": 0.0,
-    "solar_rad": 304.0,
-    "soil_vwc": 15.7
-  },
-  {
-    "timestamp": "2025-05-12 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.8,
-    "humidity": 28.1,
-    "rainfall": 0.0,
-    "solar_rad": 349.0,
-    "soil_vwc": 15.6
-  },
-  {
-    "timestamp": "2025-05-12 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.0,
-    "humidity": 28.1,
-    "rainfall": 0.0,
-    "solar_rad": 371.0,
-    "soil_vwc": 15.5
-  },
-  {
-    "timestamp": "2025-05-12 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.6,
-    "humidity": 25.9,
-    "rainfall": 0.0,
-    "solar_rad": 376.0,
-    "soil_vwc": 15.5
-  },
-  {
-    "timestamp": "2025-05-12 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.3,
-    "humidity": 27.5,
-    "rainfall": 0.0,
-    "solar_rad": 353.0,
-    "soil_vwc": 15.4
-  },
-  {
-    "timestamp": "2025-05-12 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.6,
-    "humidity": 28.5,
-    "rainfall": 0.0,
-    "solar_rad": 296.0,
-    "soil_vwc": 15.4
-  },
-  {
-    "timestamp": "2025-05-12 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.8,
-    "humidity": 28.2,
-    "rainfall": 0.0,
-    "solar_rad": 245.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-12 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.8,
-    "humidity": 29.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-12 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.2,
-    "humidity": 30.9,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-12 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.2,
-    "humidity": 32.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-12 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.2,
-    "humidity": 33.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-12 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.8,
-    "humidity": 35.5,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 00:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.4,
-    "humidity": 38.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 01:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.5,
-    "humidity": 38.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 02:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.1,
-    "humidity": 39.6,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 03:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.6,
-    "humidity": 41.4,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 04:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.6,
-    "humidity": 42.5,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 05:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.3,
-    "humidity": 43.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 06:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.2,
-    "humidity": 42.9,
-    "rainfall": 0.0,
-    "solar_rad": 1.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 07:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.5,
-    "humidity": 42.3,
-    "rainfall": 0.0,
-    "solar_rad": 11.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 08:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 32.6,
-    "humidity": 41.0,
-    "rainfall": 0.0,
-    "solar_rad": 55.0,
-    "soil_vwc": 15.3
-  },
-  {
-    "timestamp": "2025-05-13 09:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.0,
-    "humidity": 38.6,
-    "rainfall": 0.0,
-    "solar_rad": 123.0,
-    "soil_vwc": 15.2
-  },
-  {
-    "timestamp": "2025-05-13 10:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.4,
-    "humidity": 38.0,
-    "rainfall": 0.0,
-    "solar_rad": 190.0,
-    "soil_vwc": 15.2
-  },
-  {
-    "timestamp": "2025-05-13 11:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 33.8,
-    "humidity": 35.7,
-    "rainfall": 0.0,
-    "solar_rad": 268.0,
-    "soil_vwc": 15.2
-  },
-  {
-    "timestamp": "2025-05-13 12:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.3,
-    "humidity": 32.7,
-    "rainfall": 0.0,
-    "solar_rad": 336.0,
-    "soil_vwc": 15.1
-  },
-  {
-    "timestamp": "2025-05-13 13:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.0,
-    "humidity": 31.3,
-    "rainfall": 0.0,
-    "solar_rad": 388.0,
-    "soil_vwc": 15.0
-  },
-  {
-    "timestamp": "2025-05-13 14:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.6,
-    "humidity": 29.8,
-    "rainfall": 0.0,
-    "solar_rad": 421.0,
-    "soil_vwc": 15.0
-  },
-  {
-    "timestamp": "2025-05-13 15:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.9,
-    "humidity": 28.2,
-    "rainfall": 0.0,
-    "solar_rad": 425.0,
-    "soil_vwc": 14.9
-  },
-  {
-    "timestamp": "2025-05-13 16:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.1,
-    "humidity": 27.5,
-    "rainfall": 0.0,
-    "solar_rad": 404.0,
-    "soil_vwc": 14.9
-  },
-  {
-    "timestamp": "2025-05-13 17:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.1,
-    "humidity": 27.1,
-    "rainfall": 0.0,
-    "solar_rad": 349.0,
-    "soil_vwc": 14.8
-  },
-  {
-    "timestamp": "2025-05-13 18:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.1,
-    "humidity": 27.3,
-    "rainfall": 0.0,
-    "solar_rad": 286.0,
-    "soil_vwc": 14.8
-  },
-  {
-    "timestamp": "2025-05-13 19:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.9,
-    "humidity": 27.6,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 14.8
-  },
-  {
-    "timestamp": "2025-05-13 20:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 36.0,
-    "humidity": 28.2,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 14.8
-  },
-  {
-    "timestamp": "2025-05-13 21:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.8,
-    "humidity": 29.7,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 14.8
-  },
-  {
-    "timestamp": "2025-05-13 22:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 35.6,
-    "humidity": 31.1,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 14.8
-  },
-  {
-    "timestamp": "2025-05-13 23:00:00",
-    "scene_tag": "summer_heatwave",
-    "air_temp": 34.9,
-    "humidity": 33.0,
-    "rainfall": 0.0,
-    "solar_rad": 0.0,
-    "soil_vwc": 14.8
+    "soil_vwc": 45.0
   }
 ]
