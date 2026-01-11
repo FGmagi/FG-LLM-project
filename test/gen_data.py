@@ -107,14 +107,14 @@ def compute_et(current_solar, current_temp, et_day, et_night):
     蒸腾 ET 模型(%/h)
     """
     solar_scale = (current_solar / 200.0) if current_solar > 0 else 0.0
-    temp_scale = 1.0 + 0.05 * (current_temp - 20.0)
+    temp_scale = 1.0 + 0.2 * (current_temp - 20.0)
     temp_scale = max(0.5, temp_scale)
     base_et = et_day if current_solar > 100 else et_night
-    et = base_et * (0.6 + 0.4 * solar_scale) * temp_scale
+    et = base_et * (0.7 + 0.3 * solar_scale) * temp_scale
     return et
 
 # 主生成函数
-def gen(timeline_config, start_date="2025-01-09"):
+def gen(timeline_config, start_date="2025-01-10"):
     """
     按小时生成序列，返回 DataFrame(timestamp, scene_tag, temp, humidity, rain, solar, soil_water) 
     """
@@ -208,7 +208,7 @@ def gen(timeline_config, start_date="2025-01-09"):
         if not (6 <= hour_of_day <= 18):
             current_solar = 0.0
         current_solar = max(0.0, current_solar)
-        current_humidity = float(np.clip(update_AR1(current_humidity, humidity_target, alpha_humidity, noise_std=1.0), 5.0, 100.0))
+        current_humidity = float(np.clip(update_AR1(current_humidity, humidity_target, alpha_humidity, noise_std=0.5), 5.0, 100.0))
 
         temp_arr[i] = round(current_temp, 1)
         solar_arr[i] = round(current_solar, 1)
@@ -250,7 +250,7 @@ def save_results(df, json_path: Path, csv_path: Path):
 def main(argv=None):
     parser = argparse.ArgumentParser(description="生成伪气象与土壤水分时间序列（小时) ")
     parser.add_argument("--story", nargs="+", help="剧情: scene_name days ...，例如 normal_spring 2 rainy_season 3", default=None)
-    parser.add_argument("--start", type=str, default="2025-05-01")
+    parser.add_argument("--start", type=str, default="2025-01-10")
     args = parser.parse_args(argv)
 
     # 解析情景

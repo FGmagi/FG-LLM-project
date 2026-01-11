@@ -3,7 +3,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 
-TAG = "today"
+TAG = "test"
 
 OUTPUT = {
     "out_dir": BASE_DIR / "output" / "pseudo_data",
@@ -32,7 +32,7 @@ ET = {
 }
 
 INFILTRATION = {
-    "base_rate": 0.40  # 基准入渗率（大雨时会按模型减少）
+    "base_rate": 0.60  # 基准入渗率（大雨时会按模型减少）
 }
 
 MEMORY = {
@@ -107,7 +107,7 @@ SCENARIOS = {
         "desc": "台风外环/残余：短时暴雨、强风",
         "temp_base": 26.0,
         "temp_amp": 2.0,
-        "rain_prob": 0.85,
+        "rain_prob": 0.80,
         "rain_intensity": 4.0,
         "init_soil_water": 34.0
     },
@@ -115,7 +115,7 @@ SCENARIOS = {
         "desc": "短时强对流：短时间内高强度降雨",
         "temp_base": 28.0,
         "temp_amp": 4.0,
-        "rain_prob": 0.35,
+        "rain_prob": 0.50,
         "rain_intensity": 4.0,
         "init_soil_water": 30.0
     },
@@ -131,11 +131,11 @@ SCENARIOS = {
 }
 
 DEFAULT_STORYLINE = [
-    # ("normal_spring", 2),
-    # ("summer_heatwave", 3),
-    # ("rainy_season", 3),
-    # ("short_heavy", 1),
-    # ("sudden_cooling", 1),
-    # ("typhoon_heavy", 1),
+    ("normal_spring", 2),
+    ("summer_heatwave", 2),
+    ("rainy_season", 2),
+    ("short_heavy", 1),
+    ("sudden_cooling", 1),
+    ("typhoon_heavy", 1),
     ("today", 4)
 ]
