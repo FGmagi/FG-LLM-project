@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 # 获取项目根目录（相对 src 目录）
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-REFERENCE_TIMESTAMP = "2025-05-09 00:00:00"
+REFERENCE_TIMESTAMP = "2025-05-01 00:00:00"
 
 # 尝试加载 .env（可选）
 load_dotenv()

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-主模块：按小时产生伪气象与土壤水分序列（面向测试）。
-逻辑被拆为多个小函数，变量与参数放在 gen_data_config.py 中。
+按小时产生伪气象数据用于测试。
 """
 
 import json
@@ -10,34 +9,26 @@ import numpy as np
 import pandas as pd
 import argparse
 
-# 兼容相对/绝对导入（便于直接运行或用 -m）
-try:
-    from .gen_data_config import SCENARIOS, DEFAULT_STORYLINE, OUTPUT, RNG, SOIL, ET, INFILTRATION, MEMORY, SLOW_CYCLE, RAIN_MODEL, PLOT_SETTINGS
-except Exception:
-    from gen_data_config import SCENARIOS, DEFAULT_STORYLINE, OUTPUT, RNG, SOIL, ET, INFILTRATION, MEMORY, SLOW_CYCLE, RAIN_MODEL, PLOT_SETTINGS
-
+from .gen_data_config import SCENARIOS, DEFAULT_STORYLINE, OUTPUT, RNG, SOIL, ET, INFILTRATION, MEMORY, SLOW_CYCLE, RAIN_MODEL, PLOT_SETTINGS
 from .plot_utils import plot_sequence
 
-# -------------------- 辅助函数（物理量子模块化） --------------------
+# 工具函数
+def diurnal_temp(hour, amp, phase_shift=8):
+    """
+    日周期，温度
+    """
+    return amp * np.sin(2 * np.pi * (hour - phase_shift) / 24.0)
 
-def diurnal_temp(hour, amplitude, phase_shift=8):
+def slow_cycle(index, slow_period, amp):
     """
-    日变化：用正弦表示
-    diurnal(t) = amplitude/2 * sin(2π*(hour - phase_shift)/24)
-    amplitude 为日摆幅（峰到峰）
+    慢周期
     """
-    return np.sin(2 * np.pi * (hour - phase_shift) / 24.0) * (amplitude / 2.0)
-
-def slow_cycle_component(index, period_hours, amp):
-    """
-    慢周期成分（例如 14 天）：slow = amp * sin(2π * index / period)
-    """
-    return amp * np.sin(2 * np.pi * (index / period_hours))
+    return amp * np.sin(2 * np.pi * (index / slow_period))
 
 def rain_markov_step(is_raining, current_rain, cfg, rain_model_params):
     """
-    马尔可夫降雨：决定是否开始/停止并返回小时雨强（mm/h）
-    - 当启动时，从 Gamma(scale=cfg['rain_intensity']/2, shape=rain_model_params['gamma_shape']) 采样
+    马尔可夫降雨: 决定是否开始/停止并返回小时雨强 (mm/h)
+    - 有下雨则 Gamma 采样
     - 已下雨时以 p_stop 停雨，否则让 current_rain 平滑追随 target
     """
     p_rain = cfg['rain_prob']
@@ -48,10 +39,9 @@ def rain_markov_step(is_raining, current_rain, cfg, rain_model_params):
         if np.random.rand() < p_stop:
             return False, 0.0
         else:
-            # 事件级目标强度
             target = float(np.random.gamma(shape=rain_model_params.get("gamma_shape", 2.0),
                                            scale=cfg['rain_intensity'] / 2.0))
-            # 小时平滑：AR(1)-style (这里固定系数 0.7/0.3 保持和原逻辑一致)
+            # 平滑
             new_rain = 0.7 * current_rain + 0.3 * target if current_rain > 0 else target
             return True, round(new_rain, 2)
     else:
@@ -64,51 +54,47 @@ def rain_markov_step(is_raining, current_rain, cfg, rain_model_params):
 
 def update_cloud(current_cloud, rain_rate, alpha_cloud):
     """
-    cloud 的更新（0..1）：
+    cloud
     - 雨时 cloud_target ~ 0.85
     - 晴时 cloud_target 在小范围内随机
-    使用 AR(1)： cloud_{t+1} = alpha_cloud * cloud_t + (1-alpha_cloud) * cloud_target
     """
     if rain_rate > 0.1:
         cloud_target = 0.85 + np.random.uniform(-0.05, 0.05)
     else:
         cloud_target = np.clip(0.05 + np.random.uniform(0.0, 0.35), 0.0, 0.6)
+    # 平滑
     new_cloud = alpha_cloud * current_cloud + (1.0 - alpha_cloud) * cloud_target
     return float(np.clip(new_cloud, 0.0, 0.99))
 
 def solar_target_from_angle(hour, slow_solar):
     """
-    日间光照模型（近似）：
-    base_solar_day = 800 * sin(pi * (hour - 6) / 12), 6..18 点
+    光照: 
+    7.5-19.5有光照
     base_solar = max(0, base_solar_day + slow_solar)
-    最终光照再被 cloud 抑制。
+    光照会再被 cloud 抑制
     """
-    if 6 <= hour <= 18:
-        base_solar_day = max(0.0, 800.0 * np.sin(np.pi * (hour - 6) / 12.0))
+    if 7.5 <= hour <= 19.5:
+        base_solar_day = max(0.0, 800.0 * np.sin(np.pi * (hour - 7.5) / 12.0))
         return max(0.0, base_solar_day + slow_solar)
     else:
         return 0.0
 
 def apply_cloud_mask(solar, cloud, cloud_power=1.5):
     """
-    非线性云遮蔽：S = solar * (1 - cloud^p)
+    云遮蔽光:S = solar * (1 - cloud^p)
     """
     return solar * max(0.0, (1.0 - cloud ** cloud_power))
 
 def update_AR1(current, target, alpha, noise_std=0.0):
     """
-    通用 AR(1) 更新：x_{t+1} = alpha * x_t + (1-alpha) * target + noise
-    返回标量
+    通用 AR(1) 更新:x_{t+1} = alpha * x_t + (1-alpha) * target + noise
     """
     noise = np.random.normal(0, noise_std) if noise_std > 0 else 0.0
     return alpha * current + (1.0 - alpha) * target + noise
 
-def infiltration_from_rain(rain_rate, current_rain, infil_base, runoff_scale, max_runoff_frac):
+def infil_from_rain(rain_rate, current_rain, infil_base, runoff_scale, max_runoff_frac):
     """
-    入渗模型：考虑大雨时径流
-    - runoff_factor = clip(current_rain/(current_rain + runoff_scale), 0, max_runoff_frac)
-    - effective_infiltration = infil_base * (1 - 0.5 * runoff_factor)
-    - inflow = rain_rate * effective_infiltration
+    入渗
     """
     if rain_rate <= 0.0:
         return 0.0
@@ -118,13 +104,7 @@ def infiltration_from_rain(rain_rate, current_rain, infil_base, runoff_scale, ma
 
 def compute_et(current_solar, current_temp, et_day, et_night):
     """
-    蒸腾/蒸散率 ET 模型（%/h）
-    公式说明：
-      solar_scale = current_solar / 200 (solar=100 时接近 0.5)
-      temp_scale = max(0.5, 1 + 0.05*(T - 20))
-      base_et = et_day if current_solar > 100 else et_night
-      ET = base_et * (0.6 + 0.4*solar_scale) * temp_scale
-    返回 ET（%/h）
+    蒸腾 ET 模型(%/h)
     """
     solar_scale = (current_solar / 200.0) if current_solar > 0 else 0.0
     temp_scale = 1.0 + 0.05 * (current_temp - 20.0)
@@ -133,18 +113,16 @@ def compute_et(current_solar, current_temp, et_day, et_night):
     et = base_et * (0.6 + 0.4 * solar_scale) * temp_scale
     return et
 
-# -------------------- 主生成函数 --------------------
-
-def generate_integrated_series(timeline_config, start_date="2025-05-01"):
+# 主生成函数
+def gen(timeline_config, start_date="2025-01-09"):
     """
-    按小时生成序列，返回 DataFrame（timestamp, scene_tag, air_temp, humidity, rainfall, solar_rad, soil_vwc）
+    按小时生成序列，返回 DataFrame(timestamp, scene_tag, temp, humidity, rain, solar, soil_water) 
     """
-    # 1. 展开剧情到逐小时配置
     hourly_cfgs = []
     scene_tags = []
     for scene_key, days in timeline_config:
         if scene_key not in SCENARIOS:
-            raise ValueError(f"未知场景: {scene_key}")
+            raise ValueError(f"Unknown: {scene_key}")
         hours = int(days * 24)
         hourly_cfgs.extend([SCENARIOS[scene_key]] * hours)
         scene_tags.extend([scene_key] * hours)
@@ -152,35 +130,31 @@ def generate_integrated_series(timeline_config, start_date="2025-05-01"):
     tot_hours = len(hourly_cfgs)
     dates = pd.date_range(start=start_date, periods=tot_hours, freq="h")
 
-    # 2. 初始化输出 buffer
     temp_arr = np.zeros(tot_hours)
     rain_arr = np.zeros(tot_hours)
     solar_arr = np.zeros(tot_hours)
-    rh_arr = np.zeros(tot_hours)
-    vwc_arr = np.zeros(tot_hours)
+    humidity_arr = np.zeros(tot_hours)
+    soil_water_arr = np.zeros(tot_hours)
 
-    # 3. 初始状态
-    current_vwc = hourly_cfgs[0]['init_vwc']
+    current_soil_water = hourly_cfgs[0]['init_soil_water']
     is_raining = False
     current_rain = 0.0
-    current_temp = hourly_cfgs[0]['base_temp']
+    current_temp = hourly_cfgs[0]['temp_base']
     current_solar = 0.0
-    current_rh = 60.0
+    current_humidity = 60.0
     current_cloud = 0.1
 
-    # 4. 本地参数快捷引用（避免长名）
     alpha_temp = MEMORY["alpha_temp"]
     alpha_solar = MEMORY["alpha_solar"]
-    alpha_rh = MEMORY["alpha_rh"]
+    alpha_humidity = MEMORY["alpha_humidity"]
     alpha_cloud = MEMORY["alpha_cloud"]
 
-    # 慢周期参数
-    slow_period = SLOW_CYCLE["period_hours"]
-    slow_amp_temp = SLOW_CYCLE["amp_temp"]
-    slow_amp_solar = SLOW_CYCLE["amp_solar"]
-    slow_amp_rh = SLOW_CYCLE["amp_rh"]
+    slow_period = SLOW_CYCLE["slow_period"]
+    slow_amp_temp = SLOW_CYCLE["slow_amp_temp"]
+    slow_amp_solar = SLOW_CYCLE["slow_amp_solar"]
+    slow_amp_humidity = SLOW_CYCLE["slow_amp_humidity"]
 
-    # 降雨模型参数
+    # 雨参数
     rain_params = {
         "base_stop_prob": RAIN_MODEL["base_stop_prob"],
         "start_scale": RAIN_MODEL["start_scale"],
@@ -189,86 +163,83 @@ def generate_integrated_series(timeline_config, start_date="2025-05-01"):
     runoff_scale = RAIN_MODEL["runoff_scale"]
     max_runoff_frac = RAIN_MODEL["max_runoff_frac"]
 
-    # 5. 时序循环
+    # 小时循环
     for i in range(tot_hours):
         cfg = hourly_cfgs[i]
         hour_of_day = i % 24
 
-        # A. 降雨（马尔可夫）
+        # 马尔可夫降雨
         is_raining, current_rain = rain_markov_step(is_raining, current_rain, cfg, rain_params)
         rain_arr[i] = round(current_rain, 2)
 
-        # B. 背景日变化 + 慢周期
-        diurnal_t = diurnal_temp(hour_of_day, cfg["temp_swing"])
-        slow_t = slow_cycle_component(i, slow_period, slow_amp_temp)
-        base_t = cfg["base_temp"] + diurnal_t + slow_t
+        # 日变化叠加慢周期
+        diurnal_t = diurnal_temp(hour_of_day, cfg["temp_amp"])
+        slow_t = slow_cycle(i, slow_period, slow_amp_temp)
+        base_t = cfg["temp_base"] + diurnal_t + slow_t
 
-        slow_s = slow_cycle_component(i, slow_period, slow_amp_solar)
+        slow_s = slow_cycle(i, slow_period, slow_amp_solar)
         base_solar = solar_target_from_angle(hour_of_day, slow_s)
 
-        slow_rh = slow_cycle_component(i, slow_period, slow_amp_rh)
-        base_rh_from_temp = 85.0 - 2.5 * (base_t - 15.0)
-        base_rh = base_rh_from_temp + slow_rh
+        slow_humidity = slow_cycle(i, slow_period, slow_amp_humidity)
+        base_humidity_from_temp = 80 - 1.0 * (base_t - 15.0)
+        base_humidity = base_humidity_from_temp + slow_humidity
 
-        # C. 云量
+        # 云
         current_cloud = update_cloud(current_cloud, current_rain, alpha_cloud)
         S_target = apply_cloud_mask(base_solar, current_cloud)
 
-        # D. 湿度 & 温度 目标耦合（雨会显著提高 RH 并冷却温度）
+        # 湿度与温度目标耦合（雨会显著提高 humidity 并冷却温度) 
         if current_rain > 0.1:
-            RH_target = float(np.clip(np.random.uniform(90, 100), 90, 100))
+            humidity_target = float(np.clip(np.random.uniform(85, 100), 85, 100))
             cooling = 2.0 + min(3.0, current_rain / max(0.1, cfg['rain_intensity'] + 1e-6) * 2.0)
             T_target = base_t - cooling
         else:
             T_target = base_t + np.random.normal(0, 0.3)  # 小噪声
-            if current_vwc > SOIL["VWC_FC"]:
-                soil_effect = 0.05 * (current_vwc - SOIL["VWC_FC"])
+            if current_soil_water > SOIL["soil_water_fc"]:
+                soil_effect = 0.015 * (current_soil_water - SOIL["soil_water_fc"])
             else:
-                soil_effect = 0.02 * (current_vwc - SOIL["VWC_FC"])
-            RH_target = float(np.clip(base_rh + soil_effect, 5.0, 99.0))
+                soil_effect = 0.01 * (current_soil_water - SOIL["soil_water_fc"])
+            humidity_target = float(np.clip(base_humidity + soil_effect, 5.0, 99.0))
 
-        # E. AR(1) 更新：温度/光照/湿度 滞后于目标
-        current_temp = update_AR1(current_temp, T_target, alpha_temp, noise_std=0.2)
-        # 光照白天才有效，夜间强制为0
-        current_solar = update_AR1(current_solar, S_target, alpha_solar, noise_std=4.0)
+        # AR(1) 更新。温度/光照/湿度 滞后于目标
+        current_temp = update_AR1(current_temp, T_target, alpha_temp, noise_std=0.5)
+        # 光照白天才有效，夜间为0
+        current_solar = update_AR1(current_solar, S_target, alpha_solar, noise_std=5.0)
         if not (6 <= hour_of_day <= 18):
             current_solar = 0.0
         current_solar = max(0.0, current_solar)
-        current_rh = float(np.clip(update_AR1(current_rh, RH_target, alpha_rh, noise_std=1.0), 5.0, 100.0))
+        current_humidity = float(np.clip(update_AR1(current_humidity, humidity_target, alpha_humidity, noise_std=1.0), 5.0, 100.0))
 
         temp_arr[i] = round(current_temp, 1)
-        solar_arr[i] = round(current_solar, 0)
-        rh_arr[i] = round(current_rh, 1)
+        solar_arr[i] = round(current_solar, 1)
+        humidity_arr[i] = round(current_humidity, 1)
 
-        # F. 土壤水分（入渗 + 蒸散）
-        inflow = infiltration_from_rain(rain_arr[i], current_rain, INFILTRATION["base_rate"], runoff_scale, max_runoff_frac)
+        # 土壤入渗与蒸散 
+        inflow = infil_from_rain(rain_arr[i], current_rain, INFILTRATION["base_rate"], runoff_scale, max_runoff_frac)
         current_et = compute_et(current_solar, current_temp, ET["day"], ET["night"])
-        # 干旱胁迫：土壤过干会降低 ET（线性介于 0.05..1.0）
-        stress = np.clip((current_vwc - SOIL["VWC_WILT"]) / (SOIL["VWC_FC"] - SOIL["VWC_WILT"]), 0.05, 1.0)
+        # 干旱胁迫: 土壤过干会降低 ET
+        stress = np.clip((current_soil_water - SOIL["soil_water_wilt"]) / (SOIL["soil_water_fc"] - SOIL["soil_water_wilt"]), 0.05, 1.0)
         current_et = current_et * stress
 
-        current_vwc = np.clip(current_vwc + inflow - current_et, 0.0, SOIL["VWC_SAT"])
-        vwc_arr[i] = round(current_vwc, 2)
+        current_soil_water = np.clip(current_soil_water + inflow - current_et, 0.0, SOIL["soil_water_sat"])
+        soil_water_arr[i] = round(current_soil_water, 2)
 
-    # 返回 DataFrame
+    # 返回 df
     df = pd.DataFrame({
         "timestamp": dates,
         "scene_tag": scene_tags,
-        "air_temp": temp_arr,
-        "humidity": rh_arr,
-        "rainfall": rain_arr,
-        "solar_rad": solar_arr,
-        "soil_vwc": vwc_arr
+        "temp": temp_arr,
+        "humidity": humidity_arr,
+        "rain": rain_arr,
+        "solar": solar_arr,
+        "soil_water": soil_water_arr,
     })
     return df
 
-# -------------------- 保存/绘图/CLI --------------------
-
-def save_results(df, out_dir: Path, filename="data"):
-    out_dir.mkdir(parents=True, exist_ok=True)
-    json_path = out_dir / f"{filename}.json"
-    csv_path = out_dir / f"{filename}.csv"
-
+# 保存/绘图/CLI
+def save_results(df, json_path: Path, csv_path: Path):
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    
     df_copy = df.copy()
     df_copy['timestamp'] = df_copy['timestamp'].dt.strftime('%Y-%m-%d %H:%M:%S')
     with open(json_path, 'w', encoding='utf-8') as f:
@@ -277,15 +248,12 @@ def save_results(df, out_dir: Path, filename="data"):
     return json_path, csv_path
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(description="生成伪气象与土壤水分时间序列（小时）")
-    parser.add_argument("--story", nargs="+", help="剧情：scene_name days ...，例如 normal_spring 2 rainy_season 3", default=None)
+    parser = argparse.ArgumentParser(description="生成伪气象与土壤水分时间序列（小时) ")
+    parser.add_argument("--story", nargs="+", help="剧情: scene_name days ...，例如 normal_spring 2 rainy_season 3", default=None)
     parser.add_argument("--start", type=str, default="2025-05-01")
-    parser.add_argument("--out", type=str, default=str(OUTPUT["out_dir"]))
-    parser.add_argument("--plots", type=str, default=str(OUTPUT["plots_dir"]))
-    parser.add_argument("--name", type=str, default="data")
     args = parser.parse_args(argv)
 
-    # 解析剧情参数（支持 --story scene days ... 或用默认剧情）
+    # 解析情景
     if args.story:
         it = iter(args.story)
         storyline = []
@@ -293,34 +261,36 @@ def main(argv=None):
             try:
                 days = float(next(it))
             except StopIteration:
-                raise ValueError("story 参数需成对出现：scene days")
+                raise ValueError("story 参数需成对出现: scene days")
             storyline.append((scene, days))
     else:
         storyline = DEFAULT_STORYLINE
 
     # RNG
     np.random.seed(RNG.get("seed", 2026))
-
     # 生成
-    df = generate_integrated_series(storyline, start_date=args.start)
+    df = gen(storyline, start_date=args.start)
 
-    # 输出目录
-    out_dir = Path(args.out)
-    plots_dir = Path(args.plots)
+    # 从配置中获取完整路径
+    json_path = OUTPUT["json_path"]
+    csv_path = OUTPUT["csv_path"]
+    pdf_path = OUTPUT["pdf_path"]
+    png_path = OUTPUT["png_path"]
 
     # 保存数据
-    json_path, csv_path = save_results(df, out_dir, filename=args.name)
+    save_results(df, json_path, csv_path)
 
-    # 绘图（使用独立模块）
+    # 绘图配置
     plot_cfg = dict(PLOT_SETTINGS)
-    # 补充土壤阈值到绘图设置，方便注线
-    plot_cfg['soil_sat'] = SOIL["VWC_SAT"]
-    plot_cfg['soil_fc'] = SOIL["VWC_FC"]
-    plot_cfg['soil_ref'] = SOIL["VWC_REF"]
-    pdf_path, png_path = plot_sequence(df, Path(plots_dir), filename=args.name, settings=plot_cfg)
+    plot_cfg['soil_sat'] = SOIL["soil_water_sat"]
+    plot_cfg['soil_fc'] = SOIL["soil_water_fc"]
+    plot_cfg['soil_ref'] = SOIL["soil_water_ref"]
+    
+    # 绘图
+    plot_sequence(df, pdf_path, png_path, settings=plot_cfg)
 
-    print(f"保存：{json_path}, {csv_path}")
-    print(f"绘图：{pdf_path}, {png_path}")
+    print(f"Data: {json_path}, {csv_path}")
+    print(f"Plot: {pdf_path}, {png_path}")
 
 if __name__ == "__main__":
     main()
