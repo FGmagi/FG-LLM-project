@@ -7,11 +7,11 @@
   ```
 
 ## 主要变量
-- `air_temp`：气温（°C）
+- `temp`：气温（°C）
 - `humidity`：相对湿度（%）
-- `rainfall`：小时降雨量（mm/h）
-- `solar_rad`：表面光照（W/m²）
-- `soil_vwc`：土壤体积含水量（%）
+- `rain`：小时降雨量（mm/h）
+- `solar`：表面光照（W/m²）
+- `soil_water`：土壤体积含水量（%）
 
 ## 关键模型组件与公式说明
 
