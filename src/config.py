@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-REFERENCE_TIMESTAMP = "2025-01-11 15:00:00"
+REFERENCE_TIMESTAMP = "2025-01-18 15:00:00"
 
 load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "").strip()
@@ -15,7 +15,7 @@ DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 DEEPSEEK_MODEL = os.getenv("DEEPSEEK_MODEL", "deepseek-chat")
 
 # Pseudo data
-DATA_FILE_PATH = os.getenv("DATA_FILE_PATH", os.path.join(PROJECT_ROOT, "output/pseudo_data/today.json"))
+DATA_FILE_PATH = os.getenv("DATA_FILE_PATH", os.path.join(PROJECT_ROOT, "output/pseudo_data/test.json"))
 
 SYSTEM_PROMPT_TEMPLATE = """
 You are an experienced, pragmatic kiwifruit field advisor for Hunan Province, familiar with its humid subtropical monsoon climate and orchard management practices.
