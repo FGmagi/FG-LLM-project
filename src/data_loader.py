@@ -20,6 +20,7 @@ import numpy as np
 
 
 try:
+    # 兼容直接运行或包内导入
     from config import DATA_FILE_PATH, REFERENCE_TIMESTAMP  
 except Exception:
     
@@ -55,6 +56,7 @@ def _load_raw_records(path: str):
         raw = json.load(f)
 
     
+    # 支持 list 或 {"data": [...]} 两种顶层结构
     if isinstance(raw, list):
         records = raw
     elif isinstance(raw, dict) and 'data' in raw and isinstance(raw['data'], list):
@@ -87,7 +89,7 @@ def _ensure_timestamp_sorted(df: pd.DataFrame) -> pd.DataFrame:
 
 def _select_window_by_time(df: pd.DataFrame, reference_time: Optional[datetime], hours: int = 24, direction: str = 'past') -> pd.DataFrame:
     if 'timestamp' not in df.columns:
-        
+        # 无时间戳时，默认按行视作小时序列
         if direction == 'past':
             return df.tail(hours).copy().reset_index(drop=True)
         else:
@@ -95,6 +97,7 @@ def _select_window_by_time(df: pd.DataFrame, reference_time: Optional[datetime],
 
     
     if reference_time is None:
+        # 未给参考时间，则默认取最新窗口
         if direction == 'past':
             return df.tail(hours).copy().reset_index(drop=True)
         else:
@@ -121,6 +124,7 @@ def _compact_csv_from_df(df: pd.DataFrame, cols: list) -> str:
         return ''
 
     
+    # 仅保留可信的列，避免泄露场景标签
     valid_cols = [c for c in cols if c in df.columns]
     if not valid_cols:
         return ''
@@ -138,7 +142,7 @@ def _compact_csv_from_df(df: pd.DataFrame, cols: list) -> str:
         if isinstance(x, (int, np.integer)):
             return str(int(x))
         try:
-            
+            # 保留两位小数，去掉尾部 0
             s = f"{float(round(float(x), 2)):.2f}"
             
             if '.' in s:

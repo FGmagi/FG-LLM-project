@@ -36,3 +36,7 @@ ENV/
 # Outputs
 *png
 *pdf
+
+# Prompts (keep system.yaml only)
+prompts/*.yaml
+!prompts/system.yaml

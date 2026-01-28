@@ -33,6 +33,7 @@ app.add_middleware(
 
 
 if os.path.isdir(STATIC_DIR):
+    # 静态资源：前端页面与样式
     app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 else:
     print(f"警告: 未找到 static 目录: {STATIC_DIR}，请检查前端文件是否存在。")
@@ -48,6 +49,7 @@ async def index():
 
 @app.get("/status")
 async def status():
+    # 前端轮询时用于检查数据文件状态
     exists = os.path.exists(DATA_FILE_PATH)
     return {"ok": True, "data_file_exists": exists}
 
@@ -63,9 +65,11 @@ async def chat_endpoint(req: Request):
         reference_time = payload.get("reference_time", None)
         include_forecast = bool(payload.get("include_forecast", True))
 
+        # 默认取过去 24 小时数据
         pre_context, pre_summary, pre_df = load_recent_window(pre_hours=24, reference_time=reference_time)
         post_context = post_summary = post_df = None
         if include_forecast:
+            # 可选：附加未来 24 小时预报窗口
             post_context, post_summary, post_df = load_forecast_window(post_hours=24, reference_time=reference_time)
 
     except Exception as e:
@@ -83,6 +87,7 @@ async def chat_endpoint(req: Request):
         combined_summary = pre_summary
 
     
+    # 调用 LLM 或本地回退逻辑
     ai_text = get_ai_response(user_message=user_message, data_context=combined_context, summary_str=combined_summary, system_prompt_template=SYSTEM_PROMPT_TEMPLATE)
     return JSONResponse({"response": ai_text})
 

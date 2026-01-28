@@ -120,6 +120,7 @@ def gen(timeline_config, start_date="2025-01-10"):
     """
     hourly_cfgs = []
     scene_tags = []
+    # 把场景配置展开为小时级序列
     for scene_key, days in timeline_config:
         if scene_key not in SCENARIOS:
             raise ValueError(f"Unknown: {scene_key}")
@@ -136,6 +137,7 @@ def gen(timeline_config, start_date="2025-01-10"):
     humidity_arr = np.zeros(tot_hours)
     soil_water_arr = np.zeros(tot_hours)
 
+    # 初始化状态
     current_soil_water = hourly_cfgs[0]['init_soil_water']
     is_raining = False
     current_rain = 0.0

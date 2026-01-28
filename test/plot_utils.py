@@ -73,6 +73,7 @@ def plot_sequence(df: pd.DataFrame, pdf_path: Path, png_path: Path, settings: di
 
     plt.tight_layout()
 
+    # 统一输出 PDF/PNG
     pdf_path.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(pdf_path)
     fig.savefig(png_path)
