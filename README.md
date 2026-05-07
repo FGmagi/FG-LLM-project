@@ -1,2 +1,3 @@
 # FG-LLM-project
-a LLM project for somework, but now its void
+农业LLM模型架构，对接传感器，数据采集适配，文件demo数据仅供参考。
+本软件仅限用于学习与研究目的，严禁将本软件用于任何非法或违反相关法律法规的行为。
